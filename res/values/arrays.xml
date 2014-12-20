@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="hanzis">
+		<item>6C38</item>
+		<item>6709</item>
+		<item>4E0A</item>
+		<item>5927</item>
+		<item>4EBA</item>
+		<item>5B54</item>
+		<item>4E59</item>
+		<item>5DF1</item>		
+	</string-array>
+</resources>

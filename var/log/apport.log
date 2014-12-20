@@ -1,0 +1,84 @@
+ERROR: apport (pid 7046) Sat Dec 20 11:13:28 2014: called for pid 3003, signal 11
+ERROR: apport (pid 7046) Sat Dec 20 11:13:28 2014: executable: /opt/google/chrome/chrome (command line "/opt/google/chrome/chrome\ --type=gpu-process\ --channel=2963.0.1068554268\ --supports-dual-gpus=false\ --gpu-driver-bug-workarounds=1,11,15,38\ --disable-accelerated-video-decode\ --gpu-vendor-id=0x8086\ --gpu-device-id=0x0126\ --gpu-driver-vendor\ --gpu-driver-version")
+ERROR: apport (pid 7046) Sat Dec 20 11:13:28 2014: executable does not belong to a package, ignoring
+ERROR: apport (pid 7297) Sat Dec 20 11:13:38 2014: called for pid 7150, signal 11
+ERROR: apport (pid 7297) Sat Dec 20 11:13:38 2014: executable: /opt/google/chrome/chrome (command line "/opt/google/chrome/chrome\ --type=gpu-process\ --channel=2963.13.193200258\ --supports-dual-gpus=false\ --gpu-driver-bug-workarounds=1,2,11,15,38\ --disable-accelerated-video-decode\ --gpu-vendor-id=0x8086\ --gpu-device-id=0x0126\ --gpu-driver-vendor=Mesa\ --gpu-driver-version=8.0.4")
+ERROR: apport (pid 7297) Sat Dec 20 11:13:38 2014: executable does not belong to a package, ignoring
+ERROR: apport (pid 1467) Sat Dec 20 11:14:28 2014: called for pid 1373, signal 11
+ERROR: apport (pid 1467) Sat Dec 20 11:14:28 2014: executable: /usr/lib/upower/upowerd (command line "/usr/lib/upower/upowerd")
+ERROR: apport (pid 1467) Sat Dec 20 11:14:28 2014: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 1467) Sat Dec 20 11:14:28 2014: apport: report /var/crash/_usr_lib_upower_upowerd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 1683) Sat Dec 20 11:14:29 2014: called for pid 1585, signal 11
+ERROR: apport (pid 1683) Sat Dec 20 11:14:29 2014: executable: /usr/lib/upower/upowerd (command line "/usr/lib/upower/upowerd")
+ERROR: apport (pid 1683) Sat Dec 20 11:14:29 2014: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 1683) Sat Dec 20 11:14:29 2014: apport: report /var/crash/_usr_lib_upower_upowerd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 1739) Sat Dec 20 11:14:30 2014: called for pid 1685, signal 11
+ERROR: apport (pid 1739) Sat Dec 20 11:14:30 2014: executable: /usr/lib/upower/upowerd (command line "/usr/lib/upower/upowerd")
+ERROR: apport (pid 1739) Sat Dec 20 11:14:30 2014: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 1739) Sat Dec 20 11:14:30 2014: apport: report /var/crash/_usr_lib_upower_upowerd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 1776) Sat Dec 20 11:14:31 2014: called for pid 1752, signal 11
+ERROR: apport (pid 1776) Sat Dec 20 11:14:31 2014: executable: /usr/lib/upower/upowerd (command line "/usr/lib/upower/upowerd")
+ERROR: apport (pid 1776) Sat Dec 20 11:14:31 2014: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 1776) Sat Dec 20 11:14:31 2014: apport: report /var/crash/_usr_lib_upower_upowerd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 1801) Sat Dec 20 11:14:32 2014: called for pid 1778, signal 11
+ERROR: apport (pid 1801) Sat Dec 20 11:14:32 2014: executable: /usr/lib/upower/upowerd (command line "/usr/lib/upower/upowerd")
+ERROR: apport (pid 1801) Sat Dec 20 11:14:32 2014: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 1801) Sat Dec 20 11:14:32 2014: apport: report /var/crash/_usr_lib_upower_upowerd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 1826) Sat Dec 20 11:14:33 2014: called for pid 1803, signal 11
+ERROR: apport (pid 1826) Sat Dec 20 11:14:33 2014: executable: /usr/lib/upower/upowerd (command line "/usr/lib/upower/upowerd")
+ERROR: apport (pid 1826) Sat Dec 20 11:14:33 2014: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 1826) Sat Dec 20 11:14:33 2014: apport: report /var/crash/_usr_lib_upower_upowerd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 1852) Sat Dec 20 11:14:35 2014: called for pid 1829, signal 11
+ERROR: apport (pid 1852) Sat Dec 20 11:14:35 2014: executable: /usr/lib/upower/upowerd (command line "/usr/lib/upower/upowerd")
+ERROR: apport (pid 1852) Sat Dec 20 11:14:35 2014: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 1852) Sat Dec 20 11:14:35 2014: apport: report /var/crash/_usr_lib_upower_upowerd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 1877) Sat Dec 20 11:14:36 2014: called for pid 1854, signal 11
+ERROR: apport (pid 1877) Sat Dec 20 11:14:36 2014: executable: /usr/lib/upower/upowerd (command line "/usr/lib/upower/upowerd")
+ERROR: apport (pid 1877) Sat Dec 20 11:14:36 2014: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 1877) Sat Dec 20 11:14:36 2014: apport: report /var/crash/_usr_lib_upower_upowerd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 1955) Sat Dec 20 11:14:37 2014: called for pid 1880, signal 11
+ERROR: apport (pid 1955) Sat Dec 20 11:14:37 2014: executable: /usr/lib/upower/upowerd (command line "/usr/lib/upower/upowerd")
+ERROR: apport (pid 1955) Sat Dec 20 11:14:37 2014: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 1955) Sat Dec 20 11:14:37 2014: apport: report /var/crash/_usr_lib_upower_upowerd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2109) Sat Dec 20 11:15:06 2014: called for pid 2083, signal 11
+ERROR: apport (pid 2109) Sat Dec 20 11:15:06 2014: executable: /usr/lib/upower/upowerd (command line "/usr/lib/upower/upowerd")
+ERROR: apport (pid 2109) Sat Dec 20 11:15:06 2014: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2109) Sat Dec 20 11:15:06 2014: apport: report /var/crash/_usr_lib_upower_upowerd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2361) Sat Dec 20 11:15:12 2014: called for pid 2223, signal 11
+ERROR: apport (pid 2361) Sat Dec 20 11:15:12 2014: executable: /usr/lib/upower/upowerd (command line "/usr/lib/upower/upowerd")
+ERROR: apport (pid 2361) Sat Dec 20 11:15:12 2014: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2361) Sat Dec 20 11:15:12 2014: apport: report /var/crash/_usr_lib_upower_upowerd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2444) Sat Dec 20 11:15:17 2014: called for pid 2389, signal 11
+ERROR: apport (pid 2444) Sat Dec 20 11:15:17 2014: executable: /usr/lib/upower/upowerd (command line "/usr/lib/upower/upowerd")
+ERROR: apport (pid 2444) Sat Dec 20 11:15:17 2014: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2444) Sat Dec 20 11:15:17 2014: apport: report /var/crash/_usr_lib_upower_upowerd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 3366) Sat Dec 20 11:16:45 2014: called for pid 3342, signal 11
+ERROR: apport (pid 3366) Sat Dec 20 11:16:45 2014: executable: /usr/lib/upower/upowerd (command line "/usr/lib/upower/upowerd")
+ERROR: apport (pid 3366) Sat Dec 20 11:16:45 2014: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 3366) Sat Dec 20 11:16:45 2014: apport: report /var/crash/_usr_lib_upower_upowerd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 3406) Sat Dec 20 11:17:15 2014: called for pid 3383, signal 11
+ERROR: apport (pid 3406) Sat Dec 20 11:17:15 2014: executable: /usr/lib/upower/upowerd (command line "/usr/lib/upower/upowerd")
+ERROR: apport (pid 3406) Sat Dec 20 11:17:15 2014: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 3406) Sat Dec 20 11:17:15 2014: apport: report /var/crash/_usr_lib_upower_upowerd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 3807) Sat Dec 20 11:17:46 2014: called for pid 3784, signal 11
+ERROR: apport (pid 3807) Sat Dec 20 11:17:46 2014: executable: /usr/lib/upower/upowerd (command line "/usr/lib/upower/upowerd")
+ERROR: apport (pid 3807) Sat Dec 20 11:17:46 2014: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 3807) Sat Dec 20 11:17:46 2014: apport: report /var/crash/_usr_lib_upower_upowerd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 3832) Sat Dec 20 11:17:50 2014: called for pid 3809, signal 11
+ERROR: apport (pid 3832) Sat Dec 20 11:17:50 2014: executable: /usr/lib/upower/upowerd (command line "/usr/lib/upower/upowerd")
+ERROR: apport (pid 3832) Sat Dec 20 11:17:50 2014: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 3832) Sat Dec 20 11:17:50 2014: apport: report /var/crash/_usr_lib_upower_upowerd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 13544) Sat Dec 20 17:21:44 2014: called for pid 3838, signal 11
+ERROR: apport (pid 13544) Sat Dec 20 17:21:44 2014: executable: /usr/lib/upower/upowerd (command line "/usr/lib/upower/upowerd")
+ERROR: apport (pid 13544) Sat Dec 20 17:21:44 2014: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 13544) Sat Dec 20 17:21:44 2014: apport: report /var/crash/_usr_lib_upower_upowerd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 24379) Sat Dec 20 17:52:30 2014: called for pid 2056, signal 11
+ERROR: apport (pid 24379) Sat Dec 20 17:52:30 2014: executable: /usr/bin/fcitx-qimpanel (command line "fcitx-qimpanel")
+ERROR: apport (pid 24379) Sat Dec 20 17:52:30 2014: debug: session gdbus call: (false,)
+
+ERROR: apport (pid 24379) Sat Dec 20 17:52:30 2014: happens for shutting down session, ignoring
+ERROR: apport (pid 2544) Sat Dec 20 20:16:52 2014: called for pid 1901, signal 11
+ERROR: apport (pid 2544) Sat Dec 20 20:16:52 2014: executable: /usr/bin/fcitx-qimpanel (command line "fcitx-qimpanel")
+ERROR: apport (pid 2544) Sat Dec 20 20:16:52 2014: debug: session gdbus call: (false,)
+
+ERROR: apport (pid 2544) Sat Dec 20 20:16:52 2014: happens for shutting down session, ignoring

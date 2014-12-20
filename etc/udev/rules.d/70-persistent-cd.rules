@@ -1,0 +1,21 @@
+# This file maintains persistent names for CD/DVD reader and writer devices.
+# See udev(7) for syntax.
+#
+# Entries are automatically added by the 75-cd-aliases-generator.rules
+# file; however you are also free to add your own entries provided you
+# add the ENV{GENERATED}=1 flag to your own rules as well.
+# BURNER_GP80N (pci-0000:00:1d.0-usb-0:1.2:1.0-scsi-0:0:0:0)
+SUBSYSTEM=="block", ENV{ID_CDROM}=="?*", ENV{ID_SERIAL}=="LENOVO_BURNER_GP80N_PROLIFICMP000000222-0:0", SYMLINK+="cdrom", ENV{GENERATED}="1"
+SUBSYSTEM=="block", ENV{ID_CDROM}=="?*", ENV{ID_SERIAL}=="LENOVO_BURNER_GP80N_PROLIFICMP000000222-0:0", SYMLINK+="cdrw", ENV{GENERATED}="1"
+SUBSYSTEM=="block", ENV{ID_CDROM}=="?*", ENV{ID_SERIAL}=="LENOVO_BURNER_GP80N_PROLIFICMP000000222-0:0", SYMLINK+="dvd", ENV{GENERATED}="1"
+SUBSYSTEM=="block", ENV{ID_CDROM}=="?*", ENV{ID_SERIAL}=="LENOVO_BURNER_GP80N_PROLIFICMP000000222-0:0", SYMLINK+="dvdrw", ENV{GENERATED}="1"
+
+# Android (pci-0000:00:1d.0-usb-0:1.2:1.0-scsi-0:0:0:1)
+SUBSYSTEM=="block", ENV{ID_CDROM}=="?*", ENV{ID_SERIAL}=="ZTE_Android_ZTE_SP920-0:1", SYMLINK+="cdrom1", ENV{GENERATED}="1"
+
+# File-CD_Gadget (pci-0000:00:1d.0-usb-0:1.2:1.0-scsi-0:0:0:2)
+SUBSYSTEM=="block", ENV{ID_CDROM}=="?*", ENV{ID_SERIAL}=="Linux_File-CD_Gadget_Coolpad7296-97c2442c-0:2", SYMLINK+="cdrom2", ENV{GENERATED}="1"
+
+# File-CD_Gadget (pci-0000:00:1d.0-usb-0:1.1:1.0-scsi-0:0:0:2)
+SUBSYSTEM=="block", ENV{ID_CDROM}=="?*", ENV{ID_SERIAL}=="Linux_File-CD_Gadget_97c2442c-0:2", SYMLINK+="cdrom3", ENV{GENERATED}="1"
+

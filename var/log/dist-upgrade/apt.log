@@ -1,0 +1,682 @@
+Log time: 2013-08-01 15:48:09.204821
+Log time: 2013-08-01 15:49:23.887969
+Log time: 2013-08-01 15:53:36.357414
+  ubuntuone-client:i386 推荐 on ubuntu-sso-client-gui [ i386 ] < none > ( none ) (>= 2.99.91) can't be satisfied!
+  new important dependency: folks-common:i386
+  Installing folks-common as 推荐 of libfolks-telepathy25
+  new important dependency: krb5-locales:i386
+  Installing krb5-locales as 推荐 of libkrb5-3
+  Installing libfarstream-0.1-0 as 依赖 of libpurple0
+  Installing libperl5.14 as 依赖 of libpurple0
+  Installing gconf-service as 依赖 of geoclue
+    Installing gconf-service-backend as 依赖 of gconf-service
+      Installing libgconf-2-4 as 依赖 of gconf-service-backend
+  Installing libdee-1.0-4 as 依赖 of unity
+    Installing libicu48 as 依赖 of libdee-1.0-4
+  Installing libgeis1 as 依赖 of unity
+    Installing libgrail5 as 依赖 of libgeis1
+      Installing libframe6 as 依赖 of libgrail5
+  Installing libglew1.6 as 依赖 of unity
+  Installing libindicator3-7 as 依赖 of unity
+  Installing libnux-2.0-0 as 依赖 of unity
+    Installing libnux-2.0-common as 依赖 of libnux-2.0-0
+    Installing libglewmx1.6 as 依赖 of libnux-2.0-0
+  Installing libunity-core-5.0-5 as 依赖 of unity
+  new important dependency: unity-lens-video:i386
+  Installing unity-lens-video as 推荐 of unity
+    Installing gir1.2-unity-5.0 as 依赖 of unity-lens-video
+      Installing gir1.2-dee-1.0 as 依赖 of gir1.2-unity-5.0
+      Installing libunity9 as 依赖 of gir1.2-unity-5.0
+    Installing python-zeitgeist as 依赖 of unity-lens-video
+    Installing unity-scope-video-remote as 推荐 of unity-lens-video
+  new important dependency: indicator-printers:i386
+  Installing indicator-printers as 推荐 of unity
+  Installing printer-driver-c2esp as 依赖 of c2esp
+  Installing libgmime2.6-cil as 依赖 of tomboy
+    Installing libgmime-2.6-0 as 依赖 of libgmime2.6-cil
+  Installing libproxy1 as 依赖 of tomboy
+  Installing libwildmidi-config as 依赖 of libwildmidi1
+  Installing libedataserver-1.2-15 as 依赖 of evolution-webcal
+  Installing python-gi as 依赖 of computer-janitor-gtk
+  Installing ubuntuone-control-panel-qt as 依赖 of ubuntuone-control-panel-gtk
+    Installing python-qt4 as 依赖 of ubuntuone-control-panel-qt
+      Installing libqt4-designer as 依赖 of python-qt4
+      Installing libqt4-help as 依赖 of python-qt4
+      Installing libqt4-scripttools as 依赖 of python-qt4
+      Installing libqt4-test as 依赖 of python-qt4
+      Installing libqtassistantclient4 as 依赖 of python-qt4
+      Installing libqtwebkit4 as 依赖 of python-qt4
+      Installing python-sip as 依赖 of python-qt4
+    Installing python-qt4-dbus as 依赖 of ubuntuone-control-panel-qt
+    Installing python-ubuntu-sso-client as 依赖 of ubuntuone-control-panel-qt
+    Installing ubuntu-sso-client-qt as 依赖 of ubuntuone-control-panel-qt
+    Installing ubuntuone-control-panel-common as 依赖 of ubuntuone-control-panel-qt
+  Installing libtinyxml2.6.2 as 依赖 of filezilla
+  Installing libhunspell-1.3-0 as 依赖 of libenchant1c2a
+  new important dependency: enchant:i386
+  Installing enchant as 推荐 of libenchant1c2a
+  Installing gir1.2-indicate-0.7 as 依赖 of gwibber-service
+  Installing gir1.2-gnomekeyring-1.0 as 依赖 of gwibber-service
+  Installing unity-2d-shell as 依赖 of unity-2d
+    Installing unity-2d-common as 依赖 of unity-2d-shell
+  Installing liblzma5 as 依赖 of libyelp0
+  Installing printer-driver-pnm2ppa as 依赖 of pnm2ppa
+  Installing libv4lconvert0 as 依赖 of libv4l-0
+  Installing libnautilus-extension1a as 依赖 of nautilus
+  Installing libgnome2-bin as 依赖 of libgnome2-0
+  Installing libbind9-80 as 依赖 of bind9-host
+    Installing libdns81 as 依赖 of libbind9-80
+      Installing libisc83 as 依赖 of libdns81
+    Installing libisccfg82 as 依赖 of libbind9-80
+      Installing libisccc80 as 依赖 of libisccfg82
+  Installing liblwres80 as 依赖 of bind9-host
+  Installing fuse as 依赖 of gvfs-fuse
+  Installing libcdio13 as 依赖 of gstreamer0.10-plugins-ugly
+  Installing libx264-120 as 依赖 of gstreamer0.10-plugins-ugly
+  Installing libwacom2 as 依赖 of gnome-settings-daemon
+    Installing libwacom-common as 依赖 of libwacom2
+  Installing fonts-thai-tlwg as 依赖 of ttf-thai-tlwg
+    Installing fonts-tlwg-kinnari as 依赖 of fonts-thai-tlwg
+    Installing fonts-tlwg-garuda as 依赖 of fonts-thai-tlwg
+    Installing fonts-tlwg-norasi as 依赖 of fonts-thai-tlwg
+    Installing fonts-tlwg-loma as 依赖 of fonts-thai-tlwg
+    Installing fonts-tlwg-mono as 依赖 of fonts-thai-tlwg
+    Installing fonts-tlwg-typewriter as 依赖 of fonts-thai-tlwg
+    Installing fonts-tlwg-typist as 依赖 of fonts-thai-tlwg
+    Installing fonts-tlwg-typo as 依赖 of fonts-thai-tlwg
+    Installing fonts-tlwg-umpush as 依赖 of fonts-thai-tlwg
+    Installing fonts-tlwg-sawasdee as 依赖 of fonts-thai-tlwg
+    Installing fonts-tlwg-purisa as 依赖 of fonts-thai-tlwg
+    Installing fonts-tlwg-waree as 依赖 of fonts-thai-tlwg
+  Installing libjpeg-turbo8 as 依赖 of libjpeg8
+  Installing printer-driver-pxljr as 依赖 of pxljr
+  libgail-3-common:i386 依赖 on libgail-3-0 [ i386 ] < 3.2.0-0ubuntu6 -> 3.4.2-0ubuntu0.5 > ( libs ) (= 3.2.0-0ubuntu6) can't be satisfied!
+  Installing libnl-3-200 as 依赖 of network-manager
+  Installing libnl-genl-3-200 as 依赖 of network-manager
+  Installing libnl-route-3-200 as 依赖 of network-manager
+  Installing libgnome-keyring-common as 依赖 of libgnome-keyring0
+  Installing printer-driver-hpcups as 依赖 of hplip-cups
+  Installing libebook-1.2-12 as 依赖 of evolution-exchange
+  Installing libecal-1.2-10 as 依赖 of evolution-exchange
+  Installing gnome-icon-theme-full as 依赖 of evolution
+  Installing libsane-common as 依赖 of libsane
+  new important dependency: cryptsetup-bin:i386
+  Installing cryptsetup-bin as 推荐 of udisks
+    Installing libcryptsetup4 as 依赖 of cryptsetup-bin
+  Installing fonts-khmeros-core as 依赖 of ttf-khmeros-core
+  Setting NOT as auto-installed (direct 依赖 of pkg in APT::Never-MarkAuto-Sections)
+  Installing glib-networking-services as 依赖 of glib-networking
+    Installing glib-networking-common as 依赖 of glib-networking-services
+  Installing printer-driver-ptouch as 依赖 of ptouch-driver
+  Installing libmysqlclient18 as 依赖 of libqt4-sql-mysql
+  ignore old unsatisfied important dependency on gnome-panel:i386
+  new important dependency: printer-driver-min12xxw:i386
+  Installing printer-driver-min12xxw as 推荐 of foomatic-db-compressed-ppds
+  new important dependency: printer-driver-hpijs:i386
+  Installing printer-driver-hpijs as 推荐 of foomatic-db-compressed-ppds
+  Installing fonts-takao-pgothic as 依赖 of ttf-takao-pgothic
+  Installing libapt-pkg4.12 as 依赖 of apt-transport-https
+  Installing linux-image-3.2.0-51-generic-pae as 依赖 of linux-image-generic-pae
+  Setting NOT as auto-installed (direct 依赖 of pkg in APT::Never-MarkAuto-Sections)
+  Installing python-reportlab as 依赖 of hplip
+    Installing python-reportlab-accel as 推荐 of python-reportlab
+    Installing python-renderpm as 推荐 of python-reportlab
+  new important dependency: printer-driver-postscript-hp:i386
+  Installing printer-driver-postscript-hp as 推荐 of hplip
+  Installing python-dirspec as 依赖 of python-ubuntuone-control-panel
+  Installing libgcr-3-common as 依赖 of libgcr-3-1
+  Installing checkbox-qt as 依赖 of ubuntu-desktop
+  Setting NOT as auto-installed (direct 依赖 of pkg in APT::Never-MarkAuto-Sections)
+  Installing cmap-adobe-japan2 as 依赖 of ubuntu-desktop
+  Setting NOT as auto-installed (direct 依赖 of pkg in APT::Never-MarkAuto-Sections)
+  Installing libatk-adaptor-schemas as 依赖 of ubuntu-desktop
+  Setting NOT as auto-installed (direct 依赖 of pkg in APT::Never-MarkAuto-Sections)
+  new important dependency: activity-log-manager-control-center:i386
+  Installing activity-log-manager-control-center as 推荐 of ubuntu-desktop
+  Setting NOT as auto-installed (direct 推荐 of pkg in APT::Never-MarkAuto-Sections)
+    Installing activity-log-manager-common as 依赖 of activity-log-manager-control-center
+  ignore old unsatisfied important dependency on firefox-gnome-support:i386
+  new important dependency: fonts-kacst-one:i386
+  Installing fonts-kacst-one as 推荐 of ubuntu-desktop
+  Setting NOT as auto-installed (direct 推荐 of pkg in APT::Never-MarkAuto-Sections)
+    Installing fonts-kacst as 推荐 of fonts-kacst-one
+  new important dependency: fonts-lao:i386
+  Installing fonts-lao as 推荐 of ubuntu-desktop
+  Setting NOT as auto-installed (direct 推荐 of pkg in APT::Never-MarkAuto-Sections)
+  new important dependency: fonts-liberation:i386
+  Installing fonts-liberation as 推荐 of ubuntu-desktop
+  Setting NOT as auto-installed (direct 推荐 of pkg in APT::Never-MarkAuto-Sections)
+  new important dependency: fonts-nanum:i386
+  Installing fonts-nanum as 推荐 of ubuntu-desktop
+  Setting NOT as auto-installed (direct 推荐 of pkg in APT::Never-MarkAuto-Sections)
+  new important dependency: landscape-client-ui-install:i386
+  Installing landscape-client-ui-install as 推荐 of ubuntu-desktop
+  Setting NOT as auto-installed (direct 推荐 of pkg in APT::Never-MarkAuto-Sections)
+  new important dependency: libproxy1-plugin-gsettings:i386
+  Installing libproxy1-plugin-gsettings as 推荐 of ubuntu-desktop
+  Setting NOT as auto-installed (direct 推荐 of pkg in APT::Never-MarkAuto-Sections)
+  new important dependency: libproxy1-plugin-networkmanager:i386
+  Installing libproxy1-plugin-networkmanager as 推荐 of ubuntu-desktop
+  Setting NOT as auto-installed (direct 推荐 of pkg in APT::Never-MarkAuto-Sections)
+  new important dependency: libqt4-sql-sqlite:i386
+  Installing libqt4-sql-sqlite as 推荐 of ubuntu-desktop
+  Setting NOT as auto-installed (direct 推荐 of pkg in APT::Never-MarkAuto-Sections)
+  new important dependency: mahjongg:i386
+  Installing mahjongg as 推荐 of ubuntu-desktop
+  Setting NOT as auto-installed (direct 推荐 of pkg in APT::Never-MarkAuto-Sections)
+    Installing gnome-games-data as 依赖 of mahjongg
+  new important dependency: printer-driver-foo2zjs:i386
+  Installing printer-driver-foo2zjs as 推荐 of ubuntu-desktop
+  Setting NOT as auto-installed (direct 推荐 of pkg in APT::Never-MarkAuto-Sections)
+  new important dependency: printer-driver-sag-gdi:i386
+  Installing printer-driver-sag-gdi as 推荐 of ubuntu-desktop
+  Setting NOT as auto-installed (direct 推荐 of pkg in APT::Never-MarkAuto-Sections)
+  new important dependency: printer-driver-splix:i386
+  Installing printer-driver-splix as 推荐 of ubuntu-desktop
+  Setting NOT as auto-installed (direct 推荐 of pkg in APT::Never-MarkAuto-Sections)
+  new important dependency: python-aptdaemon.pkcompat:i386
+  Installing python-aptdaemon.pkcompat as 推荐 of ubuntu-desktop
+  Setting NOT as auto-installed (direct 推荐 of pkg in APT::Never-MarkAuto-Sections)
+    Installing python-packagekit as 依赖 of python-aptdaemon.pkcompat
+  new important dependency: remmina:i386
+  Installing remmina as 推荐 of ubuntu-desktop
+  Setting NOT as auto-installed (direct 推荐 of pkg in APT::Never-MarkAuto-Sections)
+    Installing libssh-4 as 依赖 of remmina
+    Installing remmina-common as 依赖 of remmina
+    Installing remmina-plugin-rdp as 推荐 of remmina
+      Installing libfreerdp1 as 依赖 of remmina-plugin-rdp
+      Installing libfreerdp-plugins-standard as 依赖 of remmina-plugin-rdp
+    Installing remmina-plugin-vnc as 推荐 of remmina
+      Installing libvncserver0 as 依赖 of remmina-plugin-vnc
+  new important dependency: rhythmbox:i386
+  Installing rhythmbox as 推荐 of ubuntu-desktop
+  Setting NOT as auto-installed (direct 推荐 of pkg in APT::Never-MarkAuto-Sections)
+    Installing libmusicbrainz3-6 as 依赖 of rhythmbox
+      Installing libdiscid0 as 依赖 of libmusicbrainz3-6
+    Installing librhythmbox-core5 as 依赖 of rhythmbox
+    Installing rhythmbox-data as 依赖 of rhythmbox
+    Installing gir1.2-rb-3.0 as 依赖 of rhythmbox
+      Installing gir1.2-gst-plugins-base-0.10 as 依赖 of gir1.2-rb-3.0
+        Installing gir1.2-gstreamer-0.10 as 依赖 of gir1.2-gst-plugins-base-0.10
+    Installing rhythmbox-mozilla as 推荐 of rhythmbox
+    Installing rhythmbox-plugin-cdrecorder as 推荐 of rhythmbox
+    Installing rhythmbox-plugin-zeitgeist as 推荐 of rhythmbox
+    Installing rhythmbox-plugins as 推荐 of rhythmbox
+      Installing libdmapsharing-3.0-2 as 依赖 of rhythmbox-plugins
+  new important dependency: rhythmbox-plugin-magnatune:i386
+  Installing rhythmbox-plugin-magnatune as 推荐 of ubuntu-desktop
+  Setting NOT as auto-installed (direct 推荐 of pkg in APT::Never-MarkAuto-Sections)
+  new important dependency: rhythmbox-ubuntuone:i386
+  Installing rhythmbox-ubuntuone as 推荐 of ubuntu-desktop
+  Setting NOT as auto-installed (direct 推荐 of pkg in APT::Never-MarkAuto-Sections)
+    Installing gir1.2-ubuntuoneui-3.0 as 依赖 of rhythmbox-ubuntuone
+      Installing libubuntuoneui-3.0-1 as 依赖 of gir1.2-ubuntuoneui-3.0
+  new important dependency: whoopsie:i386
+  Installing whoopsie as 推荐 of ubuntu-desktop
+  Setting NOT as auto-installed (direct 推荐 of pkg in APT::Never-MarkAuto-Sections)
+  Installing libtelepathy-farstream2 as 依赖 of empathy
+  Installing libapt-inst1.4 as 依赖 of python-apt
+  new important dependency: xz-lzma:i386
+  Installing xz-lzma as 推荐 of python-apt
+  Installing ubuntu-wallpapers-precise as 依赖 of ubuntu-wallpapers
+  Setting NOT as auto-installed (direct 依赖 of pkg in APT::Never-MarkAuto-Sections)
+  Installing libarchive12 as 依赖 of libtotem-plparser17
+    Installing libnettle4 as 依赖 of libarchive12
+  Installing libquvi7 as 依赖 of libtotem-plparser17
+    Installing libquvi-scripts as 依赖 of libquvi7
+  Installing libcmis-0.2-0 as 依赖 of libreoffice-core
+  Installing libexttextcat0 as 依赖 of libreoffice-core
+    Installing libexttextcat-data as 依赖 of libexttextcat0
+  Installing gvfs-common as 依赖 of gvfs-bin
+  Installing libdatetime-format-iso8601-perl as 依赖 of librpc-xml-perl
+    Installing libdatetime-format-builder-perl as 依赖 of libdatetime-format-iso8601-perl
+      Installing libdatetime-perl as 依赖 of libdatetime-format-builder-perl
+        Installing libdatetime-locale-perl as 依赖 of libdatetime-perl
+          Installing liblist-moreutils-perl as 依赖 of libdatetime-locale-perl
+          Installing libparams-validate-perl as 依赖 of libdatetime-locale-perl
+        Installing libdatetime-timezone-perl as 依赖 of libdatetime-perl
+          Installing libclass-singleton-perl as 依赖 of libdatetime-timezone-perl
+          Installing libclass-load-perl as 依赖 of libdatetime-timezone-perl
+            Installing libdata-optlist-perl as 依赖 of libclass-load-perl
+              Installing libparams-util-perl as 依赖 of libdata-optlist-perl
+              Installing libsub-install-perl as 依赖 of libdata-optlist-perl
+            Installing libmodule-runtime-perl as 依赖 of libclass-load-perl
+              Installing libparams-classify-perl as 依赖 of libmodule-runtime-perl
+            Installing libpackage-stash-perl as 依赖 of libclass-load-perl
+              Installing libpackage-deprecationmanager-perl as 依赖 of libpackage-stash-perl
+              Installing libpackage-stash-xs-perl as 推荐 of libpackage-stash-perl
+            Installing libtry-tiny-perl as 依赖 of libclass-load-perl
+        Installing libmath-round-perl as 依赖 of libdatetime-perl
+      Installing libclass-factory-util-perl as 依赖 of libdatetime-format-builder-perl
+      Installing libdatetime-format-strptime-perl as 依赖 of libdatetime-format-builder-perl
+  ignore old unsatisfied important dependency on dkms:i386
+  Installing libgdata1.9-cil as 依赖 of banshee
+  Installing printer-driver-gutenprint as 依赖 of cups-driver-gutenprint
+  new important dependency: libpam-cap:i386
+  Installing libpam-cap as 推荐 of libcap2-bin
+  Installing libubuntuone-1.0-1 as 依赖 of libubuntuone1.0-cil
+  libgcj10:i386 推荐 on gcj-4.4-jre-lib [ i386 ] < none > ( none ) (>= 4.4.6-1) can't be satisfied!
+  new important dependency: libfolks-eds25:i386
+  Installing libfolks-eds25 as 推荐 of libfolks25
+  libunity-core-4.0-4:i386 依赖 on unity-services [ i386 ] < 4.30.0-0ubuntu1 -> 5.20.0-0ubuntu2 > ( gnome ) (= 4.30.0-0ubuntu1) can't be satisfied!
+  Installing libgexiv2-1 as 依赖 of shotwell
+    Installing libexiv2-11 as 依赖 of libgexiv2-1
+  Installing libraw5 as 依赖 of shotwell
+  Installing libnetfilter-conntrack3 as 依赖 of dnsmasq-base
+  Installing libgtkspell-3-0 as 依赖 of libgwibber-gtk2
+  Installing software-center-aptdaemon-plugins as 依赖 of software-center
+  Installing python-gi-cairo as 依赖 of software-center
+  Installing ubuntu-sso-client-gtk as 依赖 of software-center
+  Installing python-debtagshw as 依赖 of software-center
+    Installing gir1.2-gudev-1.0 as 推荐 of python-debtagshw
+  Installing libgupnp-igd-1.0-4 as 依赖 of libnice10
+    Installing libgssdp-1.0-3 as 依赖 of libgupnp-igd-1.0-4
+    Installing libgupnp-1.0-4 as 依赖 of libgupnp-igd-1.0-4
+  Installing libjavascriptcoregtk-3.0-0 as 依赖 of libwebkitgtk-3.0-0
+  Installing gir1.2-javascriptcoregtk-3.0 as 依赖 of gir1.2-webkit-3.0
+  Installing libvte-2.90-common as 依赖 of libvte-2.90-9
+  Installing libgettextpo0 as 依赖 of gettext
+  Installing libxmlrpc-core-c3 as 依赖 of cmake
+  gnome-about:i386 依赖 on gnome-desktop-data [ i386 ] < 1:2.32.1-0ubuntu6 -> 1:2.32.1-0ubuntu9 > ( universe/gnome ) (= 1:2.32.1-0ubuntu6) can't be satisfied!
+  Installing libaudiofile1 as 依赖 of libesd0
+  Installing oss-compat as 依赖 of libmikmod2
+  Installing syslinux-legacy as 依赖 of usb-creator-common
+  Installing fonts-opensymbol as 依赖 of ttf-opensymbol
+  Installing libxatracker1 as 依赖 of xserver-xorg-video-vmware
+    Installing libllvm3.0 as 依赖 of libxatracker1
+  Installing libpoppler-glib8 as 依赖 of libevince3-3
+    Installing libpoppler19 as 依赖 of libpoppler-glib8
+  Installing libminiupnpc8 as 依赖 of vino
+  Installing python-dbus-dev as 依赖 of python-dbus
+  Installing libidl-common as 依赖 of libidl0
+  Installing resolvconf as 依赖 of ubuntu-minimal
+  Setting NOT as auto-installed (direct 依赖 of pkg in APT::Never-MarkAuto-Sections)
+  Installing cups-filters as 依赖 of cups
+    Installing libcupsfilters1 as 依赖 of cups-filters
+  Installing fonts-arphic-uming as 依赖 of ttf-arphic-uming
+  Installing libgoa-1.0-common as 依赖 of libgoa-1.0-0
+  Installing libpulsedsp as 依赖 of pulseaudio-utils
+  ignore old unsatisfied important dependency on ecryptfs-utils:i386
+  Installing libsonic0 as 依赖 of libespeak1
+  Installing libtimezonemap1 as 依赖 of indicator-datetime
+  Installing libgstreamer-plugins-bad0.10-0 as 依赖 of gstreamer0.10-plugins-bad
+  Installing libopenal1 as 依赖 of gstreamer0.10-plugins-bad
+    Installing libopenal-data as 依赖 of libopenal1
+  Installing libspandsp2 as 依赖 of gstreamer0.10-plugins-bad
+  Installing libvo-aacenc0 as 依赖 of gstreamer0.10-plugins-bad
+  Installing libvo-amrwbenc0 as 依赖 of gstreamer0.10-plugins-bad
+  Installing libvpx1 as 依赖 of gstreamer0.10-plugins-bad
+  Installing libxvidcore4 as 依赖 of gstreamer0.10-plugins-bad
+  Installing libzvbi0 as 依赖 of gstreamer0.10-plugins-bad
+    Installing libzvbi-common as 依赖 of libzvbi0
+  Installing libindicator7 as 依赖 of libappindicator1
+  Installing fonts-arphic-ukai as 依赖 of ttf-arphic-ukai
+  Setting NOT as auto-installed (direct 依赖 of pkg in APT::Never-MarkAuto-Sections)
+  Installing crda as 依赖 of wireless-crda
+    Installing wireless-regdb as 依赖 of crda
+    Installing iw as 推荐 of crda
+  libperl5.12:i386 依赖 on perl-base [ i386 ] < 5.12.4-4ubuntu0.2 -> 5.14.2-6ubuntu2.3 > ( perl ) (= 5.12.4-4ubuntu0.2) can't be satisfied!
+  gir1.2-indicate-0.6:i386 依赖 on libindicate5 [ i386 ] < 0.6.1-0ubuntu1 -> 0.6.92-0ubuntu1 > ( libs ) (= 0.6.1-0ubuntu1) can't be satisfied!
+  Installing libept1.4.12 as 依赖 of synaptic
+  Installing libgssapi3-heimdal as 依赖 of libldap-2.4-2
+    Installing libasn1-8-heimdal as 依赖 of libgssapi3-heimdal
+      Installing libroken18-heimdal as 依赖 of libasn1-8-heimdal
+    Installing libhcrypto4-heimdal as 依赖 of libgssapi3-heimdal
+    Installing libheimntlm0-heimdal as 依赖 of libgssapi3-heimdal
+      Installing libkrb5-26-heimdal as 依赖 of libheimntlm0-heimdal
+        Installing libheimbase1-heimdal as 依赖 of libkrb5-26-heimdal
+        Installing libhx509-5-heimdal as 依赖 of libkrb5-26-heimdal
+          Installing libwind0-heimdal as 依赖 of libhx509-5-heimdal
+  Installing libgdk-pixbuf2.0-common as 依赖 of libgdk-pixbuf2.0-0
+  Installing libxcb-glx0 as 依赖 of libgl1-mesa-glx
+  Installing dconf-service as 依赖 of dconf-gsettings-backend
+  Installing libpackagekit-glib2-14 as 依赖 of indicator-session
+  Installing gvfs-daemons as 依赖 of gvfs
+    Installing gvfs-libs as 依赖 of gvfs-daemons
+  new important dependency: libio-socket-inet6-perl:i386
+  Installing libio-socket-inet6-perl as 推荐 of libio-socket-ssl-perl
+    Installing libsocket6-perl as 依赖 of libio-socket-inet6-perl
+  Installing libcdio-cdda1 as 依赖 of gvfs-backends
+  Installing libcdio-paranoia1 as 依赖 of gvfs-backends
+  Installing fonts-unfonts-core as 依赖 of ttf-unfonts-core
+  Installing libjavascriptcoregtk-1.0-0 as 依赖 of libwebkitgtk-1.0-0
+  Installing linux-headers-3.2.0-51-generic-pae as 依赖 of linux-headers-generic-pae
+    Installing linux-headers-3.2.0-51 as 依赖 of linux-headers-3.2.0-51-generic-pae
+  Installing libclone-perl as 依赖 of lintian
+  Installing libcurl3-nss as 依赖 of liboauth0
+  previously satisfied important dependency on libreoffice-style-tango:i386
+  Installing libreoffice-style-tango as 推荐 of libreoffice-gtk
+  ignore old unsatisfied important dependency on gnome-panel:i386
+  libdigest-sha1-perl:i386 依赖 on perlapi-5.12.3 [ i386 ] < none > ( none ) can't be satisfied!
+  Installing liblockfile-bin as 依赖 of liblockfile1
+Starting
+Starting 2
+Investigating (0) libedataserver-1.2-15 [ i386 ] < none -> 3.2.3-0ubuntu7.1 > ( libs )
+Broken libedataserver-1.2-15:i386 破坏 on libedataserver1.2-15 [ i386 ] < 3.2.2-0ubuntu1~oneiric > ( libs )
+  Considering libedataserver1.2-15:i386 3 as a solution to libedataserver-1.2-15:i386 88
+  Added libedataserver1.2-15:i386 to the remove list
+  Fixing libedataserver-1.2-15:i386 via remove of libedataserver1.2-15:i386
+Investigating (0) libebook-1.2-12 [ i386 ] < none -> 3.2.3-0ubuntu7.1 > ( libs )
+Broken libebook-1.2-12:i386 破坏 on libebook1.2-12 [ i386 ] < 3.2.2-0ubuntu1~oneiric > ( libs )
+  Considering libebook1.2-12:i386 -1 as a solution to libebook-1.2-12:i386 38
+  Added libebook1.2-12:i386 to the remove list
+  Fixing libebook-1.2-12:i386 via remove of libebook1.2-12:i386
+Investigating (0) libecal-1.2-10 [ i386 ] < none -> 3.2.3-0ubuntu7.1 > ( libs )
+Broken libecal-1.2-10:i386 破坏 on libecal1.2-10 [ i386 ] < 3.2.2-0ubuntu1~oneiric > ( libs )
+  Considering libecal1.2-10:i386 -1 as a solution to libecal-1.2-10:i386 33
+  Added libecal1.2-10:i386 to the remove list
+  Fixing libecal-1.2-10:i386 via remove of libecal1.2-10:i386
+Investigating (0) xz-lzma [ i386 ] < none -> 5.1.1alpha+20110809-3 > ( utils )
+Broken xz-lzma:i386 冲突 on lzma [ i386 ] < 4.43-14ubuntu2 -> 9.22-2ubuntu1 > ( utils )
+  Considering lzma:i386 0 as a solution to xz-lzma:i386 28
+  Added lzma:i386 to the remove list
+  Conflicts//Breaks against version 4.43-14ubuntu2 for lzma but that is not InstVer, ignoring
+  Fixing xz-lzma:i386 via remove of lzma:i386
+Investigating (0) libsdl1.2debian [ i386 ] < 1.2.14-6.1ubuntu4 -> 1.2.14-6.4ubuntu3 > ( libs )
+Broken libsdl1.2debian:i386 冲突 on libsdl1.2debian-pulseaudio [ i386 ] < 1.2.14-6.1ubuntu4 > ( libs )
+  Considering libsdl1.2debian-pulseaudio:i386 -2 as a solution to libsdl1.2debian:i386 14
+  Added libsdl1.2debian-pulseaudio:i386 to the remove list
+  Fixing libsdl1.2debian:i386 via remove of libsdl1.2debian-pulseaudio:i386
+Investigating (0) gir1.2-unity-5.0 [ i386 ] < none -> 5.12.0-0ubuntu1.1 > ( libs )
+Broken gir1.2-unity-5.0:i386 冲突 on gir1.2-unity-4.0 [ i386 ] < 4.0.6-0ubuntu3 > ( libs )
+  Considering gir1.2-unity-4.0:i386 5 as a solution to gir1.2-unity-5.0:i386 13
+  Added gir1.2-unity-4.0:i386 to the remove list
+  Fixing gir1.2-unity-5.0:i386 via remove of gir1.2-unity-4.0:i386
+Investigating (0) gir1.2-indicate-0.6 [ i386 ] < 0.6.1-0ubuntu1 > ( libs )
+Broken gir1.2-indicate-0.6:i386 依赖 on libindicate5 [ i386 ] < 0.6.1-0ubuntu1 -> 0.6.92-0ubuntu1 > ( libs ) (= 0.6.1-0ubuntu1)
+  Considering libindicate5:i386 18 as a solution to gir1.2-indicate-0.6:i386 5
+  Removing gir1.2-indicate-0.6:i386 rather than change libindicate5:i386
+Investigating (0) python-gi-cairo [ i386 ] < none -> 3.2.2-1~precise > ( python )
+Broken python-gi-cairo:i386 冲突 on python-gobject-cairo [ i386 ] < 3.0.0-0ubuntu4 > ( python )
+  Considering python-gobject-cairo:i386 -1 as a solution to python-gi-cairo:i386 4
+  Added python-gobject-cairo:i386 to the remove list
+  Fixing python-gi-cairo:i386 via remove of python-gobject-cairo:i386
+Investigating (0) sessioninstaller [ i386 ] < 0.20+bzr120-0ubuntu2 -> 0.20+bzr128-0ubuntu1.2 > ( gnome )
+Broken sessioninstaller:i386 冲突 on gnome-codec-install [ i386 ] < 0.4.7+nmu1ubuntu2 -> 0.4.7+nmu1ubuntu3 > ( universe/gnome )
+  Considering gnome-codec-install:i386 0 as a solution to sessioninstaller:i386 4
+  Added gnome-codec-install:i386 to the remove list
+  Conflicts//Breaks against version 0.4.7+nmu1ubuntu2 for gnome-codec-install but that is not InstVer, ignoring
+  Fixing sessioninstaller:i386 via remove of gnome-codec-install:i386
+Investigating (0) gnome-games-data [ i386 ] < none -> 1:3.4.1-0ubuntu2.2 > ( gnome )
+Broken gnome-games-data:i386 破坏 on gnome-games-common [ i386 ] < 1:3.2.1-0ubuntu1 > ( gnome )
+  Considering gnome-games-common:i386 1 as a solution to gnome-games-data:i386 4
+  Added gnome-games-common:i386 to the remove list
+  Fixing gnome-games-data:i386 via remove of gnome-games-common:i386
+Investigating (0) libfarstream-0.1-0 [ i386 ] < none -> 0.1.2-0ubuntu1 > ( libs )
+Broken libfarstream-0.1-0:i386 冲突 on libgstfarsight0.10-0 [ i386 ] < 0.0.29-1ubuntu1 > ( libs )
+  Considering libgstfarsight0.10-0:i386 2 as a solution to libfarstream-0.1-0:i386 4
+  Added libgstfarsight0.10-0:i386 to the remove list
+  Fixing libfarstream-0.1-0:i386 via remove of libgstfarsight0.10-0:i386
+Investigating (0) gdm [ i386 ] < 3.0.4-0ubuntu11 -> 3.0.4-0ubuntu15.1 > ( universe/gnome )
+Broken gdm:i386 破坏 on gdm-guest-session [ i386 ] < 0.27 > ( gnome )
+  Considering gdm-guest-session:i386 -1 as a solution to gdm:i386 2
+  Added gdm-guest-session:i386 to the remove list
+  Fixing gdm:i386 via remove of gdm-guest-session:i386
+Investigating (0) libxmlrpc-core-c3 [ i386 ] < none -> 1.16.33-3.1ubuntu5.1 > ( libs )
+Broken libxmlrpc-core-c3:i386 破坏 on libxmlrpc-core-c3-0 [ i386 ] < 1.16.32-0ubuntu4.1 > ( libs )
+  Considering libxmlrpc-core-c3-0:i386 -1 as a solution to libxmlrpc-core-c3:i386 0
+  Added libxmlrpc-core-c3-0:i386 to the remove list
+  Fixing libxmlrpc-core-c3:i386 via remove of libxmlrpc-core-c3-0:i386
+Investigating (0) libubuntuoneui-3.0-1 [ i386 ] < none -> 3.0.1-0ubuntu1 > ( libs )
+Broken libubuntuoneui-3.0-1:i386 破坏 on libubuntuone-1.0-1 [ i386 ] < 0.11.0-0ubuntu3 > ( libs )
+  Considering libubuntuone-1.0-1:i386 0 as a solution to libubuntuoneui-3.0-1:i386 0
+  Holding Back libubuntuoneui-3.0-1:i386 rather than change libubuntuone-1.0-1:i386
+Investigating (0) python-farsight [ i386 ] < 0.0.29-1ubuntu1 > ( python )
+Broken python-farsight:i386 依赖 on libgstfarsight0.10-0 [ i386 ] < 0.0.29-1ubuntu1 > ( libs ) (>= 0.0.29-1ubuntu1)
+  Considering libgstfarsight0.10-0:i386 2 as a solution to python-farsight:i386 0
+  Removing python-farsight:i386 rather than change libgstfarsight0.10-0:i386
+Investigating (0) mahjongg [ i386 ] < none -> 1:3.4.1-0ubuntu2.2 > ( games )
+Broken mahjongg:i386 冲突 on gnome-mahjongg [ i386 ] < 1:3.2.1-0ubuntu1 > ( games )
+  Considering gnome-mahjongg:i386 -1 as a solution to mahjongg:i386 0
+  Added gnome-mahjongg:i386 to the remove list
+  Fixing mahjongg:i386 via remove of gnome-mahjongg:i386
+Investigating (0) libgail-3-common [ i386 ] < 3.2.0-0ubuntu6 > ( libs )
+Broken libgail-3-common:i386 依赖 on libgail-3-0 [ i386 ] < 3.2.0-0ubuntu6 -> 3.4.2-0ubuntu0.5 > ( libs ) (= 3.2.0-0ubuntu6)
+  Considering libgail-3-0:i386 33 as a solution to libgail-3-common:i386 -1
+  Removing libgail-3-common:i386 rather than change libgail-3-0:i386
+Investigating (0) libtelepathy-farsight0 [ i386 ] < 0.0.19-1 > ( libs )
+Broken libtelepathy-farsight0:i386 依赖 on libgstfarsight0.10-0 [ i386 ] < 0.0.29-1ubuntu1 > ( libs ) (>= 0.0.29-1ubuntu1)
+  Considering libgstfarsight0.10-0:i386 2 as a solution to libtelepathy-farsight0:i386 -1
+  Removing libtelepathy-farsight0:i386 rather than change libgstfarsight0.10-0:i386
+Investigating (0) libunity-core-4.0-4 [ i386 ] < 4.30.0-0ubuntu1 > ( libs )
+Broken libunity-core-4.0-4:i386 依赖 on unity-services [ i386 ] < 4.30.0-0ubuntu1 -> 5.20.0-0ubuntu2 > ( gnome ) (= 4.30.0-0ubuntu1)
+  Considering unity-services:i386 5 as a solution to libunity-core-4.0-4:i386 -1
+  Removing libunity-core-4.0-4:i386 rather than change unity-services:i386
+Investigating (0) gnome-about [ i386 ] < 1:2.32.1-0ubuntu6 > ( gnome )
+Broken gnome-about:i386 依赖 on gnome-desktop-data [ i386 ] < 1:2.32.1-0ubuntu6 -> 1:2.32.1-0ubuntu9 > ( universe/gnome ) (= 1:2.32.1-0ubuntu6)
+  Considering gnome-desktop-data:i386 2 as a solution to gnome-about:i386 -1
+  Removing gnome-about:i386 rather than change gnome-desktop-data:i386
+Investigating (0) libperl5.12 [ i386 ] < 5.12.4-4ubuntu0.2 > ( libs )
+Broken libperl5.12:i386 依赖 on perl-base [ i386 ] < 5.12.4-4ubuntu0.2 -> 5.14.2-6ubuntu2.3 > ( perl ) (= 5.12.4-4ubuntu0.2)
+  Considering perl-base:i386 5333 as a solution to libperl5.12:i386 -1
+  Removing libperl5.12:i386 rather than change perl-base:i386
+Investigating (0) libdigest-sha1-perl [ i386 ] < 2.13-1build1 > ( perl )
+Broken libdigest-sha1-perl:i386 依赖 on perlapi-5.12.3 [ i386 ] < none > ( none )
+  Considering perl-base:i386 5333 as a solution to libdigest-sha1-perl:i386 -1
+  Removing libdigest-sha1-perl:i386 rather than change perlapi-5.12.3:i386
+Investigating (1) python-papyon [ i386 ] < 0.5.5-1ubuntu3.2 > ( python )
+Broken python-papyon:i386 依赖 on python-farsight [ i386 ] < 0.0.29-1ubuntu1 > ( python )
+  Considering python-farsight:i386 0 as a solution to python-papyon:i386 1
+  Added python-farsight:i386 to the remove list
+  Fixing python-papyon:i386 via keep of python-farsight:i386
+Investigating (1) gir1.2-ubuntuoneui-3.0 [ i386 ] < none -> 3.0.1-0ubuntu1 > ( introspection )
+Broken gir1.2-ubuntuoneui-3.0:i386 依赖 on libubuntuoneui-3.0-1 [ i386 ] < none -> 3.0.1-0ubuntu1 > ( libs ) (>= 2.99.3)
+  Considering libubuntuoneui-3.0-1:i386 0 as a solution to gir1.2-ubuntuoneui-3.0:i386 0
+  Holding Back gir1.2-ubuntuoneui-3.0:i386 rather than change libubuntuoneui-3.0-1:i386
+Investigating (1) python-farsight [ i386 ] < 0.0.29-1ubuntu1 > ( python )
+Broken python-farsight:i386 依赖 on libgstfarsight0.10-0 [ i386 ] < 0.0.29-1ubuntu1 > ( libs ) (>= 0.0.29-1ubuntu1)
+  Considering libgstfarsight0.10-0:i386 2 as a solution to python-farsight:i386 0
+  Removing python-farsight:i386 rather than change libgstfarsight0.10-0:i386
+Investigating (2) rhythmbox-ubuntuone [ i386 ] < none -> 3.0.0-0ubuntu1 > ( gnome )
+Broken rhythmbox-ubuntuone:i386 依赖 on gir1.2-ubuntuoneui-3.0 [ i386 ] < none -> 3.0.1-0ubuntu1 > ( introspection ) (>= 3.0.0)
+  Considering gir1.2-ubuntuoneui-3.0:i386 0 as a solution to rhythmbox-ubuntuone:i386 1
+  Holding Back rhythmbox-ubuntuone:i386 rather than change gir1.2-ubuntuoneui-3.0:i386
+Investigating (2) python-papyon [ i386 ] < 0.5.5-1ubuntu3.2 > ( python )
+Broken python-papyon:i386 依赖 on python-farsight [ i386 ] < 0.0.29-1ubuntu1 > ( python )
+  Considering python-farsight:i386 0 as a solution to python-papyon:i386 1
+  Added python-farsight:i386 to the remove list
+  Fixing python-papyon:i386 via keep of python-farsight:i386
+Investigating (2) python-farsight [ i386 ] < 0.0.29-1ubuntu1 > ( python )
+Broken python-farsight:i386 依赖 on libgstfarsight0.10-0 [ i386 ] < 0.0.29-1ubuntu1 > ( libs ) (>= 0.0.29-1ubuntu1)
+  Considering libgstfarsight0.10-0:i386 2 as a solution to python-farsight:i386 1
+  Removing python-farsight:i386 rather than change libgstfarsight0.10-0:i386
+Investigating (3) unity-scope-musicstores [ i386 ] < 0.2.6-0ubuntu2 -> 5.12.0-0ubuntu2 > ( gnome )
+Broken unity-scope-musicstores:i386 依赖 on rhythmbox-ubuntuone [ i386 ] < none -> 3.0.0-0ubuntu1 > ( gnome )
+  Considering rhythmbox-ubuntuone:i386 1 as a solution to unity-scope-musicstores:i386 4
+  Holding Back unity-scope-musicstores:i386 rather than change rhythmbox-ubuntuone:i386
+Investigating (3) python-papyon [ i386 ] < 0.5.5-1ubuntu3.2 > ( python )
+Broken python-papyon:i386 依赖 on python-farsight [ i386 ] < 0.0.29-1ubuntu1 > ( python )
+  Considering python-farsight:i386 2 as a solution to python-papyon:i386 1
+  Removing python-papyon:i386 rather than change python-farsight:i386
+Investigating (3) telepathy-butterfly [ i386 ] < 0.5.15-2.1 > ( net )
+Broken telepathy-butterfly:i386 依赖 on python-papyon [ i386 ] < 0.5.5-1ubuntu3.2 > ( python ) (>= 0.5.3)
+  Considering python-papyon:i386 2 as a solution to telepathy-butterfly:i386 -1
+  Removing telepathy-butterfly:i386 rather than change python-papyon:i386
+ Try to Re-Instate (4) unity-scope-musicstores:i386
+Done
+  ignore old unsatisfied important dependency on firefox-gnome-support:i386
+  new important dependency: rhythmbox-ubuntuone:i386
+  Installing rhythmbox-ubuntuone as 推荐 of ubuntu-desktop
+  Setting NOT as auto-installed (direct 推荐 of pkg in APT::Never-MarkAuto-Sections)
+    Installing gir1.2-ubuntuoneui-3.0 as 依赖 of rhythmbox-ubuntuone
+      Installing libubuntuoneui-3.0-1 as 依赖 of gir1.2-ubuntuoneui-3.0
+Starting
+Starting 2
+Investigating (0) libubuntuone1.0-cil [ i386 ] < 0.11.0-0ubuntu3 > ( cli-mono )
+Broken libubuntuone1.0-cil:i386 依赖 on libubuntuone-1.0-1 [ i386 ] < 0.11.0-0ubuntu3 > ( libs ) (>= 0.2.101)
+  Considering libubuntuone-1.0-1:i386 1 as a solution to libubuntuone1.0-cil:i386 1
+  Removing libubuntuone1.0-cil:i386 rather than change libubuntuone-1.0-1:i386
+Investigating (0) banshee-extension-ubuntuonemusicstore [ i386 ] < 2.2.1-1ubuntu3 > ( sound )
+Broken banshee-extension-ubuntuonemusicstore:i386 依赖 on libubuntuone1.0-cil [ i386 ] < 0.11.0-0ubuntu3 > ( cli-mono ) (>= 0.11.0)
+  Considering libubuntuone1.0-cil:i386 1 as a solution to banshee-extension-ubuntuonemusicstore:i386 -1
+  Removing banshee-extension-ubuntuonemusicstore:i386 rather than change libubuntuone1.0-cil:i386
+Done
+Log time: 2013-08-01 20:38:12.676317
+Starting
+Starting 2
+Investigating (0) libisccfg62 [ i386 ] < 1:9.7.3.dfsg-1ubuntu4.6 > ( libs )
+Broken libisccfg62:i386 依赖 on libisccc60 [ i386 ] < 1:9.7.3.dfsg-1ubuntu4.6 > ( libs )
+  Considering libisccc60:i386 10001 as a solution to libisccfg62:i386 1
+  Removing libisccfg62:i386 rather than change libisccc60:i386
+Investigating (1) libbind9-60 [ i386 ] < 1:9.7.3.dfsg-1ubuntu4.6 > ( libs )
+Broken libbind9-60:i386 依赖 on libisccfg62 [ i386 ] < 1:9.7.3.dfsg-1ubuntu4.6 > ( libs )
+  Considering libisccfg62:i386 1 as a solution to libbind9-60:i386 1
+  Removing libbind9-60:i386 rather than change libisccfg62:i386
+Done
+Starting
+Starting 2
+Investigating (0) libdns69 [ i386 ] < 1:9.7.3.dfsg-1ubuntu4.6 > ( libs )
+Broken libdns69:i386 依赖 on libisc62 [ i386 ] < 1:9.7.3.dfsg-1ubuntu4.6 > ( libs )
+  Considering libisc62:i386 10001 as a solution to libdns69:i386 1
+  Removing libdns69:i386 rather than change libisc62:i386
+Done
+Starting
+Starting 2
+Investigating (0) linux-headers-3.0.0-19-generic-pae [ i386 ] < 3.0.0-19.33 > ( devel )
+Broken linux-headers-3.0.0-19-generic-pae:i386 依赖 on linux-headers-3.0.0-19 [ i386 ] < 3.0.0-19.33 > ( devel )
+  Considering linux-headers-3.0.0-19:i386 10001 as a solution to linux-headers-3.0.0-19-generic-pae:i386 -1
+  Removing linux-headers-3.0.0-19-generic-pae:i386 rather than change linux-headers-3.0.0-19:i386
+Done
+Starting
+Starting 2
+Investigating (0) libgexiv2-0 [ i386 ] < 0.3.1-0ubuntu2 > ( libs )
+Broken libgexiv2-0:i386 依赖 on libexiv2-10 [ i386 ] < 0.21.1-0ubuntu2 > ( libs )
+  Considering libexiv2-10:i386 10001 as a solution to libgexiv2-0:i386 -1
+  Removing libgexiv2-0:i386 rather than change libexiv2-10:i386
+Done
+Starting
+Starting 2
+Investigating (0) libgcj10 [ i386 ] < 4.4.6-2ubuntu2 > ( libs )
+Broken libgcj10:i386 依赖 on gcj-4.4-base [ i386 ] < 4.4.6-2ubuntu2 > ( libs ) (>= 4.4.6-2ubuntu2)
+  Considering gcj-4.4-base:i386 10001 as a solution to libgcj10:i386 -1
+  Removing libgcj10:i386 rather than change gcj-4.4-base:i386
+Done
+Starting
+Starting 2
+Investigating (0) libgupnp-igd-1.0-3 [ i386 ] < 0.1.11-1 > ( libs )
+Broken libgupnp-igd-1.0-3:i386 依赖 on libgupnp-1.0-3 [ i386 ] < 0.16.1-1 > ( libs ) (>= 0.14.0)
+  Considering libgupnp-1.0-3:i386 10001 as a solution to libgupnp-igd-1.0-3:i386 -1
+  Removing libgupnp-igd-1.0-3:i386 rather than change libgupnp-1.0-3:i386
+Done
+Starting
+Starting 2
+Investigating (0) libarchive1 [ i386 ] < 2.8.4-1ubuntu0.11.10.1 > ( libs )
+Broken libarchive1:i386 依赖 on liblzma2 [ i386 ] < 5.0.0-2 > ( libs ) (>= 4.999.9beta+20091116)
+  Considering liblzma2:i386 10001 as a solution to libarchive1:i386 -1
+  Removing libarchive1:i386 rather than change liblzma2:i386
+Done
+Starting
+Starting 2
+Investigating (0) libept1 [ i386 ] < 1.0.5build1 > ( libs )
+Broken libept1:i386 依赖 on libapt-pkg4.11 [ i386 ] < 0.8.16~exp5ubuntu13.7 > ( admin ) (>= 0.8.16~exp5ubuntu1)
+  Considering libapt-pkg4.11:i386 10002 as a solution to libept1:i386 3
+  Removing libept1:i386 rather than change libapt-pkg4.11:i386
+Investigating (0) libapt-inst1.3 [ i386 ] < 0.8.16~exp5ubuntu13.7 > ( admin )
+Broken libapt-inst1.3:i386 依赖 on libapt-pkg4.11 [ i386 ] < 0.8.16~exp5ubuntu13.7 > ( admin ) (>= 0.8.16~exp5ubuntu13.7)
+  Considering libapt-pkg4.11:i386 10002 as a solution to libapt-inst1.3:i386 3
+  Removing libapt-inst1.3:i386 rather than change libapt-pkg4.11:i386
+Done
+Starting
+Starting 2
+Investigating (0) libunity6 [ i386 ] < 4.0.6-0ubuntu3 > ( libs )
+Broken libunity6:i386 依赖 on libdee-1.0-1 [ i386 ] < 0.5.22-0ubuntu1 > ( libs ) (>= 0.5.12)
+  Considering libdee-1.0-1:i386 10002 as a solution to libunity6:i386 -1
+  Removing libunity6:i386 rather than change libdee-1.0-1:i386
+Investigating (0) gir1.2-dee-0.5 [ i386 ] < 0.5.22-0ubuntu1 > ( libs )
+Broken gir1.2-dee-0.5:i386 依赖 on libdee-1.0-1 [ i386 ] < 0.5.22-0ubuntu1 > ( libs ) (>= 0.5.18-1ubuntu1)
+  Considering libdee-1.0-1:i386 10002 as a solution to gir1.2-dee-0.5:i386 -1
+  Removing gir1.2-dee-0.5:i386 rather than change libdee-1.0-1:i386
+Done
+Starting
+Starting 2
+Investigating (0) libept1 [ i386 ] < 1.0.5build1 > ( libs )
+Broken libept1:i386 依赖 on libapt-pkg4.11 [ i386 ] < 0.8.16~exp5ubuntu13.7 > ( admin ) (>= 0.8.16~exp5ubuntu1)
+  Considering libapt-pkg4.11:i386 10002 as a solution to libept1:i386 3
+  Removing libept1:i386 rather than change libapt-pkg4.11:i386
+Investigating (0) libapt-inst1.3 [ i386 ] < 0.8.16~exp5ubuntu13.7 > ( admin )
+Broken libapt-inst1.3:i386 依赖 on libapt-pkg4.11 [ i386 ] < 0.8.16~exp5ubuntu13.7 > ( admin ) (>= 0.8.16~exp5ubuntu13.7)
+  Considering libapt-pkg4.11:i386 10002 as a solution to libapt-inst1.3:i386 3
+  Removing libapt-inst1.3:i386 rather than change libapt-pkg4.11:i386
+Done
+Starting
+Starting 2
+Investigating (0) libbind9-60 [ i386 ] < 1:9.7.3.dfsg-1ubuntu4.6 > ( libs )
+Broken libbind9-60:i386 依赖 on libdns69 [ i386 ] < 1:9.7.3.dfsg-1ubuntu4.6 > ( libs )
+  Considering libdns69:i386 10002 as a solution to libbind9-60:i386 1
+  Removing libbind9-60:i386 rather than change libdns69:i386
+Investigating (0) libisccfg62 [ i386 ] < 1:9.7.3.dfsg-1ubuntu4.6 > ( libs )
+Broken libisccfg62:i386 依赖 on libdns69 [ i386 ] < 1:9.7.3.dfsg-1ubuntu4.6 > ( libs )
+  Considering libdns69:i386 10002 as a solution to libisccfg62:i386 1
+  Removing libisccfg62:i386 rather than change libdns69:i386
+Done
+Starting
+Starting 2
+Investigating (0) libpoppler-glib6 [ i386 ] < 0.16.7-2ubuntu2.1 > ( libs )
+Broken libpoppler-glib6:i386 依赖 on libpoppler13 [ i386 ] < 0.16.7-2ubuntu2.1 > ( libs )
+  Considering libpoppler13:i386 10001 as a solution to libpoppler-glib6:i386 -1
+  Removing libpoppler-glib6:i386 rather than change libpoppler13:i386
+Done
+Starting
+Starting 2
+Investigating (0) libcdio-paranoia0 [ i386 ] < 0.81-4build1 > ( libs )
+Broken libcdio-paranoia0:i386 依赖 on libcdio-cdda0 [ i386 ] < 0.81-4build1 > ( libs )
+  Considering libcdio-cdda0:i386 10001 as a solution to libcdio-paranoia0:i386 -1
+  Removing libcdio-paranoia0:i386 rather than change libcdio-cdda0:i386
+Done
+Starting
+Starting 2
+Investigating (0) libgupnp-igd-1.0-3 [ i386 ] < 0.1.11-1 > ( libs )
+Broken libgupnp-igd-1.0-3:i386 依赖 on libgupnp-1.0-3 [ i386 ] < 0.16.1-1 > ( libs ) (>= 0.14.0)
+  Considering libgupnp-1.0-3:i386 10001 as a solution to libgupnp-igd-1.0-3:i386 -1
+  Removing libgupnp-igd-1.0-3:i386 rather than change libgupnp-1.0-3:i386
+Done
+Starting
+Starting 2
+Done
+Starting
+Starting 2
+Investigating (0) libcdio-cdda0 [ i386 ] < 0.81-4build1 > ( libs )
+Broken libcdio-cdda0:i386 依赖 on libcdio10 [ i386 ] < 0.81-4build1 > ( libs )
+  Considering libcdio10:i386 10002 as a solution to libcdio-cdda0:i386 1
+  Removing libcdio-cdda0:i386 rather than change libcdio10:i386
+Investigating (0) libcdio-paranoia0 [ i386 ] < 0.81-4build1 > ( libs )
+Broken libcdio-paranoia0:i386 依赖 on libcdio-cdda0 [ i386 ] < 0.81-4build1 > ( libs )
+  Considering libcdio-cdda0:i386 1 as a solution to libcdio-paranoia0:i386 -1
+  Removing libcdio-paranoia0:i386 rather than change libcdio-cdda0:i386
+Done
+Starting
+Starting 2
+Investigating (0) libept1 [ i386 ] < 1.0.5build1 > ( libs )
+Broken libept1:i386 依赖 on libapt-pkg4.11 [ i386 ] < 0.8.16~exp5ubuntu13.7 > ( admin ) (>= 0.8.16~exp5ubuntu1)
+  Considering libapt-pkg4.11:i386 10002 as a solution to libept1:i386 3
+  Removing libept1:i386 rather than change libapt-pkg4.11:i386
+Investigating (0) libapt-inst1.3 [ i386 ] < 0.8.16~exp5ubuntu13.7 > ( admin )
+Broken libapt-inst1.3:i386 依赖 on libapt-pkg4.11 [ i386 ] < 0.8.16~exp5ubuntu13.7 > ( admin ) (>= 0.8.16~exp5ubuntu13.7)
+  Considering libapt-pkg4.11:i386 10002 as a solution to libapt-inst1.3:i386 3
+  Removing libapt-inst1.3:i386 rather than change libapt-pkg4.11:i386
+Done
+Starting
+Starting 2
+Investigating (0) libbind9-60 [ i386 ] < 1:9.7.3.dfsg-1ubuntu4.6 > ( libs )
+Broken libbind9-60:i386 依赖 on libdns69 [ i386 ] < 1:9.7.3.dfsg-1ubuntu4.6 > ( libs )
+  Considering libdns69:i386 10002 as a solution to libbind9-60:i386 1
+  Removing libbind9-60:i386 rather than change libdns69:i386
+Investigating (0) libisccfg62 [ i386 ] < 1:9.7.3.dfsg-1ubuntu4.6 > ( libs )
+Broken libisccfg62:i386 依赖 on libdns69 [ i386 ] < 1:9.7.3.dfsg-1ubuntu4.6 > ( libs )
+  Considering libdns69:i386 10002 as a solution to libisccfg62:i386 1
+  Removing libisccfg62:i386 rather than change libdns69:i386
+Done
+Starting
+Starting 2
+Investigating (0) libpoppler-glib6 [ i386 ] < 0.16.7-2ubuntu2.1 > ( libs )
+Broken libpoppler-glib6:i386 依赖 on libpoppler13 [ i386 ] < 0.16.7-2ubuntu2.1 > ( libs )
+  Considering libpoppler13:i386 10001 as a solution to libpoppler-glib6:i386 -1
+  Removing libpoppler-glib6:i386 rather than change libpoppler13:i386
+Done
+Starting
+Starting 2
+Investigating (0) libgupnp-igd-1.0-3 [ i386 ] < 0.1.11-1 > ( libs )
+Broken libgupnp-igd-1.0-3:i386 依赖 on libgupnp-1.0-3 [ i386 ] < 0.16.1-1 > ( libs ) (>= 0.14.0)
+  Considering libgupnp-1.0-3:i386 10001 as a solution to libgupnp-igd-1.0-3:i386 -1
+  Removing libgupnp-igd-1.0-3:i386 rather than change libgupnp-1.0-3:i386
+Done

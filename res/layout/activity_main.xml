@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg_color"
+     >
+    <GridView
+        android:id="@+id/grid"
+        android:background="@color/grid_bg_color"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:columnWidth="@dimen/itemSize"
+        android:layout_centerHorizontal="true"
+        android:horizontalSpacing="4dp"
+        android:verticalSpacing="4dp"
+        android:numColumns="auto_fit"
+        android:scrollbars="vertical"
+        android:scrollbarStyle="insideOverlay"
+        android:stretchMode="columnWidth"
+        />
+    <com.yong.app.YongView
+     android:id="@+id/yongWidget"
+     android:layout_width="448px"
+     android:layout_height="448px"
+     android:layout_centerHorizontal="true"
+     android:layout_marginTop="10dp"
+     android:layout_below="@id/grid"
+     />
+
+</RelativeLayout>

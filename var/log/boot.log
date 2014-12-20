@@ -1,0 +1,90 @@
+fsck，来自 util-linux 2.20.1
+udevd[337]: unknown key 'SYSFS{idVendor}' in /etc/udev/rules.d/50-android.rules:1
+
+udevd[337]: invalid rule '/etc/udev/rules.d/50-android.rules:1'
+
+udevd[337]: unknown key 'SYSFS{idVendor}' in /etc/udev/rules.d/50-android.rules:2
+
+udevd[337]: invalid rule '/etc/udev/rules.d/50-android.rules:2'
+
+udevd[337]: unknown key 'SYSFS{idVendor}' in /etc/udev/rules.d/70-android.rules:1
+
+udevd[337]: invalid rule '/etc/udev/rules.d/70-android.rules:1'
+
+udevd[337]: unknown key 'SYSFS{idVendor}' in /etc/udev/rules.d/70-android.rules:2
+
+udevd[337]: invalid rule '/etc/udev/rules.d/70-android.rules:2'
+
+udevd[337]: unknown key 'SYSFS{idVendor}' in /etc/udev/rules.d/android.rules:1
+
+udevd[337]: invalid rule '/etc/udev/rules.d/android.rules:1'
+
+/dev/sda5: clean, 527415/23879680 files, 38761172/95488512 blocks
+modem-manager[886]: <info>  ModemManager (version 0.5.2.0) starting...
+
+modem-manager[886]: <info>  Loaded plugin Longcheer
+
+modem-manager[886]: <info>  Loaded plugin SimTech
+
+modem-manager[886]: <info>  Loaded plugin AnyData
+
+modem-manager[886]: <info>  Loaded plugin ZTE
+
+modem-manager[886]: <info>  Loaded plugin Generic
+
+modem-manager[886]: <info>  Loaded plugin Option High-Speed
+
+modem-manager[886]: <info>  Loaded plugin Option
+
+modem-manager[886]: <info>  Loaded plugin Ericsson MBM
+
+modem-manager[886]: <info>  Loaded plugin Nokia
+
+modem-manager[886]: <info>  Loaded plugin X22X
+
+modem-manager[886]: <info>  Loaded plugin Huawei
+
+modem-manager[886]: <info>  Loaded plugin MotoC
+
+modem-manager[886]: <info>  Loaded plugin Linktop
+
+modem-manager[886]: <info>  Loaded plugin Samsung
+
+modem-manager[886]: <info>  Loaded plugin Wavecom
+
+modem-manager[886]: <info>  Loaded plugin Novatel
+
+modem-manager[886]: <info>  Loaded plugin Gobi
+
+modem-manager[886]: <info>  Loaded plugin Sierra
+
+ * Stopping Userspace bootsplash[164G[ OK ]
+ * Stopping Flush boot log to disk[164G[ OK ]
+Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+ * Starting AppArmor profiles       [170G [164G[ OK ]
+speech-dispatcher disabled; edit /etc/default/speech-dispatcher
+ * Stopping cold plug devices[164G[ OK ]
+ * Stopping System V initialisation compatibility[164G[ OK ]
+ * Starting System V runlevel compatibility[164G[ OK ]
+ * Starting crash report submission daemon[164G[ OK ]
+ * Starting automatic crash report generation[164G[ OK ]
+ * Starting GNOME Display Manager[164G[ OK ]
+ * Starting ACPI daemon[164G[ OK ]
+ * Starting anac(h)ronistic cron[164G[ OK ]
+ * Starting save kernel messages[164G[ OK ]
+ * Stopping log initial device creation[164G[ OK ]
+ * Starting configure network device security[164G[ OK ]
+ * Starting CPU interrupts balancing daemon[164G[ OK ]
+ * Starting save udev log and update rules[164G[ OK ]
+ * Starting configure virtual network devices[164G[ OK ]
+ * Stopping save udev log and update rules[164G[ OK ]
+ * Stopping configure virtual network devices[164G[ OK ]
+ * Stopping GNOME Display Manager[164G[ OK ]
+ * Starting regular background program processing daemon[164G[ OK ]
+ * Starting deferred execution scheduler[164G[ OK ]
+ * Starting CUPS printing spooler/server[164G[ OK ]
+Starting VirtualBox kernel modules * Stopping save kernel messages[164G[ OK ]
+ * Stopping anac(h)ronistic cron[164G[ OK ]
+ * Starting LightDM Display Manager[164G[ OK ]
+ * Stopping Send an event to indicate plymouth is up[164G[ OK ]

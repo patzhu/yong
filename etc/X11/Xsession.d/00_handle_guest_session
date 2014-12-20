@@ -1,0 +1,9 @@
+# This file is sourced by Xsession(5), not executed.
+# Select and set right GDMSESSION depending on which
+# guest-session we selected.
+
+GDMSESSION="${GDMSESSION%%-guest-restricted}"
+if [ "x$GDMSESSION" = "xguest-restricted" ]; then
+   GDMSESSION="gnome"
+fi
+

@@ -1,0 +1,37 @@
+/usr/share/fonts: skipping, existing cache is valid: 0 fonts, 4 dirs
+/usr/share/fonts/X11: skipping, existing cache is valid: 0 fonts, 4 dirs
+/usr/share/fonts/X11/Type1: skipping, existing cache is valid: 9 fonts, 0 dirs
+/usr/share/fonts/X11/encodings: skipping, existing cache is valid: 0 fonts, 1 dirs
+/usr/share/fonts/X11/encodings/large: skipping, existing cache is valid: 0 fonts, 0 dirs
+/usr/share/fonts/X11/misc: skipping, existing cache is valid: 8 fonts, 0 dirs
+/usr/share/fonts/X11/util: skipping, existing cache is valid: 0 fonts, 0 dirs
+/usr/share/fonts/cmap: skipping, existing cache is valid: 0 fonts, 3 dirs
+/usr/share/fonts/cmap/adobe-japan1: skipping, existing cache is valid: 0 fonts, 0 dirs
+/usr/share/fonts/cmap/adobe-japan2: skipping, existing cache is valid: 0 fonts, 0 dirs
+/usr/share/fonts/cmap/gs-cjk-resource: skipping, existing cache is valid: 0 fonts, 0 dirs
+/usr/share/fonts/truetype: caching, new cache contents: 1 fonts, 18 dirs
+/usr/share/fonts/truetype/arphic: skipping, existing cache is valid: 8 fonts, 0 dirs
+/usr/share/fonts/truetype/droid: caching, new cache contents: 12 fonts, 0 dirs
+/usr/share/fonts/truetype/freefont: skipping, existing cache is valid: 13 fonts, 0 dirs
+/usr/share/fonts/truetype/kacst: skipping, existing cache is valid: 15 fonts, 0 dirs
+/usr/share/fonts/truetype/kacst-one: skipping, existing cache is valid: 2 fonts, 0 dirs
+/usr/share/fonts/truetype/lao: skipping, existing cache is valid: 1 fonts, 0 dirs
+/usr/share/fonts/truetype/liberation: skipping, existing cache is valid: 16 fonts, 0 dirs
+/usr/share/fonts/truetype/nanum: skipping, existing cache is valid: 4 fonts, 0 dirs
+/usr/share/fonts/truetype/openoffice: skipping, existing cache is valid: 1 fonts, 0 dirs
+/usr/share/fonts/truetype/takao-gothic: skipping, existing cache is valid: 1 fonts, 0 dirs
+/usr/share/fonts/truetype/tlwg: skipping, existing cache is valid: 54 fonts, 0 dirs
+/usr/share/fonts/truetype/ttf-dejavu: skipping, existing cache is valid: 21 fonts, 0 dirs
+/usr/share/fonts/truetype/ttf-indic-fonts-core: skipping, existing cache is valid: 17 fonts, 0 dirs
+/usr/share/fonts/truetype/ttf-khmeros-core: skipping, existing cache is valid: 2 fonts, 0 dirs
+/usr/share/fonts/truetype/ttf-punjabi-fonts: skipping, existing cache is valid: 2 fonts, 0 dirs
+/usr/share/fonts/truetype/ubuntu-font-family: skipping, existing cache is valid: 11 fonts, 0 dirs
+/usr/share/fonts/truetype/unfonts-core: skipping, existing cache is valid: 12 fonts, 0 dirs
+/usr/share/fonts/truetype/wqy: skipping, existing cache is valid: 5 fonts, 0 dirs
+/usr/share/fonts/type1: skipping, existing cache is valid: 0 fonts, 2 dirs
+/usr/share/fonts/type1/gsfonts: skipping, existing cache is valid: 35 fonts, 0 dirs
+/usr/share/fonts/type1/mathml: skipping, existing cache is valid: 1 fonts, 0 dirs
+/usr/X11R6/lib/X11/fonts: skipping, no such directory
+/usr/local/share/fonts: skipping, existing cache is valid: 0 fonts, 0 dirs
+/var/cache/fontconfig: cleaning cache directory
+fc-cache: succeeded

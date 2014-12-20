@@ -1,0 +1,1586 @@
+Dec 14 01:17:01 zhuqingyang-Rev-1-0 CRON[5015]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 14 01:17:01 zhuqingyang-Rev-1-0 CRON[5015]: pam_unix(cron:session): session closed for user root
+Dec 14 01:25:28 zhuqingyang-Rev-1-0 polkitd(authority=local): Unregistered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session2 (system bus name :1.39, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+Dec 14 09:24:37 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session opened for user lightdm by (uid=0)
+Dec 14 09:24:37 zhuqingyang-Rev-1-0 lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Dec 14 09:24:38 zhuqingyang-Rev-1-0 lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "zhuqingyang"
+Dec 14 09:24:38 zhuqingyang-Rev-1-0 dbus[830]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.27" (uid=113 pid=1508 comm="/usr/lib/indicator-datetime/indicator-datetime-ser") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.14" (uid=0 pid=1218 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Dec 14 09:24:57 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session closed for user lightdm
+Dec 14 09:24:57 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session opened for user zhuqingyang by (uid=0)
+Dec 14 09:24:57 zhuqingyang-Rev-1-0 lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Dec 14 09:25:00 zhuqingyang-Rev-1-0 polkitd(authority=local): Registered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session2 (system bus name :1.46 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+Dec 14 09:26:05 zhuqingyang-Rev-1-0 gnome-keyring-daemon[1711]: couldn't allocate secure memory to keep passwords and or keys from being written to the disk
+Dec 14 09:26:19 zhuqingyang-Rev-1-0 dbus[830]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.62" (uid=1000 pid=2158 comm="/usr/lib/indicator-datetime/indicator-datetime-ser") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.14" (uid=0 pid=1218 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Dec 14 10:17:01 zhuqingyang-Rev-1-0 CRON[6145]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 14 10:17:01 zhuqingyang-Rev-1-0 CRON[6145]: pam_unix(cron:session): session closed for user root
+Dec 14 10:29:33 zhuqingyang-Rev-1-0 su[7062]: Successful su for zhuqingyang by root
+Dec 14 10:29:33 zhuqingyang-Rev-1-0 su[7062]: + ??? root:zhuqingyang
+Dec 14 10:29:33 zhuqingyang-Rev-1-0 su[7062]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 14 10:29:33 zhuqingyang-Rev-1-0 su[7062]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 14 10:29:33 zhuqingyang-Rev-1-0 su[7072]: Successful su for zhuqingyang by root
+Dec 14 10:29:33 zhuqingyang-Rev-1-0 su[7072]: + ??? root:zhuqingyang
+Dec 14 10:29:33 zhuqingyang-Rev-1-0 su[7072]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 14 10:29:33 zhuqingyang-Rev-1-0 su[7072]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 14 10:29:33 zhuqingyang-Rev-1-0 su[7087]: Successful su for zhuqingyang by root
+Dec 14 10:29:33 zhuqingyang-Rev-1-0 su[7087]: + ??? root:zhuqingyang
+Dec 14 10:29:33 zhuqingyang-Rev-1-0 su[7087]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 14 10:29:33 zhuqingyang-Rev-1-0 su[7087]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 14 10:29:33 zhuqingyang-Rev-1-0 su[7115]: Successful su for zhuqingyang by root
+Dec 14 10:29:33 zhuqingyang-Rev-1-0 su[7115]: + ??? root:zhuqingyang
+Dec 14 10:29:33 zhuqingyang-Rev-1-0 su[7115]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 14 10:29:33 zhuqingyang-Rev-1-0 su[7115]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 14 10:29:33 zhuqingyang-Rev-1-0 su[7125]: Successful su for zhuqingyang by root
+Dec 14 10:29:33 zhuqingyang-Rev-1-0 su[7125]: + ??? root:zhuqingyang
+Dec 14 10:29:33 zhuqingyang-Rev-1-0 su[7125]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 14 10:29:33 zhuqingyang-Rev-1-0 su[7125]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 14 10:29:33 zhuqingyang-Rev-1-0 su[7140]: Successful su for zhuqingyang by root
+Dec 14 10:29:33 zhuqingyang-Rev-1-0 su[7140]: + ??? root:zhuqingyang
+Dec 14 10:29:33 zhuqingyang-Rev-1-0 su[7140]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 14 10:29:33 zhuqingyang-Rev-1-0 su[7140]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 14 10:29:33 zhuqingyang-Rev-1-0 su[7153]: Successful su for zhuqingyang by root
+Dec 14 10:29:33 zhuqingyang-Rev-1-0 su[7153]: + ??? root:zhuqingyang
+Dec 14 10:29:33 zhuqingyang-Rev-1-0 su[7153]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 14 10:29:33 zhuqingyang-Rev-1-0 su[7153]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 14 10:29:33 zhuqingyang-Rev-1-0 su[7168]: Successful su for zhuqingyang by root
+Dec 14 10:29:33 zhuqingyang-Rev-1-0 su[7168]: + ??? root:zhuqingyang
+Dec 14 10:29:33 zhuqingyang-Rev-1-0 su[7168]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 14 10:29:33 zhuqingyang-Rev-1-0 su[7168]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 14 10:29:33 zhuqingyang-Rev-1-0 su[7181]: Successful su for zhuqingyang by root
+Dec 14 10:29:33 zhuqingyang-Rev-1-0 su[7181]: + ??? root:zhuqingyang
+Dec 14 10:29:33 zhuqingyang-Rev-1-0 su[7181]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 14 10:29:33 zhuqingyang-Rev-1-0 su[7181]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 14 13:32:13 zhuqingyang-Rev-1-0 su[7430]: Successful su for zhuqingyang by root
+Dec 14 13:32:13 zhuqingyang-Rev-1-0 su[7430]: + ??? root:zhuqingyang
+Dec 14 13:32:13 zhuqingyang-Rev-1-0 su[7430]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 14 13:32:13 zhuqingyang-Rev-1-0 su[7430]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 14 13:32:13 zhuqingyang-Rev-1-0 su[7443]: Successful su for zhuqingyang by root
+Dec 14 13:32:13 zhuqingyang-Rev-1-0 su[7443]: + ??? root:zhuqingyang
+Dec 14 13:32:13 zhuqingyang-Rev-1-0 su[7443]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 14 13:32:13 zhuqingyang-Rev-1-0 su[7443]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 14 13:32:13 zhuqingyang-Rev-1-0 su[7455]: Successful su for zhuqingyang by root
+Dec 14 13:32:13 zhuqingyang-Rev-1-0 su[7455]: + ??? root:zhuqingyang
+Dec 14 13:32:13 zhuqingyang-Rev-1-0 su[7455]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 14 13:32:13 zhuqingyang-Rev-1-0 su[7455]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 14 13:32:13 zhuqingyang-Rev-1-0 su[7472]: Successful su for zhuqingyang by root
+Dec 14 13:32:13 zhuqingyang-Rev-1-0 su[7472]: + ??? root:zhuqingyang
+Dec 14 13:32:13 zhuqingyang-Rev-1-0 su[7472]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 14 13:32:13 zhuqingyang-Rev-1-0 su[7472]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 14 13:32:13 zhuqingyang-Rev-1-0 su[7487]: Successful su for zhuqingyang by root
+Dec 14 13:32:13 zhuqingyang-Rev-1-0 su[7487]: + ??? root:zhuqingyang
+Dec 14 13:32:13 zhuqingyang-Rev-1-0 su[7487]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 14 13:32:13 zhuqingyang-Rev-1-0 su[7487]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 14 13:32:13 zhuqingyang-Rev-1-0 su[7500]: Successful su for zhuqingyang by root
+Dec 14 13:32:13 zhuqingyang-Rev-1-0 su[7500]: + ??? root:zhuqingyang
+Dec 14 13:32:13 zhuqingyang-Rev-1-0 su[7500]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 14 13:32:13 zhuqingyang-Rev-1-0 su[7500]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 14 13:32:22 zhuqingyang-Rev-1-0 gnome-screensaver-dialog: gkr-pam: unlocked login keyring
+Dec 14 14:00:26 zhuqingyang-Rev-1-0 su[9289]: Successful su for zhuqingyang by root
+Dec 14 14:00:26 zhuqingyang-Rev-1-0 su[9289]: + ??? root:zhuqingyang
+Dec 14 14:00:26 zhuqingyang-Rev-1-0 su[9289]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 14 14:00:26 zhuqingyang-Rev-1-0 su[9289]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 14 14:00:26 zhuqingyang-Rev-1-0 su[9299]: Successful su for zhuqingyang by root
+Dec 14 14:00:26 zhuqingyang-Rev-1-0 su[9299]: + ??? root:zhuqingyang
+Dec 14 14:00:26 zhuqingyang-Rev-1-0 su[9299]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 14 14:00:27 zhuqingyang-Rev-1-0 su[9299]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 14 14:00:27 zhuqingyang-Rev-1-0 su[9314]: Successful su for zhuqingyang by root
+Dec 14 14:00:27 zhuqingyang-Rev-1-0 su[9314]: + ??? root:zhuqingyang
+Dec 14 14:00:27 zhuqingyang-Rev-1-0 su[9314]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 14 14:00:27 zhuqingyang-Rev-1-0 su[9314]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 14 14:00:27 zhuqingyang-Rev-1-0 su[9342]: Successful su for zhuqingyang by root
+Dec 14 14:00:27 zhuqingyang-Rev-1-0 su[9342]: + ??? root:zhuqingyang
+Dec 14 14:00:27 zhuqingyang-Rev-1-0 su[9342]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 14 14:00:27 zhuqingyang-Rev-1-0 su[9342]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 14 14:00:27 zhuqingyang-Rev-1-0 su[9352]: Successful su for zhuqingyang by root
+Dec 14 14:00:27 zhuqingyang-Rev-1-0 su[9352]: + ??? root:zhuqingyang
+Dec 14 14:00:27 zhuqingyang-Rev-1-0 su[9352]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 14 14:00:27 zhuqingyang-Rev-1-0 su[9352]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 14 14:00:27 zhuqingyang-Rev-1-0 su[9367]: Successful su for zhuqingyang by root
+Dec 14 14:00:27 zhuqingyang-Rev-1-0 su[9367]: + ??? root:zhuqingyang
+Dec 14 14:00:27 zhuqingyang-Rev-1-0 su[9367]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 14 14:00:27 zhuqingyang-Rev-1-0 su[9367]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 14 14:00:27 zhuqingyang-Rev-1-0 su[9380]: Successful su for zhuqingyang by root
+Dec 14 14:00:27 zhuqingyang-Rev-1-0 su[9380]: + ??? root:zhuqingyang
+Dec 14 14:00:27 zhuqingyang-Rev-1-0 su[9380]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 14 14:00:27 zhuqingyang-Rev-1-0 su[9380]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 14 14:00:27 zhuqingyang-Rev-1-0 su[9395]: Successful su for zhuqingyang by root
+Dec 14 14:00:27 zhuqingyang-Rev-1-0 su[9395]: + ??? root:zhuqingyang
+Dec 14 14:00:27 zhuqingyang-Rev-1-0 su[9395]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 14 14:00:27 zhuqingyang-Rev-1-0 su[9395]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 14 14:00:27 zhuqingyang-Rev-1-0 su[9408]: Successful su for zhuqingyang by root
+Dec 14 14:00:27 zhuqingyang-Rev-1-0 su[9408]: + ??? root:zhuqingyang
+Dec 14 14:00:27 zhuqingyang-Rev-1-0 su[9408]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 14 14:00:27 zhuqingyang-Rev-1-0 su[9408]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 14 16:48:44 zhuqingyang-Rev-1-0 su[9644]: Successful su for zhuqingyang by root
+Dec 14 16:48:44 zhuqingyang-Rev-1-0 su[9644]: + ??? root:zhuqingyang
+Dec 14 16:48:44 zhuqingyang-Rev-1-0 su[9644]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 14 16:48:44 zhuqingyang-Rev-1-0 su[9644]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 14 16:48:44 zhuqingyang-Rev-1-0 su[9657]: Successful su for zhuqingyang by root
+Dec 14 16:48:44 zhuqingyang-Rev-1-0 su[9657]: + ??? root:zhuqingyang
+Dec 14 16:48:44 zhuqingyang-Rev-1-0 su[9657]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 14 16:48:45 zhuqingyang-Rev-1-0 su[9657]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 14 16:48:45 zhuqingyang-Rev-1-0 su[9669]: Successful su for zhuqingyang by root
+Dec 14 16:48:45 zhuqingyang-Rev-1-0 su[9669]: + ??? root:zhuqingyang
+Dec 14 16:48:45 zhuqingyang-Rev-1-0 su[9669]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 14 16:48:45 zhuqingyang-Rev-1-0 su[9669]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 14 16:48:45 zhuqingyang-Rev-1-0 su[9687]: Successful su for zhuqingyang by root
+Dec 14 16:48:45 zhuqingyang-Rev-1-0 su[9687]: + ??? root:zhuqingyang
+Dec 14 16:48:45 zhuqingyang-Rev-1-0 su[9687]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 14 16:48:45 zhuqingyang-Rev-1-0 su[9687]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 14 16:48:45 zhuqingyang-Rev-1-0 su[9701]: Successful su for zhuqingyang by root
+Dec 14 16:48:45 zhuqingyang-Rev-1-0 su[9701]: + ??? root:zhuqingyang
+Dec 14 16:48:45 zhuqingyang-Rev-1-0 su[9701]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 14 16:48:45 zhuqingyang-Rev-1-0 su[9701]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 14 16:48:45 zhuqingyang-Rev-1-0 su[9714]: Successful su for zhuqingyang by root
+Dec 14 16:48:45 zhuqingyang-Rev-1-0 su[9714]: + ??? root:zhuqingyang
+Dec 14 16:48:45 zhuqingyang-Rev-1-0 su[9714]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 14 16:48:45 zhuqingyang-Rev-1-0 su[9714]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 14 16:48:49 zhuqingyang-Rev-1-0 gnome-screensaver-dialog: gkr-pam: unlocked login keyring
+Dec 14 17:17:02 zhuqingyang-Rev-1-0 CRON[10916]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 14 17:17:02 zhuqingyang-Rev-1-0 CRON[10916]: pam_unix(cron:session): session closed for user root
+Dec 14 17:48:20 zhuqingyang-Rev-1-0 su[11808]: Successful su for zhuqingyang by root
+Dec 14 17:48:20 zhuqingyang-Rev-1-0 su[11808]: + ??? root:zhuqingyang
+Dec 14 17:48:20 zhuqingyang-Rev-1-0 su[11808]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 14 17:48:20 zhuqingyang-Rev-1-0 su[11808]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 14 17:48:20 zhuqingyang-Rev-1-0 su[11818]: Successful su for zhuqingyang by root
+Dec 14 17:48:20 zhuqingyang-Rev-1-0 su[11818]: + ??? root:zhuqingyang
+Dec 14 17:48:20 zhuqingyang-Rev-1-0 su[11818]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 14 17:48:20 zhuqingyang-Rev-1-0 su[11818]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 14 17:48:20 zhuqingyang-Rev-1-0 su[11833]: Successful su for zhuqingyang by root
+Dec 14 17:48:20 zhuqingyang-Rev-1-0 su[11833]: + ??? root:zhuqingyang
+Dec 14 17:48:20 zhuqingyang-Rev-1-0 su[11833]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 14 17:48:20 zhuqingyang-Rev-1-0 su[11833]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 14 17:48:20 zhuqingyang-Rev-1-0 su[11861]: Successful su for zhuqingyang by root
+Dec 14 17:48:20 zhuqingyang-Rev-1-0 su[11861]: + ??? root:zhuqingyang
+Dec 14 17:48:20 zhuqingyang-Rev-1-0 su[11861]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 14 17:48:20 zhuqingyang-Rev-1-0 su[11861]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 14 17:48:20 zhuqingyang-Rev-1-0 su[11871]: Successful su for zhuqingyang by root
+Dec 14 17:48:20 zhuqingyang-Rev-1-0 su[11871]: + ??? root:zhuqingyang
+Dec 14 17:48:20 zhuqingyang-Rev-1-0 su[11871]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 14 17:48:20 zhuqingyang-Rev-1-0 su[11871]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 14 17:48:20 zhuqingyang-Rev-1-0 su[11886]: Successful su for zhuqingyang by root
+Dec 14 17:48:20 zhuqingyang-Rev-1-0 su[11886]: + ??? root:zhuqingyang
+Dec 14 17:48:20 zhuqingyang-Rev-1-0 su[11886]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 14 17:48:20 zhuqingyang-Rev-1-0 su[11886]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 14 17:48:20 zhuqingyang-Rev-1-0 su[11899]: Successful su for zhuqingyang by root
+Dec 14 17:48:20 zhuqingyang-Rev-1-0 su[11899]: + ??? root:zhuqingyang
+Dec 14 17:48:20 zhuqingyang-Rev-1-0 su[11899]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 14 17:48:20 zhuqingyang-Rev-1-0 su[11899]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 14 17:48:20 zhuqingyang-Rev-1-0 su[11914]: Successful su for zhuqingyang by root
+Dec 14 17:48:20 zhuqingyang-Rev-1-0 su[11914]: + ??? root:zhuqingyang
+Dec 14 17:48:20 zhuqingyang-Rev-1-0 su[11914]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 14 17:48:20 zhuqingyang-Rev-1-0 su[11914]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 14 17:48:20 zhuqingyang-Rev-1-0 su[11927]: Successful su for zhuqingyang by root
+Dec 14 17:48:20 zhuqingyang-Rev-1-0 su[11927]: + ??? root:zhuqingyang
+Dec 14 17:48:20 zhuqingyang-Rev-1-0 su[11927]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 14 17:48:20 zhuqingyang-Rev-1-0 su[11927]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 14 18:58:26 zhuqingyang-Rev-1-0 su[12167]: Successful su for zhuqingyang by root
+Dec 14 18:58:26 zhuqingyang-Rev-1-0 su[12167]: + ??? root:zhuqingyang
+Dec 14 18:58:26 zhuqingyang-Rev-1-0 su[12167]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 14 18:58:26 zhuqingyang-Rev-1-0 su[12167]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 14 18:58:26 zhuqingyang-Rev-1-0 su[12180]: Successful su for zhuqingyang by root
+Dec 14 18:58:26 zhuqingyang-Rev-1-0 su[12180]: + ??? root:zhuqingyang
+Dec 14 18:58:26 zhuqingyang-Rev-1-0 su[12180]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 14 18:58:26 zhuqingyang-Rev-1-0 su[12180]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 14 18:58:26 zhuqingyang-Rev-1-0 su[12192]: Successful su for zhuqingyang by root
+Dec 14 18:58:26 zhuqingyang-Rev-1-0 su[12192]: + ??? root:zhuqingyang
+Dec 14 18:58:26 zhuqingyang-Rev-1-0 su[12192]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 14 18:58:26 zhuqingyang-Rev-1-0 su[12192]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 14 18:58:26 zhuqingyang-Rev-1-0 su[12209]: Successful su for zhuqingyang by root
+Dec 14 18:58:26 zhuqingyang-Rev-1-0 su[12209]: + ??? root:zhuqingyang
+Dec 14 18:58:26 zhuqingyang-Rev-1-0 su[12209]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 14 18:58:26 zhuqingyang-Rev-1-0 su[12209]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 14 18:58:26 zhuqingyang-Rev-1-0 su[12225]: Successful su for zhuqingyang by root
+Dec 14 18:58:26 zhuqingyang-Rev-1-0 su[12225]: + ??? root:zhuqingyang
+Dec 14 18:58:26 zhuqingyang-Rev-1-0 su[12225]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 14 18:58:26 zhuqingyang-Rev-1-0 su[12225]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 14 18:58:26 zhuqingyang-Rev-1-0 su[12237]: Successful su for zhuqingyang by root
+Dec 14 18:58:26 zhuqingyang-Rev-1-0 su[12237]: + ??? root:zhuqingyang
+Dec 14 18:58:26 zhuqingyang-Rev-1-0 su[12237]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 14 18:58:26 zhuqingyang-Rev-1-0 su[12237]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 14 18:58:36 zhuqingyang-Rev-1-0 gnome-screensaver-dialog: gkr-pam: unlocked login keyring
+Dec 14 19:08:41 zhuqingyang-Rev-1-0 polkitd(authority=local): Unregistered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session2 (system bus name :1.46, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+Dec 14 22:04:52 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session opened for user lightdm by (uid=0)
+Dec 14 22:04:52 zhuqingyang-Rev-1-0 lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Dec 14 22:04:53 zhuqingyang-Rev-1-0 lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "zhuqingyang"
+Dec 14 22:04:53 zhuqingyang-Rev-1-0 dbus[812]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.24" (uid=113 pid=1517 comm="/usr/lib/indicator-datetime/indicator-datetime-ser") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.14" (uid=0 pid=1241 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Dec 14 22:04:58 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session closed for user lightdm
+Dec 14 22:04:59 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session opened for user zhuqingyang by (uid=0)
+Dec 14 22:04:59 zhuqingyang-Rev-1-0 lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Dec 14 22:05:01 zhuqingyang-Rev-1-0 polkitd(authority=local): Registered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session2 (system bus name :1.46 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+Dec 14 22:06:05 zhuqingyang-Rev-1-0 gnome-keyring-daemon[1722]: couldn't allocate secure memory to keep passwords and or keys from being written to the disk
+Dec 14 22:06:31 zhuqingyang-Rev-1-0 dbus[812]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.63" (uid=1000 pid=2191 comm="/usr/lib/indicator-datetime/indicator-datetime-ser") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.14" (uid=0 pid=1241 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Dec 14 22:17:01 zhuqingyang-Rev-1-0 CRON[3110]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 14 22:17:01 zhuqingyang-Rev-1-0 CRON[3110]: pam_unix(cron:session): session closed for user root
+Dec 14 23:17:01 zhuqingyang-Rev-1-0 CRON[12899]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 14 23:17:01 zhuqingyang-Rev-1-0 CRON[12899]: pam_unix(cron:session): session closed for user root
+Dec 15 00:17:01 zhuqingyang-Rev-1-0 CRON[23794]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 15 00:17:01 zhuqingyang-Rev-1-0 CRON[23794]: pam_unix(cron:session): session closed for user root
+Dec 15 00:27:40 zhuqingyang-Rev-1-0 polkitd(authority=local): Unregistered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session2 (system bus name :1.46, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+Dec 15 09:40:37 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session opened for user lightdm by (uid=0)
+Dec 15 09:40:37 zhuqingyang-Rev-1-0 lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Dec 15 09:40:38 zhuqingyang-Rev-1-0 lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "zhuqingyang"
+Dec 15 09:40:38 zhuqingyang-Rev-1-0 dbus[834]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.23" (uid=113 pid=1449 comm="/usr/lib/indicator-datetime/indicator-datetime-ser") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.14" (uid=0 pid=1258 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Dec 15 09:41:01 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session closed for user lightdm
+Dec 15 09:41:01 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session opened for user zhuqingyang by (uid=0)
+Dec 15 09:41:01 zhuqingyang-Rev-1-0 lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Dec 15 09:41:04 zhuqingyang-Rev-1-0 polkitd(authority=local): Registered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session2 (system bus name :1.46 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+Dec 15 09:42:02 zhuqingyang-Rev-1-0 dbus[834]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.63" (uid=1000 pid=2177 comm="/usr/lib/indicator-datetime/indicator-datetime-ser") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.14" (uid=0 pid=1258 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Dec 15 09:42:15 zhuqingyang-Rev-1-0 gnome-keyring-daemon[1733]: couldn't allocate secure memory to keep passwords and or keys from being written to the disk
+Dec 15 09:57:38 zhuqingyang-Rev-1-0 su[3994]: Successful su for zhuqingyang by root
+Dec 15 09:57:38 zhuqingyang-Rev-1-0 su[3994]: + ??? root:zhuqingyang
+Dec 15 09:57:38 zhuqingyang-Rev-1-0 su[3994]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 15 09:57:39 zhuqingyang-Rev-1-0 su[3994]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 15 09:57:39 zhuqingyang-Rev-1-0 su[4004]: Successful su for zhuqingyang by root
+Dec 15 09:57:39 zhuqingyang-Rev-1-0 su[4004]: + ??? root:zhuqingyang
+Dec 15 09:57:39 zhuqingyang-Rev-1-0 su[4004]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 15 09:57:39 zhuqingyang-Rev-1-0 su[4004]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 15 09:57:39 zhuqingyang-Rev-1-0 su[4019]: Successful su for zhuqingyang by root
+Dec 15 09:57:39 zhuqingyang-Rev-1-0 su[4019]: + ??? root:zhuqingyang
+Dec 15 09:57:39 zhuqingyang-Rev-1-0 su[4019]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 15 09:57:39 zhuqingyang-Rev-1-0 su[4019]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 15 09:57:39 zhuqingyang-Rev-1-0 su[4047]: Successful su for zhuqingyang by root
+Dec 15 09:57:39 zhuqingyang-Rev-1-0 su[4047]: + ??? root:zhuqingyang
+Dec 15 09:57:39 zhuqingyang-Rev-1-0 su[4047]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 15 09:57:39 zhuqingyang-Rev-1-0 su[4047]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 15 09:57:39 zhuqingyang-Rev-1-0 su[4057]: Successful su for zhuqingyang by root
+Dec 15 09:57:39 zhuqingyang-Rev-1-0 su[4057]: + ??? root:zhuqingyang
+Dec 15 09:57:39 zhuqingyang-Rev-1-0 su[4057]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 15 09:57:39 zhuqingyang-Rev-1-0 su[4057]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 15 09:57:39 zhuqingyang-Rev-1-0 su[4072]: Successful su for zhuqingyang by root
+Dec 15 09:57:39 zhuqingyang-Rev-1-0 su[4072]: + ??? root:zhuqingyang
+Dec 15 09:57:39 zhuqingyang-Rev-1-0 su[4072]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 15 09:57:39 zhuqingyang-Rev-1-0 su[4072]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 15 09:57:39 zhuqingyang-Rev-1-0 su[4085]: Successful su for zhuqingyang by root
+Dec 15 09:57:39 zhuqingyang-Rev-1-0 su[4085]: + ??? root:zhuqingyang
+Dec 15 09:57:39 zhuqingyang-Rev-1-0 su[4085]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 15 09:57:39 zhuqingyang-Rev-1-0 su[4085]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 15 09:57:39 zhuqingyang-Rev-1-0 su[4100]: Successful su for zhuqingyang by root
+Dec 15 09:57:39 zhuqingyang-Rev-1-0 su[4100]: + ??? root:zhuqingyang
+Dec 15 09:57:39 zhuqingyang-Rev-1-0 su[4100]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 15 09:57:39 zhuqingyang-Rev-1-0 su[4100]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 15 09:57:39 zhuqingyang-Rev-1-0 su[4113]: Successful su for zhuqingyang by root
+Dec 15 09:57:39 zhuqingyang-Rev-1-0 su[4113]: + ??? root:zhuqingyang
+Dec 15 09:57:39 zhuqingyang-Rev-1-0 su[4113]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 15 09:57:39 zhuqingyang-Rev-1-0 su[4113]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 15 10:40:57 zhuqingyang-Rev-1-0 su[4378]: Successful su for zhuqingyang by root
+Dec 15 10:40:57 zhuqingyang-Rev-1-0 su[4378]: + ??? root:zhuqingyang
+Dec 15 10:40:57 zhuqingyang-Rev-1-0 su[4378]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 15 10:40:57 zhuqingyang-Rev-1-0 su[4378]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 15 10:40:57 zhuqingyang-Rev-1-0 su[4391]: Successful su for zhuqingyang by root
+Dec 15 10:40:57 zhuqingyang-Rev-1-0 su[4391]: + ??? root:zhuqingyang
+Dec 15 10:40:57 zhuqingyang-Rev-1-0 su[4391]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 15 10:40:57 zhuqingyang-Rev-1-0 su[4391]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 15 10:40:57 zhuqingyang-Rev-1-0 su[4403]: Successful su for zhuqingyang by root
+Dec 15 10:40:57 zhuqingyang-Rev-1-0 su[4403]: + ??? root:zhuqingyang
+Dec 15 10:40:57 zhuqingyang-Rev-1-0 su[4403]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 15 10:40:57 zhuqingyang-Rev-1-0 su[4403]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 15 10:40:57 zhuqingyang-Rev-1-0 su[4420]: Successful su for zhuqingyang by root
+Dec 15 10:40:57 zhuqingyang-Rev-1-0 su[4420]: + ??? root:zhuqingyang
+Dec 15 10:40:57 zhuqingyang-Rev-1-0 su[4420]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 15 10:40:57 zhuqingyang-Rev-1-0 su[4420]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 15 10:40:57 zhuqingyang-Rev-1-0 su[4435]: Successful su for zhuqingyang by root
+Dec 15 10:40:57 zhuqingyang-Rev-1-0 su[4435]: + ??? root:zhuqingyang
+Dec 15 10:40:57 zhuqingyang-Rev-1-0 su[4435]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 15 10:40:57 zhuqingyang-Rev-1-0 su[4435]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 15 10:40:57 zhuqingyang-Rev-1-0 su[4448]: Successful su for zhuqingyang by root
+Dec 15 10:40:57 zhuqingyang-Rev-1-0 su[4448]: + ??? root:zhuqingyang
+Dec 15 10:40:57 zhuqingyang-Rev-1-0 su[4448]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 15 10:40:57 zhuqingyang-Rev-1-0 su[4448]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 15 10:41:18 zhuqingyang-Rev-1-0 gnome-screensaver-dialog: gkr-pam: unlocked login keyring
+Dec 15 11:17:01 zhuqingyang-Rev-1-0 CRON[7546]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 15 11:17:01 zhuqingyang-Rev-1-0 CRON[7546]: pam_unix(cron:session): session closed for user root
+Dec 15 11:42:38 zhuqingyang-Rev-1-0 gnome-screensaver-dialog: gkr-pam: unlocked login keyring
+Dec 15 12:17:01 zhuqingyang-Rev-1-0 CRON[13261]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 15 12:17:01 zhuqingyang-Rev-1-0 CRON[13261]: pam_unix(cron:session): session closed for user root
+Dec 15 12:35:30 zhuqingyang-Rev-1-0 su[15069]: Successful su for zhuqingyang by root
+Dec 15 12:35:30 zhuqingyang-Rev-1-0 su[15069]: + ??? root:zhuqingyang
+Dec 15 12:35:30 zhuqingyang-Rev-1-0 su[15069]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 15 12:35:30 zhuqingyang-Rev-1-0 su[15069]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 15 12:35:30 zhuqingyang-Rev-1-0 su[15080]: Successful su for zhuqingyang by root
+Dec 15 12:35:30 zhuqingyang-Rev-1-0 su[15080]: + ??? root:zhuqingyang
+Dec 15 12:35:30 zhuqingyang-Rev-1-0 su[15080]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 15 12:35:30 zhuqingyang-Rev-1-0 su[15080]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 15 12:35:30 zhuqingyang-Rev-1-0 su[15095]: Successful su for zhuqingyang by root
+Dec 15 12:35:30 zhuqingyang-Rev-1-0 su[15095]: + ??? root:zhuqingyang
+Dec 15 12:35:30 zhuqingyang-Rev-1-0 su[15095]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 15 12:35:30 zhuqingyang-Rev-1-0 su[15095]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 15 12:35:30 zhuqingyang-Rev-1-0 su[15122]: Successful su for zhuqingyang by root
+Dec 15 12:35:30 zhuqingyang-Rev-1-0 su[15122]: + ??? root:zhuqingyang
+Dec 15 12:35:30 zhuqingyang-Rev-1-0 su[15122]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 15 12:35:30 zhuqingyang-Rev-1-0 su[15122]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 15 12:35:30 zhuqingyang-Rev-1-0 su[15132]: Successful su for zhuqingyang by root
+Dec 15 12:35:30 zhuqingyang-Rev-1-0 su[15132]: + ??? root:zhuqingyang
+Dec 15 12:35:30 zhuqingyang-Rev-1-0 su[15132]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 15 12:35:30 zhuqingyang-Rev-1-0 su[15132]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 15 12:35:30 zhuqingyang-Rev-1-0 su[15147]: Successful su for zhuqingyang by root
+Dec 15 12:35:30 zhuqingyang-Rev-1-0 su[15147]: + ??? root:zhuqingyang
+Dec 15 12:35:30 zhuqingyang-Rev-1-0 su[15147]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 15 12:35:30 zhuqingyang-Rev-1-0 su[15147]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 15 12:35:30 zhuqingyang-Rev-1-0 su[15160]: Successful su for zhuqingyang by root
+Dec 15 12:35:30 zhuqingyang-Rev-1-0 su[15160]: + ??? root:zhuqingyang
+Dec 15 12:35:30 zhuqingyang-Rev-1-0 su[15160]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 15 12:35:30 zhuqingyang-Rev-1-0 su[15160]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 15 12:35:30 zhuqingyang-Rev-1-0 su[15175]: Successful su for zhuqingyang by root
+Dec 15 12:35:30 zhuqingyang-Rev-1-0 su[15175]: + ??? root:zhuqingyang
+Dec 15 12:35:30 zhuqingyang-Rev-1-0 su[15175]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 15 12:35:30 zhuqingyang-Rev-1-0 su[15175]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 15 12:35:30 zhuqingyang-Rev-1-0 su[15188]: Successful su for zhuqingyang by root
+Dec 15 12:35:30 zhuqingyang-Rev-1-0 su[15188]: + ??? root:zhuqingyang
+Dec 15 12:35:30 zhuqingyang-Rev-1-0 su[15188]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 15 12:35:30 zhuqingyang-Rev-1-0 su[15188]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 15 12:44:57 zhuqingyang-Rev-1-0 su[15424]: Successful su for zhuqingyang by root
+Dec 15 12:44:57 zhuqingyang-Rev-1-0 su[15424]: + ??? root:zhuqingyang
+Dec 15 12:44:57 zhuqingyang-Rev-1-0 su[15424]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 15 12:44:57 zhuqingyang-Rev-1-0 su[15424]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 15 12:44:57 zhuqingyang-Rev-1-0 su[15440]: Successful su for zhuqingyang by root
+Dec 15 12:44:57 zhuqingyang-Rev-1-0 su[15440]: + ??? root:zhuqingyang
+Dec 15 12:44:57 zhuqingyang-Rev-1-0 su[15440]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 15 12:44:57 zhuqingyang-Rev-1-0 su[15440]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 15 12:44:57 zhuqingyang-Rev-1-0 su[15449]: Successful su for zhuqingyang by root
+Dec 15 12:44:57 zhuqingyang-Rev-1-0 su[15449]: + ??? root:zhuqingyang
+Dec 15 12:44:57 zhuqingyang-Rev-1-0 su[15449]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 15 12:44:57 zhuqingyang-Rev-1-0 su[15449]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 15 12:44:57 zhuqingyang-Rev-1-0 su[15467]: Successful su for zhuqingyang by root
+Dec 15 12:44:57 zhuqingyang-Rev-1-0 su[15467]: + ??? root:zhuqingyang
+Dec 15 12:44:57 zhuqingyang-Rev-1-0 su[15467]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 15 12:44:57 zhuqingyang-Rev-1-0 su[15467]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 15 12:44:57 zhuqingyang-Rev-1-0 su[15481]: Successful su for zhuqingyang by root
+Dec 15 12:44:57 zhuqingyang-Rev-1-0 su[15481]: + ??? root:zhuqingyang
+Dec 15 12:44:57 zhuqingyang-Rev-1-0 su[15481]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 15 12:44:57 zhuqingyang-Rev-1-0 su[15481]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 15 12:44:57 zhuqingyang-Rev-1-0 su[15494]: Successful su for zhuqingyang by root
+Dec 15 12:44:57 zhuqingyang-Rev-1-0 su[15494]: + ??? root:zhuqingyang
+Dec 15 12:44:57 zhuqingyang-Rev-1-0 su[15494]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 15 12:44:57 zhuqingyang-Rev-1-0 su[15494]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 15 12:45:03 zhuqingyang-Rev-1-0 gnome-screensaver-dialog: gkr-pam: unlocked login keyring
+Dec 15 12:51:52 zhuqingyang-Rev-1-0 polkitd(authority=local): Unregistered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session2 (system bus name :1.46, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+Dec 15 13:40:41 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session opened for user lightdm by (uid=0)
+Dec 15 13:40:41 zhuqingyang-Rev-1-0 lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Dec 15 13:40:43 zhuqingyang-Rev-1-0 lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "zhuqingyang"
+Dec 15 13:40:43 zhuqingyang-Rev-1-0 dbus[888]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.24" (uid=113 pid=1559 comm="/usr/lib/indicator-datetime/indicator-datetime-ser") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.13" (uid=0 pid=1270 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Dec 15 13:40:47 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session closed for user lightdm
+Dec 15 13:40:47 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session opened for user zhuqingyang by (uid=0)
+Dec 15 13:40:47 zhuqingyang-Rev-1-0 lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Dec 15 13:40:50 zhuqingyang-Rev-1-0 polkitd(authority=local): Registered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session2 (system bus name :1.45 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+Dec 15 13:41:48 zhuqingyang-Rev-1-0 dbus[888]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.59" (uid=1000 pid=2116 comm="/usr/lib/indicator-datetime/indicator-datetime-ser") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.13" (uid=0 pid=1270 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Dec 15 13:41:56 zhuqingyang-Rev-1-0 gnome-keyring-daemon[1763]: couldn't allocate secure memory to keep passwords and or keys from being written to the disk
+Dec 15 14:17:01 zhuqingyang-Rev-1-0 CRON[8122]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 15 14:17:01 zhuqingyang-Rev-1-0 CRON[8122]: pam_unix(cron:session): session closed for user root
+Dec 15 14:23:44 zhuqingyang-Rev-1-0 polkitd(authority=local): Unregistered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session2 (system bus name :1.45, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+Dec 15 21:30:09 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session opened for user lightdm by (uid=0)
+Dec 15 21:30:09 zhuqingyang-Rev-1-0 lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Dec 15 21:30:11 zhuqingyang-Rev-1-0 lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "zhuqingyang"
+Dec 15 21:30:11 zhuqingyang-Rev-1-0 dbus[788]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.25" (uid=113 pid=1507 comm="/usr/lib/indicator-datetime/indicator-datetime-ser") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.14" (uid=0 pid=1211 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Dec 15 21:30:24 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session closed for user lightdm
+Dec 15 21:30:24 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session opened for user zhuqingyang by (uid=0)
+Dec 15 21:30:24 zhuqingyang-Rev-1-0 lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Dec 15 21:30:27 zhuqingyang-Rev-1-0 polkitd(authority=local): Registered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session2 (system bus name :1.46 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+Dec 15 21:31:29 zhuqingyang-Rev-1-0 dbus[788]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.63" (uid=1000 pid=2166 comm="/usr/lib/indicator-datetime/indicator-datetime-ser") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.14" (uid=0 pid=1211 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Dec 15 21:31:35 zhuqingyang-Rev-1-0 gnome-keyring-daemon[1702]: couldn't allocate secure memory to keep passwords and or keys from being written to the disk
+Dec 15 21:58:33 zhuqingyang-Rev-1-0 gnome-screensaver-dialog: gkr-pam: unlocked login keyring
+Dec 15 22:17:01 zhuqingyang-Rev-1-0 CRON[4416]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 15 22:17:02 zhuqingyang-Rev-1-0 CRON[4416]: pam_unix(cron:session): session closed for user root
+Dec 15 22:35:02 zhuqingyang-Rev-1-0 polkitd(authority=local): Unregistered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session2 (system bus name :1.46, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+Dec 15 22:35:03 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session closed for user zhuqingyang
+Dec 16 07:13:35 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session opened for user lightdm by (uid=0)
+Dec 16 07:13:35 zhuqingyang-Rev-1-0 lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Dec 16 07:13:37 zhuqingyang-Rev-1-0 lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "zhuqingyang"
+Dec 16 07:13:37 zhuqingyang-Rev-1-0 dbus[831]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.24" (uid=113 pid=1457 comm="/usr/lib/indicator-datetime/indicator-datetime-ser") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.14" (uid=0 pid=1264 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Dec 16 07:14:13 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session closed for user lightdm
+Dec 16 07:14:13 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session opened for user zhuqingyang by (uid=0)
+Dec 16 07:14:13 zhuqingyang-Rev-1-0 lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Dec 16 07:14:16 zhuqingyang-Rev-1-0 polkitd(authority=local): Registered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session2 (system bus name :1.47 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+Dec 16 07:15:22 zhuqingyang-Rev-1-0 gnome-keyring-daemon[1738]: couldn't allocate secure memory to keep passwords and or keys from being written to the disk
+Dec 16 07:15:29 zhuqingyang-Rev-1-0 dbus[831]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.63" (uid=1000 pid=2211 comm="/usr/lib/indicator-datetime/indicator-datetime-ser") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.14" (uid=0 pid=1264 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Dec 16 07:17:01 zhuqingyang-Rev-1-0 CRON[2778]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 16 07:17:01 zhuqingyang-Rev-1-0 CRON[2778]: pam_unix(cron:session): session closed for user root
+Dec 16 07:30:01 zhuqingyang-Rev-1-0 CRON[3799]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 16 07:30:01 zhuqingyang-Rev-1-0 CRON[3799]: pam_unix(cron:session): session closed for user root
+Dec 16 08:17:01 zhuqingyang-Rev-1-0 CRON[6253]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 16 08:17:01 zhuqingyang-Rev-1-0 CRON[6253]: pam_unix(cron:session): session closed for user root
+Dec 16 08:27:52 zhuqingyang-Rev-1-0 gnome-screensaver-dialog: gkr-pam: unlocked login keyring
+Dec 16 08:28:06 zhuqingyang-Rev-1-0 polkitd(authority=local): Unregistered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session2 (system bus name :1.47, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+Dec 16 18:06:37 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session opened for user lightdm by (uid=0)
+Dec 16 18:06:37 zhuqingyang-Rev-1-0 lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Dec 16 18:06:39 zhuqingyang-Rev-1-0 lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "zhuqingyang"
+Dec 16 18:06:39 zhuqingyang-Rev-1-0 dbus[789]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.27" (uid=113 pid=1614 comm="/usr/lib/indicator-datetime/indicator-datetime-ser") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.14" (uid=0 pid=1237 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Dec 16 18:06:44 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session closed for user lightdm
+Dec 16 18:06:44 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session opened for user zhuqingyang by (uid=0)
+Dec 16 18:06:44 zhuqingyang-Rev-1-0 lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Dec 16 18:06:47 zhuqingyang-Rev-1-0 polkitd(authority=local): Registered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session2 (system bus name :1.46 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+Dec 16 18:07:48 zhuqingyang-Rev-1-0 dbus[789]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.61" (uid=1000 pid=2053 comm="/usr/lib/indicator-datetime/indicator-datetime-ser") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.14" (uid=0 pid=1237 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Dec 16 18:08:01 zhuqingyang-Rev-1-0 gnome-keyring-daemon[1727]: couldn't allocate secure memory to keep passwords and or keys from being written to the disk
+Dec 16 18:17:01 zhuqingyang-Rev-1-0 CRON[4240]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 16 18:17:01 zhuqingyang-Rev-1-0 CRON[4240]: pam_unix(cron:session): session closed for user root
+Dec 16 18:26:06 zhuqingyang-Rev-1-0 su[5781]: Successful su for zhuqingyang by root
+Dec 16 18:26:06 zhuqingyang-Rev-1-0 su[5781]: + ??? root:zhuqingyang
+Dec 16 18:26:06 zhuqingyang-Rev-1-0 su[5781]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 16 18:26:07 zhuqingyang-Rev-1-0 su[5781]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 16 18:26:07 zhuqingyang-Rev-1-0 su[5791]: Successful su for zhuqingyang by root
+Dec 16 18:26:07 zhuqingyang-Rev-1-0 su[5791]: + ??? root:zhuqingyang
+Dec 16 18:26:07 zhuqingyang-Rev-1-0 su[5791]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 16 18:26:07 zhuqingyang-Rev-1-0 su[5791]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 16 18:26:07 zhuqingyang-Rev-1-0 su[5806]: Successful su for zhuqingyang by root
+Dec 16 18:26:07 zhuqingyang-Rev-1-0 su[5806]: + ??? root:zhuqingyang
+Dec 16 18:26:07 zhuqingyang-Rev-1-0 su[5806]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 16 18:26:07 zhuqingyang-Rev-1-0 su[5806]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 16 18:26:07 zhuqingyang-Rev-1-0 su[5834]: Successful su for zhuqingyang by root
+Dec 16 18:26:07 zhuqingyang-Rev-1-0 su[5834]: + ??? root:zhuqingyang
+Dec 16 18:26:07 zhuqingyang-Rev-1-0 su[5834]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 16 18:26:07 zhuqingyang-Rev-1-0 su[5834]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 16 18:26:07 zhuqingyang-Rev-1-0 su[5844]: Successful su for zhuqingyang by root
+Dec 16 18:26:07 zhuqingyang-Rev-1-0 su[5844]: + ??? root:zhuqingyang
+Dec 16 18:26:07 zhuqingyang-Rev-1-0 su[5844]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 16 18:26:07 zhuqingyang-Rev-1-0 su[5844]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 16 18:26:07 zhuqingyang-Rev-1-0 su[5859]: Successful su for zhuqingyang by root
+Dec 16 18:26:07 zhuqingyang-Rev-1-0 su[5859]: + ??? root:zhuqingyang
+Dec 16 18:26:07 zhuqingyang-Rev-1-0 su[5859]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 16 18:26:07 zhuqingyang-Rev-1-0 su[5859]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 16 18:26:07 zhuqingyang-Rev-1-0 su[5872]: Successful su for zhuqingyang by root
+Dec 16 18:26:07 zhuqingyang-Rev-1-0 su[5872]: + ??? root:zhuqingyang
+Dec 16 18:26:07 zhuqingyang-Rev-1-0 su[5872]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 16 18:26:07 zhuqingyang-Rev-1-0 su[5872]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 16 18:26:07 zhuqingyang-Rev-1-0 su[5887]: Successful su for zhuqingyang by root
+Dec 16 18:26:07 zhuqingyang-Rev-1-0 su[5887]: + ??? root:zhuqingyang
+Dec 16 18:26:07 zhuqingyang-Rev-1-0 su[5887]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 16 18:26:07 zhuqingyang-Rev-1-0 su[5887]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 16 18:26:07 zhuqingyang-Rev-1-0 su[5900]: Successful su for zhuqingyang by root
+Dec 16 18:26:07 zhuqingyang-Rev-1-0 su[5900]: + ??? root:zhuqingyang
+Dec 16 18:26:07 zhuqingyang-Rev-1-0 su[5900]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 16 18:26:07 zhuqingyang-Rev-1-0 su[5900]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 16 20:16:42 zhuqingyang-Rev-1-0 su[6135]: Successful su for zhuqingyang by root
+Dec 16 20:16:42 zhuqingyang-Rev-1-0 su[6135]: + ??? root:zhuqingyang
+Dec 16 20:16:42 zhuqingyang-Rev-1-0 su[6135]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 16 20:16:42 zhuqingyang-Rev-1-0 su[6135]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 16 20:16:42 zhuqingyang-Rev-1-0 su[6148]: Successful su for zhuqingyang by root
+Dec 16 20:16:42 zhuqingyang-Rev-1-0 su[6148]: + ??? root:zhuqingyang
+Dec 16 20:16:42 zhuqingyang-Rev-1-0 su[6148]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 16 20:16:42 zhuqingyang-Rev-1-0 su[6148]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 16 20:16:42 zhuqingyang-Rev-1-0 su[6160]: Successful su for zhuqingyang by root
+Dec 16 20:16:42 zhuqingyang-Rev-1-0 su[6160]: + ??? root:zhuqingyang
+Dec 16 20:16:42 zhuqingyang-Rev-1-0 su[6160]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 16 20:16:42 zhuqingyang-Rev-1-0 su[6160]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 16 20:16:42 zhuqingyang-Rev-1-0 su[6177]: Successful su for zhuqingyang by root
+Dec 16 20:16:42 zhuqingyang-Rev-1-0 su[6177]: + ??? root:zhuqingyang
+Dec 16 20:16:42 zhuqingyang-Rev-1-0 su[6177]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 16 20:16:42 zhuqingyang-Rev-1-0 su[6177]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 16 20:16:42 zhuqingyang-Rev-1-0 su[6193]: Successful su for zhuqingyang by root
+Dec 16 20:16:42 zhuqingyang-Rev-1-0 su[6193]: + ??? root:zhuqingyang
+Dec 16 20:16:42 zhuqingyang-Rev-1-0 su[6193]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 16 20:16:43 zhuqingyang-Rev-1-0 su[6193]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 16 20:16:43 zhuqingyang-Rev-1-0 su[6205]: Successful su for zhuqingyang by root
+Dec 16 20:16:43 zhuqingyang-Rev-1-0 su[6205]: + ??? root:zhuqingyang
+Dec 16 20:16:43 zhuqingyang-Rev-1-0 su[6205]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 16 20:16:43 zhuqingyang-Rev-1-0 su[6205]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 16 20:16:47 zhuqingyang-Rev-1-0 gnome-screensaver-dialog: gkr-pam: unlocked login keyring
+Dec 16 20:17:30 zhuqingyang-Rev-1-0 CRON[6502]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 16 20:17:30 zhuqingyang-Rev-1-0 CRON[6502]: pam_unix(cron:session): session closed for user root
+Dec 16 21:15:58 zhuqingyang-Rev-1-0 polkitd(authority=local): Unregistered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session2 (system bus name :1.46, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+Dec 17 08:27:18 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session opened for user lightdm by (uid=0)
+Dec 17 08:27:18 zhuqingyang-Rev-1-0 lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Dec 17 08:27:20 zhuqingyang-Rev-1-0 lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "zhuqingyang"
+Dec 17 08:27:20 zhuqingyang-Rev-1-0 dbus[843]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.25" (uid=113 pid=1523 comm="/usr/lib/indicator-datetime/indicator-datetime-ser") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.14" (uid=0 pid=1237 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Dec 17 08:29:19 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session closed for user lightdm
+Dec 17 08:29:19 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session opened for user zhuqingyang by (uid=0)
+Dec 17 08:29:19 zhuqingyang-Rev-1-0 lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Dec 17 08:29:22 zhuqingyang-Rev-1-0 polkitd(authority=local): Registered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session2 (system bus name :1.47 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+Dec 17 08:30:26 zhuqingyang-Rev-1-0 gnome-keyring-daemon[1780]: couldn't allocate secure memory to keep passwords and or keys from being written to the disk
+Dec 17 08:30:50 zhuqingyang-Rev-1-0 dbus[843]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.62" (uid=1000 pid=2189 comm="/usr/lib/indicator-datetime/indicator-datetime-ser") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.14" (uid=0 pid=1237 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Dec 17 08:30:51 zhuqingyang-Rev-1-0 dbus[843]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.68" (uid=1000 pid=2340 comm="/usr/lib/indicator-datetime/indicator-datetime-ser") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.14" (uid=0 pid=1237 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Dec 17 09:17:01 zhuqingyang-Rev-1-0 CRON[4670]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 17 09:17:01 zhuqingyang-Rev-1-0 CRON[4670]: pam_unix(cron:session): session closed for user root
+Dec 17 09:45:54 zhuqingyang-Rev-1-0 su[5912]: Successful su for zhuqingyang by root
+Dec 17 09:45:54 zhuqingyang-Rev-1-0 su[5912]: + ??? root:zhuqingyang
+Dec 17 09:45:54 zhuqingyang-Rev-1-0 su[5912]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 17 09:45:54 zhuqingyang-Rev-1-0 su[5912]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 17 09:45:54 zhuqingyang-Rev-1-0 su[5922]: Successful su for zhuqingyang by root
+Dec 17 09:45:54 zhuqingyang-Rev-1-0 su[5922]: + ??? root:zhuqingyang
+Dec 17 09:45:54 zhuqingyang-Rev-1-0 su[5922]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 17 09:45:54 zhuqingyang-Rev-1-0 su[5922]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 17 09:45:54 zhuqingyang-Rev-1-0 su[5937]: Successful su for zhuqingyang by root
+Dec 17 09:45:54 zhuqingyang-Rev-1-0 su[5937]: + ??? root:zhuqingyang
+Dec 17 09:45:54 zhuqingyang-Rev-1-0 su[5937]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 17 09:45:54 zhuqingyang-Rev-1-0 su[5937]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 17 09:45:54 zhuqingyang-Rev-1-0 su[5965]: Successful su for zhuqingyang by root
+Dec 17 09:45:54 zhuqingyang-Rev-1-0 su[5965]: + ??? root:zhuqingyang
+Dec 17 09:45:54 zhuqingyang-Rev-1-0 su[5965]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 17 09:45:54 zhuqingyang-Rev-1-0 su[5965]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 17 09:45:54 zhuqingyang-Rev-1-0 su[5975]: Successful su for zhuqingyang by root
+Dec 17 09:45:54 zhuqingyang-Rev-1-0 su[5975]: + ??? root:zhuqingyang
+Dec 17 09:45:54 zhuqingyang-Rev-1-0 su[5975]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 17 09:45:54 zhuqingyang-Rev-1-0 su[5975]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 17 09:45:54 zhuqingyang-Rev-1-0 su[5990]: Successful su for zhuqingyang by root
+Dec 17 09:45:54 zhuqingyang-Rev-1-0 su[5990]: + ??? root:zhuqingyang
+Dec 17 09:45:54 zhuqingyang-Rev-1-0 su[5990]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 17 09:45:55 zhuqingyang-Rev-1-0 su[5990]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 17 09:45:55 zhuqingyang-Rev-1-0 su[6003]: Successful su for zhuqingyang by root
+Dec 17 09:45:55 zhuqingyang-Rev-1-0 su[6003]: + ??? root:zhuqingyang
+Dec 17 09:45:55 zhuqingyang-Rev-1-0 su[6003]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 17 09:45:55 zhuqingyang-Rev-1-0 su[6003]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 17 09:45:55 zhuqingyang-Rev-1-0 su[6018]: Successful su for zhuqingyang by root
+Dec 17 09:45:55 zhuqingyang-Rev-1-0 su[6018]: + ??? root:zhuqingyang
+Dec 17 09:45:55 zhuqingyang-Rev-1-0 su[6018]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 17 09:45:55 zhuqingyang-Rev-1-0 su[6018]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 17 09:45:55 zhuqingyang-Rev-1-0 su[6031]: Successful su for zhuqingyang by root
+Dec 17 09:45:55 zhuqingyang-Rev-1-0 su[6031]: + ??? root:zhuqingyang
+Dec 17 09:45:55 zhuqingyang-Rev-1-0 su[6031]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 17 09:45:55 zhuqingyang-Rev-1-0 su[6031]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 17 10:26:36 zhuqingyang-Rev-1-0 su[6267]: Successful su for zhuqingyang by root
+Dec 17 10:26:36 zhuqingyang-Rev-1-0 su[6267]: + ??? root:zhuqingyang
+Dec 17 10:26:36 zhuqingyang-Rev-1-0 su[6267]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 17 10:26:36 zhuqingyang-Rev-1-0 su[6267]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 17 10:26:36 zhuqingyang-Rev-1-0 su[6279]: Successful su for zhuqingyang by root
+Dec 17 10:26:36 zhuqingyang-Rev-1-0 su[6279]: + ??? root:zhuqingyang
+Dec 17 10:26:36 zhuqingyang-Rev-1-0 su[6279]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 17 10:26:36 zhuqingyang-Rev-1-0 su[6279]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 17 10:26:36 zhuqingyang-Rev-1-0 su[6292]: Successful su for zhuqingyang by root
+Dec 17 10:26:36 zhuqingyang-Rev-1-0 su[6292]: + ??? root:zhuqingyang
+Dec 17 10:26:36 zhuqingyang-Rev-1-0 su[6292]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 17 10:26:37 zhuqingyang-Rev-1-0 su[6292]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 17 10:26:37 zhuqingyang-Rev-1-0 su[6310]: Successful su for zhuqingyang by root
+Dec 17 10:26:37 zhuqingyang-Rev-1-0 su[6310]: + ??? root:zhuqingyang
+Dec 17 10:26:37 zhuqingyang-Rev-1-0 su[6310]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 17 10:26:37 zhuqingyang-Rev-1-0 su[6310]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 17 10:26:37 zhuqingyang-Rev-1-0 su[6325]: Successful su for zhuqingyang by root
+Dec 17 10:26:37 zhuqingyang-Rev-1-0 su[6325]: + ??? root:zhuqingyang
+Dec 17 10:26:37 zhuqingyang-Rev-1-0 su[6325]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 17 10:26:37 zhuqingyang-Rev-1-0 su[6325]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 17 10:26:37 zhuqingyang-Rev-1-0 su[6337]: Successful su for zhuqingyang by root
+Dec 17 10:26:37 zhuqingyang-Rev-1-0 su[6337]: + ??? root:zhuqingyang
+Dec 17 10:26:37 zhuqingyang-Rev-1-0 su[6337]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 17 10:26:37 zhuqingyang-Rev-1-0 su[6337]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 17 10:26:41 zhuqingyang-Rev-1-0 gnome-screensaver-dialog: gkr-pam: unlocked login keyring
+Dec 17 11:17:01 zhuqingyang-Rev-1-0 CRON[8352]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 17 11:17:01 zhuqingyang-Rev-1-0 CRON[8352]: pam_unix(cron:session): session closed for user root
+Dec 17 11:42:48 zhuqingyang-Rev-1-0 polkitd(authority=local): Unregistered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session2 (system bus name :1.47, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+Dec 17 14:22:50 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session opened for user lightdm by (uid=0)
+Dec 17 14:22:50 zhuqingyang-Rev-1-0 lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Dec 17 14:22:52 zhuqingyang-Rev-1-0 lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "zhuqingyang"
+Dec 17 14:22:52 zhuqingyang-Rev-1-0 dbus[815]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.25" (uid=113 pid=1530 comm="/usr/lib/indicator-datetime/indicator-datetime-ser") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.14" (uid=0 pid=1256 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Dec 17 14:23:01 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session closed for user lightdm
+Dec 17 14:23:02 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session opened for user zhuqingyang by (uid=0)
+Dec 17 14:23:02 zhuqingyang-Rev-1-0 lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Dec 17 14:23:04 zhuqingyang-Rev-1-0 polkitd(authority=local): Registered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session2 (system bus name :1.46 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+Dec 17 14:24:04 zhuqingyang-Rev-1-0 dbus[815]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.61" (uid=1000 pid=2090 comm="/usr/lib/indicator-datetime/indicator-datetime-ser") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.14" (uid=0 pid=1256 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Dec 17 14:24:07 zhuqingyang-Rev-1-0 dbus[815]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.66" (uid=1000 pid=2232 comm="/usr/lib/indicator-datetime/indicator-datetime-ser") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.14" (uid=0 pid=1256 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Dec 17 14:24:12 zhuqingyang-Rev-1-0 gnome-keyring-daemon[1733]: couldn't allocate secure memory to keep passwords and or keys from being written to the disk
+Dec 17 14:40:35 zhuqingyang-Rev-1-0 polkitd(authority=local): Unregistered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session2 (system bus name :1.46, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+Dec 17 16:33:45 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session opened for user lightdm by (uid=0)
+Dec 17 16:33:45 zhuqingyang-Rev-1-0 lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Dec 17 16:33:47 zhuqingyang-Rev-1-0 lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "zhuqingyang"
+Dec 17 16:33:47 zhuqingyang-Rev-1-0 dbus[855]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.25" (uid=113 pid=1528 comm="/usr/lib/indicator-datetime/indicator-datetime-ser") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.14" (uid=0 pid=1238 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Dec 17 16:33:50 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session closed for user lightdm
+Dec 17 16:33:50 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session opened for user zhuqingyang by (uid=0)
+Dec 17 16:33:50 zhuqingyang-Rev-1-0 lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Dec 17 16:33:53 zhuqingyang-Rev-1-0 polkitd(authority=local): Registered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session2 (system bus name :1.46 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+Dec 17 16:34:53 zhuqingyang-Rev-1-0 gnome-keyring-daemon[1733]: couldn't allocate secure memory to keep passwords and or keys from being written to the disk
+Dec 17 16:35:11 zhuqingyang-Rev-1-0 dbus[855]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.63" (uid=1000 pid=2126 comm="/usr/lib/indicator-datetime/indicator-datetime-ser") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.14" (uid=0 pid=1238 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Dec 17 16:35:13 zhuqingyang-Rev-1-0 dbus[855]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.68" (uid=1000 pid=2276 comm="/usr/lib/indicator-datetime/indicator-datetime-ser") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.14" (uid=0 pid=1238 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Dec 17 16:48:05 zhuqingyang-Rev-1-0 su[3306]: Successful su for zhuqingyang by root
+Dec 17 16:48:05 zhuqingyang-Rev-1-0 su[3306]: + ??? root:zhuqingyang
+Dec 17 16:48:05 zhuqingyang-Rev-1-0 su[3306]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 17 16:48:05 zhuqingyang-Rev-1-0 su[3306]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 17 16:48:05 zhuqingyang-Rev-1-0 su[3316]: Successful su for zhuqingyang by root
+Dec 17 16:48:05 zhuqingyang-Rev-1-0 su[3316]: + ??? root:zhuqingyang
+Dec 17 16:48:05 zhuqingyang-Rev-1-0 su[3316]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 17 16:48:05 zhuqingyang-Rev-1-0 su[3316]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 17 16:48:05 zhuqingyang-Rev-1-0 su[3331]: Successful su for zhuqingyang by root
+Dec 17 16:48:05 zhuqingyang-Rev-1-0 su[3331]: + ??? root:zhuqingyang
+Dec 17 16:48:05 zhuqingyang-Rev-1-0 su[3331]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 17 16:48:05 zhuqingyang-Rev-1-0 su[3331]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 17 16:48:05 zhuqingyang-Rev-1-0 su[3359]: Successful su for zhuqingyang by root
+Dec 17 16:48:05 zhuqingyang-Rev-1-0 su[3359]: + ??? root:zhuqingyang
+Dec 17 16:48:05 zhuqingyang-Rev-1-0 su[3359]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 17 16:48:05 zhuqingyang-Rev-1-0 su[3359]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 17 16:48:05 zhuqingyang-Rev-1-0 su[3369]: Successful su for zhuqingyang by root
+Dec 17 16:48:05 zhuqingyang-Rev-1-0 su[3369]: + ??? root:zhuqingyang
+Dec 17 16:48:05 zhuqingyang-Rev-1-0 su[3369]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 17 16:48:05 zhuqingyang-Rev-1-0 su[3369]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 17 16:48:05 zhuqingyang-Rev-1-0 su[3384]: Successful su for zhuqingyang by root
+Dec 17 16:48:05 zhuqingyang-Rev-1-0 su[3384]: + ??? root:zhuqingyang
+Dec 17 16:48:05 zhuqingyang-Rev-1-0 su[3384]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 17 16:48:05 zhuqingyang-Rev-1-0 su[3384]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 17 16:48:05 zhuqingyang-Rev-1-0 su[3397]: Successful su for zhuqingyang by root
+Dec 17 16:48:05 zhuqingyang-Rev-1-0 su[3397]: + ??? root:zhuqingyang
+Dec 17 16:48:05 zhuqingyang-Rev-1-0 su[3397]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 17 16:48:05 zhuqingyang-Rev-1-0 su[3397]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 17 16:48:05 zhuqingyang-Rev-1-0 su[3412]: Successful su for zhuqingyang by root
+Dec 17 16:48:05 zhuqingyang-Rev-1-0 su[3412]: + ??? root:zhuqingyang
+Dec 17 16:48:05 zhuqingyang-Rev-1-0 su[3412]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 17 16:48:05 zhuqingyang-Rev-1-0 su[3412]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 17 16:48:05 zhuqingyang-Rev-1-0 su[3425]: Successful su for zhuqingyang by root
+Dec 17 16:48:05 zhuqingyang-Rev-1-0 su[3425]: + ??? root:zhuqingyang
+Dec 17 16:48:05 zhuqingyang-Rev-1-0 su[3425]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 17 16:48:05 zhuqingyang-Rev-1-0 su[3425]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 17 18:22:30 zhuqingyang-Rev-1-0 su[3671]: Successful su for zhuqingyang by root
+Dec 17 18:22:30 zhuqingyang-Rev-1-0 su[3671]: + ??? root:zhuqingyang
+Dec 17 18:22:30 zhuqingyang-Rev-1-0 su[3671]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 17 18:22:30 zhuqingyang-Rev-1-0 su[3671]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 17 18:22:30 zhuqingyang-Rev-1-0 su[3684]: Successful su for zhuqingyang by root
+Dec 17 18:22:30 zhuqingyang-Rev-1-0 su[3684]: + ??? root:zhuqingyang
+Dec 17 18:22:30 zhuqingyang-Rev-1-0 su[3684]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 17 18:22:30 zhuqingyang-Rev-1-0 su[3684]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 17 18:22:30 zhuqingyang-Rev-1-0 su[3696]: Successful su for zhuqingyang by root
+Dec 17 18:22:30 zhuqingyang-Rev-1-0 su[3696]: + ??? root:zhuqingyang
+Dec 17 18:22:30 zhuqingyang-Rev-1-0 su[3696]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 17 18:22:30 zhuqingyang-Rev-1-0 su[3696]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 17 18:22:30 zhuqingyang-Rev-1-0 su[3713]: Successful su for zhuqingyang by root
+Dec 17 18:22:30 zhuqingyang-Rev-1-0 su[3713]: + ??? root:zhuqingyang
+Dec 17 18:22:30 zhuqingyang-Rev-1-0 su[3713]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 17 18:22:30 zhuqingyang-Rev-1-0 su[3713]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 17 18:22:30 zhuqingyang-Rev-1-0 su[3729]: Successful su for zhuqingyang by root
+Dec 17 18:22:30 zhuqingyang-Rev-1-0 su[3729]: + ??? root:zhuqingyang
+Dec 17 18:22:30 zhuqingyang-Rev-1-0 su[3729]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 17 18:22:30 zhuqingyang-Rev-1-0 su[3729]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 17 18:22:30 zhuqingyang-Rev-1-0 su[3741]: Successful su for zhuqingyang by root
+Dec 17 18:22:30 zhuqingyang-Rev-1-0 su[3741]: + ??? root:zhuqingyang
+Dec 17 18:22:30 zhuqingyang-Rev-1-0 su[3741]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 17 18:22:30 zhuqingyang-Rev-1-0 su[3741]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 17 18:22:41 zhuqingyang-Rev-1-0 gnome-screensaver-dialog: gkr-pam: unlocked login keyring
+Dec 17 18:22:49 zhuqingyang-Rev-1-0 polkitd(authority=local): Unregistered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session2 (system bus name :1.46, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+Dec 17 19:52:33 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session opened for user lightdm by (uid=0)
+Dec 17 19:52:33 zhuqingyang-Rev-1-0 lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Dec 17 19:52:35 zhuqingyang-Rev-1-0 lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "zhuqingyang"
+Dec 17 19:52:35 zhuqingyang-Rev-1-0 dbus[826]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.24" (uid=113 pid=1519 comm="/usr/lib/indicator-datetime/indicator-datetime-ser") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.13" (uid=0 pid=1244 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Dec 17 19:52:39 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session closed for user lightdm
+Dec 17 19:52:39 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session opened for user zhuqingyang by (uid=0)
+Dec 17 19:52:39 zhuqingyang-Rev-1-0 lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Dec 17 19:52:42 zhuqingyang-Rev-1-0 polkitd(authority=local): Registered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session2 (system bus name :1.45 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+Dec 17 19:53:43 zhuqingyang-Rev-1-0 dbus[826]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.58" (uid=1000 pid=2042 comm="/usr/lib/indicator-datetime/indicator-datetime-ser") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.13" (uid=0 pid=1244 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Dec 17 19:53:55 zhuqingyang-Rev-1-0 gnome-keyring-daemon[1705]: couldn't allocate secure memory to keep passwords and or keys from being written to the disk
+Dec 17 20:16:29 zhuqingyang-Rev-1-0 su[2925]: Successful su for zhuqingyang by root
+Dec 17 20:16:29 zhuqingyang-Rev-1-0 su[2925]: + ??? root:zhuqingyang
+Dec 17 20:16:29 zhuqingyang-Rev-1-0 su[2925]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 17 20:16:30 zhuqingyang-Rev-1-0 su[2925]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 17 20:16:30 zhuqingyang-Rev-1-0 su[2935]: Successful su for zhuqingyang by root
+Dec 17 20:16:30 zhuqingyang-Rev-1-0 su[2935]: + ??? root:zhuqingyang
+Dec 17 20:16:30 zhuqingyang-Rev-1-0 su[2935]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 17 20:16:30 zhuqingyang-Rev-1-0 su[2935]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 17 20:16:30 zhuqingyang-Rev-1-0 su[2950]: Successful su for zhuqingyang by root
+Dec 17 20:16:30 zhuqingyang-Rev-1-0 su[2950]: + ??? root:zhuqingyang
+Dec 17 20:16:30 zhuqingyang-Rev-1-0 su[2950]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 17 20:16:30 zhuqingyang-Rev-1-0 su[2950]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 17 20:16:30 zhuqingyang-Rev-1-0 su[2978]: Successful su for zhuqingyang by root
+Dec 17 20:16:30 zhuqingyang-Rev-1-0 su[2978]: + ??? root:zhuqingyang
+Dec 17 20:16:30 zhuqingyang-Rev-1-0 su[2978]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 17 20:16:30 zhuqingyang-Rev-1-0 su[2978]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 17 20:16:30 zhuqingyang-Rev-1-0 su[2988]: Successful su for zhuqingyang by root
+Dec 17 20:16:30 zhuqingyang-Rev-1-0 su[2988]: + ??? root:zhuqingyang
+Dec 17 20:16:30 zhuqingyang-Rev-1-0 su[2988]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 17 20:16:30 zhuqingyang-Rev-1-0 su[2988]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 17 20:16:30 zhuqingyang-Rev-1-0 su[3003]: Successful su for zhuqingyang by root
+Dec 17 20:16:30 zhuqingyang-Rev-1-0 su[3003]: + ??? root:zhuqingyang
+Dec 17 20:16:30 zhuqingyang-Rev-1-0 su[3003]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 17 20:16:30 zhuqingyang-Rev-1-0 su[3003]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 17 20:16:30 zhuqingyang-Rev-1-0 su[3016]: Successful su for zhuqingyang by root
+Dec 17 20:16:30 zhuqingyang-Rev-1-0 su[3016]: + ??? root:zhuqingyang
+Dec 17 20:16:30 zhuqingyang-Rev-1-0 su[3016]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 17 20:16:30 zhuqingyang-Rev-1-0 su[3016]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 17 20:16:30 zhuqingyang-Rev-1-0 su[3031]: Successful su for zhuqingyang by root
+Dec 17 20:16:30 zhuqingyang-Rev-1-0 su[3031]: + ??? root:zhuqingyang
+Dec 17 20:16:30 zhuqingyang-Rev-1-0 su[3031]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 17 20:16:30 zhuqingyang-Rev-1-0 su[3031]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 17 20:16:30 zhuqingyang-Rev-1-0 su[3044]: Successful su for zhuqingyang by root
+Dec 17 20:16:30 zhuqingyang-Rev-1-0 su[3044]: + ??? root:zhuqingyang
+Dec 17 20:16:30 zhuqingyang-Rev-1-0 su[3044]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 17 20:16:30 zhuqingyang-Rev-1-0 su[3044]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 17 21:56:08 zhuqingyang-Rev-1-0 su[3296]: Successful su for zhuqingyang by root
+Dec 17 21:56:08 zhuqingyang-Rev-1-0 su[3296]: + ??? root:zhuqingyang
+Dec 17 21:56:08 zhuqingyang-Rev-1-0 su[3296]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 17 21:56:08 zhuqingyang-Rev-1-0 su[3296]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 17 21:56:08 zhuqingyang-Rev-1-0 su[3309]: Successful su for zhuqingyang by root
+Dec 17 21:56:08 zhuqingyang-Rev-1-0 su[3309]: + ??? root:zhuqingyang
+Dec 17 21:56:08 zhuqingyang-Rev-1-0 su[3309]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 17 21:56:09 zhuqingyang-Rev-1-0 su[3309]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 17 21:56:09 zhuqingyang-Rev-1-0 su[3322]: Successful su for zhuqingyang by root
+Dec 17 21:56:09 zhuqingyang-Rev-1-0 su[3322]: + ??? root:zhuqingyang
+Dec 17 21:56:09 zhuqingyang-Rev-1-0 su[3322]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 17 21:56:09 zhuqingyang-Rev-1-0 su[3322]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 17 21:56:09 zhuqingyang-Rev-1-0 su[3339]: Successful su for zhuqingyang by root
+Dec 17 21:56:09 zhuqingyang-Rev-1-0 su[3339]: + ??? root:zhuqingyang
+Dec 17 21:56:09 zhuqingyang-Rev-1-0 su[3339]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 17 21:56:09 zhuqingyang-Rev-1-0 su[3339]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 17 21:56:09 zhuqingyang-Rev-1-0 su[3353]: Successful su for zhuqingyang by root
+Dec 17 21:56:09 zhuqingyang-Rev-1-0 su[3353]: + ??? root:zhuqingyang
+Dec 17 21:56:09 zhuqingyang-Rev-1-0 su[3353]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 17 21:56:09 zhuqingyang-Rev-1-0 su[3353]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 17 21:56:09 zhuqingyang-Rev-1-0 su[3366]: Successful su for zhuqingyang by root
+Dec 17 21:56:09 zhuqingyang-Rev-1-0 su[3366]: + ??? root:zhuqingyang
+Dec 17 21:56:09 zhuqingyang-Rev-1-0 su[3366]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 17 21:56:09 zhuqingyang-Rev-1-0 su[3366]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 17 21:56:14 zhuqingyang-Rev-1-0 gnome-screensaver-dialog: gkr-pam: unlocked login keyring
+Dec 17 22:17:01 zhuqingyang-Rev-1-0 CRON[4756]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 17 22:17:01 zhuqingyang-Rev-1-0 CRON[4756]: pam_unix(cron:session): session closed for user root
+Dec 17 23:17:01 zhuqingyang-Rev-1-0 CRON[6332]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 17 23:17:01 zhuqingyang-Rev-1-0 CRON[6332]: pam_unix(cron:session): session closed for user root
+Dec 18 00:17:01 zhuqingyang-Rev-1-0 CRON[8434]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 00:17:01 zhuqingyang-Rev-1-0 CRON[8434]: pam_unix(cron:session): session closed for user root
+Dec 18 00:18:29 zhuqingyang-Rev-1-0 polkitd(authority=local): Unregistered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session2 (system bus name :1.45, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+Dec 18 08:24:18 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session opened for user lightdm by (uid=0)
+Dec 18 08:24:18 zhuqingyang-Rev-1-0 lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Dec 18 08:24:19 zhuqingyang-Rev-1-0 lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "zhuqingyang"
+Dec 18 08:24:20 zhuqingyang-Rev-1-0 dbus[839]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.24" (uid=113 pid=1505 comm="/usr/lib/indicator-datetime/indicator-datetime-ser") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.14" (uid=0 pid=1235 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Dec 18 08:31:05 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session closed for user lightdm
+Dec 18 08:31:06 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 08:31:06 zhuqingyang-Rev-1-0 lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Dec 18 08:31:08 zhuqingyang-Rev-1-0 polkitd(authority=local): Registered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session2 (system bus name :1.49 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+Dec 18 08:32:00 zhuqingyang-Rev-1-0 gnome-keyring-daemon[2095]: couldn't allocate secure memory to keep passwords and or keys from being written to the disk
+Dec 18 08:32:29 zhuqingyang-Rev-1-0 dbus[839]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.62" (uid=1000 pid=2515 comm="/usr/lib/indicator-datetime/indicator-datetime-ser") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.14" (uid=0 pid=1235 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Dec 18 08:32:29 zhuqingyang-Rev-1-0 dbus[839]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.68" (uid=1000 pid=2788 comm="/usr/lib/indicator-datetime/indicator-datetime-ser") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.14" (uid=0 pid=1235 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Dec 18 08:56:37 zhuqingyang-Rev-1-0 su[4155]: Successful su for zhuqingyang by root
+Dec 18 08:56:37 zhuqingyang-Rev-1-0 su[4155]: + ??? root:zhuqingyang
+Dec 18 08:56:37 zhuqingyang-Rev-1-0 su[4155]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 08:56:38 zhuqingyang-Rev-1-0 su[4155]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 08:56:38 zhuqingyang-Rev-1-0 su[4165]: Successful su for zhuqingyang by root
+Dec 18 08:56:38 zhuqingyang-Rev-1-0 su[4165]: + ??? root:zhuqingyang
+Dec 18 08:56:38 zhuqingyang-Rev-1-0 su[4165]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 08:56:38 zhuqingyang-Rev-1-0 su[4165]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 08:56:38 zhuqingyang-Rev-1-0 su[4180]: Successful su for zhuqingyang by root
+Dec 18 08:56:38 zhuqingyang-Rev-1-0 su[4180]: + ??? root:zhuqingyang
+Dec 18 08:56:38 zhuqingyang-Rev-1-0 su[4180]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 08:56:38 zhuqingyang-Rev-1-0 su[4180]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 08:56:38 zhuqingyang-Rev-1-0 su[4208]: Successful su for zhuqingyang by root
+Dec 18 08:56:38 zhuqingyang-Rev-1-0 su[4208]: + ??? root:zhuqingyang
+Dec 18 08:56:38 zhuqingyang-Rev-1-0 su[4208]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 08:56:38 zhuqingyang-Rev-1-0 su[4208]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 08:56:38 zhuqingyang-Rev-1-0 su[4218]: Successful su for zhuqingyang by root
+Dec 18 08:56:38 zhuqingyang-Rev-1-0 su[4218]: + ??? root:zhuqingyang
+Dec 18 08:56:38 zhuqingyang-Rev-1-0 su[4218]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 08:56:38 zhuqingyang-Rev-1-0 su[4218]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 08:56:38 zhuqingyang-Rev-1-0 su[4233]: Successful su for zhuqingyang by root
+Dec 18 08:56:38 zhuqingyang-Rev-1-0 su[4233]: + ??? root:zhuqingyang
+Dec 18 08:56:38 zhuqingyang-Rev-1-0 su[4233]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 08:56:38 zhuqingyang-Rev-1-0 su[4233]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 08:56:38 zhuqingyang-Rev-1-0 su[4246]: Successful su for zhuqingyang by root
+Dec 18 08:56:38 zhuqingyang-Rev-1-0 su[4246]: + ??? root:zhuqingyang
+Dec 18 08:56:38 zhuqingyang-Rev-1-0 su[4246]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 08:56:38 zhuqingyang-Rev-1-0 su[4246]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 08:56:38 zhuqingyang-Rev-1-0 su[4261]: Successful su for zhuqingyang by root
+Dec 18 08:56:38 zhuqingyang-Rev-1-0 su[4261]: + ??? root:zhuqingyang
+Dec 18 08:56:38 zhuqingyang-Rev-1-0 su[4261]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 08:56:38 zhuqingyang-Rev-1-0 su[4261]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 08:56:38 zhuqingyang-Rev-1-0 su[4274]: Successful su for zhuqingyang by root
+Dec 18 08:56:38 zhuqingyang-Rev-1-0 su[4274]: + ??? root:zhuqingyang
+Dec 18 08:56:38 zhuqingyang-Rev-1-0 su[4274]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 08:56:38 zhuqingyang-Rev-1-0 su[4274]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 09:19:01 zhuqingyang-Rev-1-0 su[4518]: Successful su for zhuqingyang by root
+Dec 18 09:19:01 zhuqingyang-Rev-1-0 su[4518]: + ??? root:zhuqingyang
+Dec 18 09:19:01 zhuqingyang-Rev-1-0 su[4518]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 09:19:01 zhuqingyang-Rev-1-0 su[4518]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 09:19:01 zhuqingyang-Rev-1-0 su[4530]: Successful su for zhuqingyang by root
+Dec 18 09:19:01 zhuqingyang-Rev-1-0 su[4530]: + ??? root:zhuqingyang
+Dec 18 09:19:01 zhuqingyang-Rev-1-0 su[4530]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 09:19:01 zhuqingyang-Rev-1-0 su[4530]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 09:19:01 zhuqingyang-Rev-1-0 su[4548]: Successful su for zhuqingyang by root
+Dec 18 09:19:01 zhuqingyang-Rev-1-0 su[4548]: + ??? root:zhuqingyang
+Dec 18 09:19:01 zhuqingyang-Rev-1-0 su[4548]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 09:19:01 zhuqingyang-Rev-1-0 su[4548]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 09:19:01 zhuqingyang-Rev-1-0 su[4566]: Successful su for zhuqingyang by root
+Dec 18 09:19:01 zhuqingyang-Rev-1-0 su[4566]: + ??? root:zhuqingyang
+Dec 18 09:19:01 zhuqingyang-Rev-1-0 su[4566]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 09:19:01 zhuqingyang-Rev-1-0 su[4566]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 09:19:01 zhuqingyang-Rev-1-0 su[4582]: Successful su for zhuqingyang by root
+Dec 18 09:19:01 zhuqingyang-Rev-1-0 su[4582]: + ??? root:zhuqingyang
+Dec 18 09:19:01 zhuqingyang-Rev-1-0 su[4582]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 09:19:01 zhuqingyang-Rev-1-0 su[4582]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 09:19:01 zhuqingyang-Rev-1-0 su[4594]: Successful su for zhuqingyang by root
+Dec 18 09:19:01 zhuqingyang-Rev-1-0 su[4594]: + ??? root:zhuqingyang
+Dec 18 09:19:01 zhuqingyang-Rev-1-0 su[4594]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 09:19:01 zhuqingyang-Rev-1-0 su[4594]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 09:19:05 zhuqingyang-Rev-1-0 gnome-screensaver-dialog: gkr-pam: unlocked login keyring
+Dec 18 09:52:14 zhuqingyang-Rev-1-0 su[6208]: Successful su for zhuqingyang by root
+Dec 18 09:52:14 zhuqingyang-Rev-1-0 su[6208]: + ??? root:zhuqingyang
+Dec 18 09:52:14 zhuqingyang-Rev-1-0 su[6208]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 09:52:14 zhuqingyang-Rev-1-0 su[6208]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 09:52:14 zhuqingyang-Rev-1-0 su[6218]: Successful su for zhuqingyang by root
+Dec 18 09:52:14 zhuqingyang-Rev-1-0 su[6218]: + ??? root:zhuqingyang
+Dec 18 09:52:14 zhuqingyang-Rev-1-0 su[6218]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 09:52:14 zhuqingyang-Rev-1-0 su[6218]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 09:52:14 zhuqingyang-Rev-1-0 su[6233]: Successful su for zhuqingyang by root
+Dec 18 09:52:14 zhuqingyang-Rev-1-0 su[6233]: + ??? root:zhuqingyang
+Dec 18 09:52:14 zhuqingyang-Rev-1-0 su[6233]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 09:52:14 zhuqingyang-Rev-1-0 su[6233]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 09:52:14 zhuqingyang-Rev-1-0 su[6261]: Successful su for zhuqingyang by root
+Dec 18 09:52:14 zhuqingyang-Rev-1-0 su[6261]: + ??? root:zhuqingyang
+Dec 18 09:52:14 zhuqingyang-Rev-1-0 su[6261]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 09:52:14 zhuqingyang-Rev-1-0 su[6261]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 09:52:14 zhuqingyang-Rev-1-0 su[6271]: Successful su for zhuqingyang by root
+Dec 18 09:52:14 zhuqingyang-Rev-1-0 su[6271]: + ??? root:zhuqingyang
+Dec 18 09:52:14 zhuqingyang-Rev-1-0 su[6271]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 09:52:14 zhuqingyang-Rev-1-0 su[6271]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 09:52:14 zhuqingyang-Rev-1-0 su[6286]: Successful su for zhuqingyang by root
+Dec 18 09:52:14 zhuqingyang-Rev-1-0 su[6286]: + ??? root:zhuqingyang
+Dec 18 09:52:14 zhuqingyang-Rev-1-0 su[6286]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 09:52:14 zhuqingyang-Rev-1-0 su[6286]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 09:52:14 zhuqingyang-Rev-1-0 su[6299]: Successful su for zhuqingyang by root
+Dec 18 09:52:14 zhuqingyang-Rev-1-0 su[6299]: + ??? root:zhuqingyang
+Dec 18 09:52:14 zhuqingyang-Rev-1-0 su[6299]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 09:52:15 zhuqingyang-Rev-1-0 su[6299]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 09:52:15 zhuqingyang-Rev-1-0 su[6314]: Successful su for zhuqingyang by root
+Dec 18 09:52:15 zhuqingyang-Rev-1-0 su[6314]: + ??? root:zhuqingyang
+Dec 18 09:52:15 zhuqingyang-Rev-1-0 su[6314]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 09:52:15 zhuqingyang-Rev-1-0 su[6314]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 09:52:15 zhuqingyang-Rev-1-0 su[6327]: Successful su for zhuqingyang by root
+Dec 18 09:52:15 zhuqingyang-Rev-1-0 su[6327]: + ??? root:zhuqingyang
+Dec 18 09:52:15 zhuqingyang-Rev-1-0 su[6327]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 09:52:15 zhuqingyang-Rev-1-0 su[6327]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 10:12:05 zhuqingyang-Rev-1-0 su[6562]: Successful su for zhuqingyang by root
+Dec 18 10:12:05 zhuqingyang-Rev-1-0 su[6562]: + ??? root:zhuqingyang
+Dec 18 10:12:05 zhuqingyang-Rev-1-0 su[6562]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 10:12:05 zhuqingyang-Rev-1-0 su[6562]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 10:12:05 zhuqingyang-Rev-1-0 su[6575]: Successful su for zhuqingyang by root
+Dec 18 10:12:05 zhuqingyang-Rev-1-0 su[6575]: + ??? root:zhuqingyang
+Dec 18 10:12:05 zhuqingyang-Rev-1-0 su[6575]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 10:12:05 zhuqingyang-Rev-1-0 su[6575]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 10:12:05 zhuqingyang-Rev-1-0 su[6587]: Successful su for zhuqingyang by root
+Dec 18 10:12:05 zhuqingyang-Rev-1-0 su[6587]: + ??? root:zhuqingyang
+Dec 18 10:12:05 zhuqingyang-Rev-1-0 su[6587]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 10:12:05 zhuqingyang-Rev-1-0 su[6587]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 10:12:05 zhuqingyang-Rev-1-0 su[6605]: Successful su for zhuqingyang by root
+Dec 18 10:12:05 zhuqingyang-Rev-1-0 su[6605]: + ??? root:zhuqingyang
+Dec 18 10:12:05 zhuqingyang-Rev-1-0 su[6605]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 10:12:05 zhuqingyang-Rev-1-0 su[6605]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 10:12:05 zhuqingyang-Rev-1-0 su[6619]: Successful su for zhuqingyang by root
+Dec 18 10:12:05 zhuqingyang-Rev-1-0 su[6619]: + ??? root:zhuqingyang
+Dec 18 10:12:05 zhuqingyang-Rev-1-0 su[6619]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 10:12:05 zhuqingyang-Rev-1-0 su[6619]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 10:12:05 zhuqingyang-Rev-1-0 su[6632]: Successful su for zhuqingyang by root
+Dec 18 10:12:05 zhuqingyang-Rev-1-0 su[6632]: + ??? root:zhuqingyang
+Dec 18 10:12:05 zhuqingyang-Rev-1-0 su[6632]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 10:12:05 zhuqingyang-Rev-1-0 su[6632]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 10:12:10 zhuqingyang-Rev-1-0 gnome-screensaver-dialog: gkr-pam: unlocked login keyring
+Dec 18 10:17:01 zhuqingyang-Rev-1-0 CRON[7139]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 10:17:01 zhuqingyang-Rev-1-0 CRON[7139]: pam_unix(cron:session): session closed for user root
+Dec 18 10:51:24 zhuqingyang-Rev-1-0 su[8389]: Successful su for zhuqingyang by root
+Dec 18 10:51:24 zhuqingyang-Rev-1-0 su[8389]: + ??? root:zhuqingyang
+Dec 18 10:51:24 zhuqingyang-Rev-1-0 su[8389]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 10:51:24 zhuqingyang-Rev-1-0 su[8389]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 10:51:24 zhuqingyang-Rev-1-0 su[8399]: Successful su for zhuqingyang by root
+Dec 18 10:51:24 zhuqingyang-Rev-1-0 su[8399]: + ??? root:zhuqingyang
+Dec 18 10:51:24 zhuqingyang-Rev-1-0 su[8399]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 10:51:24 zhuqingyang-Rev-1-0 su[8399]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 10:51:24 zhuqingyang-Rev-1-0 su[8414]: Successful su for zhuqingyang by root
+Dec 18 10:51:24 zhuqingyang-Rev-1-0 su[8414]: + ??? root:zhuqingyang
+Dec 18 10:51:24 zhuqingyang-Rev-1-0 su[8414]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 10:51:24 zhuqingyang-Rev-1-0 su[8414]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 10:51:24 zhuqingyang-Rev-1-0 su[8442]: Successful su for zhuqingyang by root
+Dec 18 10:51:24 zhuqingyang-Rev-1-0 su[8442]: + ??? root:zhuqingyang
+Dec 18 10:51:24 zhuqingyang-Rev-1-0 su[8442]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 10:51:24 zhuqingyang-Rev-1-0 su[8442]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 10:51:24 zhuqingyang-Rev-1-0 su[8452]: Successful su for zhuqingyang by root
+Dec 18 10:51:24 zhuqingyang-Rev-1-0 su[8452]: + ??? root:zhuqingyang
+Dec 18 10:51:24 zhuqingyang-Rev-1-0 su[8452]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 10:51:24 zhuqingyang-Rev-1-0 su[8452]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 10:51:24 zhuqingyang-Rev-1-0 su[8467]: Successful su for zhuqingyang by root
+Dec 18 10:51:24 zhuqingyang-Rev-1-0 su[8467]: + ??? root:zhuqingyang
+Dec 18 10:51:24 zhuqingyang-Rev-1-0 su[8467]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 10:51:24 zhuqingyang-Rev-1-0 su[8467]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 10:51:24 zhuqingyang-Rev-1-0 su[8480]: Successful su for zhuqingyang by root
+Dec 18 10:51:24 zhuqingyang-Rev-1-0 su[8480]: + ??? root:zhuqingyang
+Dec 18 10:51:24 zhuqingyang-Rev-1-0 su[8480]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 10:51:24 zhuqingyang-Rev-1-0 su[8480]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 10:51:24 zhuqingyang-Rev-1-0 su[8495]: Successful su for zhuqingyang by root
+Dec 18 10:51:24 zhuqingyang-Rev-1-0 su[8495]: + ??? root:zhuqingyang
+Dec 18 10:51:24 zhuqingyang-Rev-1-0 su[8495]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 10:51:24 zhuqingyang-Rev-1-0 su[8495]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 10:51:24 zhuqingyang-Rev-1-0 su[8508]: Successful su for zhuqingyang by root
+Dec 18 10:51:24 zhuqingyang-Rev-1-0 su[8508]: + ??? root:zhuqingyang
+Dec 18 10:51:24 zhuqingyang-Rev-1-0 su[8508]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 10:51:24 zhuqingyang-Rev-1-0 su[8508]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 11:28:11 zhuqingyang-Rev-1-0 su[8743]: Successful su for zhuqingyang by root
+Dec 18 11:28:11 zhuqingyang-Rev-1-0 su[8743]: + ??? root:zhuqingyang
+Dec 18 11:28:11 zhuqingyang-Rev-1-0 su[8743]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 11:28:11 zhuqingyang-Rev-1-0 su[8743]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 11:28:11 zhuqingyang-Rev-1-0 su[8756]: Successful su for zhuqingyang by root
+Dec 18 11:28:11 zhuqingyang-Rev-1-0 su[8756]: + ??? root:zhuqingyang
+Dec 18 11:28:11 zhuqingyang-Rev-1-0 su[8756]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 11:28:11 zhuqingyang-Rev-1-0 su[8756]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 11:28:11 zhuqingyang-Rev-1-0 su[8768]: Successful su for zhuqingyang by root
+Dec 18 11:28:11 zhuqingyang-Rev-1-0 su[8768]: + ??? root:zhuqingyang
+Dec 18 11:28:11 zhuqingyang-Rev-1-0 su[8768]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 11:28:11 zhuqingyang-Rev-1-0 su[8768]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 11:28:11 zhuqingyang-Rev-1-0 su[8786]: Successful su for zhuqingyang by root
+Dec 18 11:28:11 zhuqingyang-Rev-1-0 su[8786]: + ??? root:zhuqingyang
+Dec 18 11:28:11 zhuqingyang-Rev-1-0 su[8786]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 11:28:11 zhuqingyang-Rev-1-0 su[8786]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 11:28:11 zhuqingyang-Rev-1-0 su[8800]: Successful su for zhuqingyang by root
+Dec 18 11:28:11 zhuqingyang-Rev-1-0 su[8800]: + ??? root:zhuqingyang
+Dec 18 11:28:11 zhuqingyang-Rev-1-0 su[8800]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 11:28:11 zhuqingyang-Rev-1-0 su[8800]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 11:28:11 zhuqingyang-Rev-1-0 su[8813]: Successful su for zhuqingyang by root
+Dec 18 11:28:11 zhuqingyang-Rev-1-0 su[8813]: + ??? root:zhuqingyang
+Dec 18 11:28:11 zhuqingyang-Rev-1-0 su[8813]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 11:28:11 zhuqingyang-Rev-1-0 su[8813]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 11:28:15 zhuqingyang-Rev-1-0 gnome-screensaver-dialog: gkr-pam: unlocked login keyring
+Dec 18 11:55:24 zhuqingyang-Rev-1-0 su[10241]: Successful su for zhuqingyang by root
+Dec 18 11:55:24 zhuqingyang-Rev-1-0 su[10241]: + ??? root:zhuqingyang
+Dec 18 11:55:24 zhuqingyang-Rev-1-0 su[10241]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 11:55:24 zhuqingyang-Rev-1-0 su[10241]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 11:55:24 zhuqingyang-Rev-1-0 su[10251]: Successful su for zhuqingyang by root
+Dec 18 11:55:24 zhuqingyang-Rev-1-0 su[10251]: + ??? root:zhuqingyang
+Dec 18 11:55:24 zhuqingyang-Rev-1-0 su[10251]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 11:55:24 zhuqingyang-Rev-1-0 su[10251]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 11:55:24 zhuqingyang-Rev-1-0 su[10266]: Successful su for zhuqingyang by root
+Dec 18 11:55:24 zhuqingyang-Rev-1-0 su[10266]: + ??? root:zhuqingyang
+Dec 18 11:55:24 zhuqingyang-Rev-1-0 su[10266]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 11:55:24 zhuqingyang-Rev-1-0 su[10266]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 11:55:24 zhuqingyang-Rev-1-0 su[10294]: Successful su for zhuqingyang by root
+Dec 18 11:55:24 zhuqingyang-Rev-1-0 su[10294]: + ??? root:zhuqingyang
+Dec 18 11:55:24 zhuqingyang-Rev-1-0 su[10294]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 11:55:24 zhuqingyang-Rev-1-0 su[10294]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 11:55:24 zhuqingyang-Rev-1-0 su[10304]: Successful su for zhuqingyang by root
+Dec 18 11:55:24 zhuqingyang-Rev-1-0 su[10304]: + ??? root:zhuqingyang
+Dec 18 11:55:24 zhuqingyang-Rev-1-0 su[10304]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 11:55:24 zhuqingyang-Rev-1-0 su[10304]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 11:55:24 zhuqingyang-Rev-1-0 su[10319]: Successful su for zhuqingyang by root
+Dec 18 11:55:24 zhuqingyang-Rev-1-0 su[10319]: + ??? root:zhuqingyang
+Dec 18 11:55:24 zhuqingyang-Rev-1-0 su[10319]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 11:55:25 zhuqingyang-Rev-1-0 su[10319]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 11:55:25 zhuqingyang-Rev-1-0 su[10332]: Successful su for zhuqingyang by root
+Dec 18 11:55:25 zhuqingyang-Rev-1-0 su[10332]: + ??? root:zhuqingyang
+Dec 18 11:55:25 zhuqingyang-Rev-1-0 su[10332]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 11:55:25 zhuqingyang-Rev-1-0 su[10332]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 11:55:25 zhuqingyang-Rev-1-0 su[10347]: Successful su for zhuqingyang by root
+Dec 18 11:55:25 zhuqingyang-Rev-1-0 su[10347]: + ??? root:zhuqingyang
+Dec 18 11:55:25 zhuqingyang-Rev-1-0 su[10347]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 11:55:25 zhuqingyang-Rev-1-0 su[10347]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 11:55:25 zhuqingyang-Rev-1-0 su[10360]: Successful su for zhuqingyang by root
+Dec 18 11:55:25 zhuqingyang-Rev-1-0 su[10360]: + ??? root:zhuqingyang
+Dec 18 11:55:25 zhuqingyang-Rev-1-0 su[10360]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 11:55:25 zhuqingyang-Rev-1-0 su[10360]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 12:37:47 zhuqingyang-Rev-1-0 su[10597]: Successful su for zhuqingyang by root
+Dec 18 12:37:47 zhuqingyang-Rev-1-0 su[10597]: + ??? root:zhuqingyang
+Dec 18 12:37:47 zhuqingyang-Rev-1-0 su[10597]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 12:37:47 zhuqingyang-Rev-1-0 su[10597]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 12:37:47 zhuqingyang-Rev-1-0 su[10609]: Successful su for zhuqingyang by root
+Dec 18 12:37:47 zhuqingyang-Rev-1-0 su[10609]: + ??? root:zhuqingyang
+Dec 18 12:37:47 zhuqingyang-Rev-1-0 su[10609]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 12:37:47 zhuqingyang-Rev-1-0 su[10609]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 12:37:47 zhuqingyang-Rev-1-0 su[10622]: Successful su for zhuqingyang by root
+Dec 18 12:37:47 zhuqingyang-Rev-1-0 su[10622]: + ??? root:zhuqingyang
+Dec 18 12:37:47 zhuqingyang-Rev-1-0 su[10622]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 12:37:47 zhuqingyang-Rev-1-0 su[10622]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 12:37:47 zhuqingyang-Rev-1-0 su[10640]: Successful su for zhuqingyang by root
+Dec 18 12:37:47 zhuqingyang-Rev-1-0 su[10640]: + ??? root:zhuqingyang
+Dec 18 12:37:47 zhuqingyang-Rev-1-0 su[10640]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 12:37:47 zhuqingyang-Rev-1-0 su[10640]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 12:37:47 zhuqingyang-Rev-1-0 su[10655]: Successful su for zhuqingyang by root
+Dec 18 12:37:47 zhuqingyang-Rev-1-0 su[10655]: + ??? root:zhuqingyang
+Dec 18 12:37:47 zhuqingyang-Rev-1-0 su[10655]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 12:37:47 zhuqingyang-Rev-1-0 su[10655]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 12:37:47 zhuqingyang-Rev-1-0 su[10667]: Successful su for zhuqingyang by root
+Dec 18 12:37:47 zhuqingyang-Rev-1-0 su[10667]: + ??? root:zhuqingyang
+Dec 18 12:37:47 zhuqingyang-Rev-1-0 su[10667]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 12:37:47 zhuqingyang-Rev-1-0 su[10667]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 12:37:57 zhuqingyang-Rev-1-0 gnome-screensaver-dialog: gkr-pam: unlocked login keyring
+Dec 18 12:55:09 zhuqingyang-Rev-1-0 su[11595]: Successful su for zhuqingyang by root
+Dec 18 12:55:09 zhuqingyang-Rev-1-0 su[11595]: + ??? root:zhuqingyang
+Dec 18 12:55:09 zhuqingyang-Rev-1-0 su[11595]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 12:55:09 zhuqingyang-Rev-1-0 su[11595]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 12:55:09 zhuqingyang-Rev-1-0 su[11606]: Successful su for zhuqingyang by root
+Dec 18 12:55:09 zhuqingyang-Rev-1-0 su[11606]: + ??? root:zhuqingyang
+Dec 18 12:55:09 zhuqingyang-Rev-1-0 su[11606]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 12:55:09 zhuqingyang-Rev-1-0 su[11606]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 12:55:09 zhuqingyang-Rev-1-0 su[11621]: Successful su for zhuqingyang by root
+Dec 18 12:55:09 zhuqingyang-Rev-1-0 su[11621]: + ??? root:zhuqingyang
+Dec 18 12:55:09 zhuqingyang-Rev-1-0 su[11621]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 12:55:09 zhuqingyang-Rev-1-0 su[11621]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 12:55:09 zhuqingyang-Rev-1-0 su[11649]: Successful su for zhuqingyang by root
+Dec 18 12:55:09 zhuqingyang-Rev-1-0 su[11649]: + ??? root:zhuqingyang
+Dec 18 12:55:09 zhuqingyang-Rev-1-0 su[11649]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 12:55:09 zhuqingyang-Rev-1-0 su[11649]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 12:55:09 zhuqingyang-Rev-1-0 su[11659]: Successful su for zhuqingyang by root
+Dec 18 12:55:09 zhuqingyang-Rev-1-0 su[11659]: + ??? root:zhuqingyang
+Dec 18 12:55:09 zhuqingyang-Rev-1-0 su[11659]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 12:55:09 zhuqingyang-Rev-1-0 su[11659]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 12:55:09 zhuqingyang-Rev-1-0 su[11674]: Successful su for zhuqingyang by root
+Dec 18 12:55:09 zhuqingyang-Rev-1-0 su[11674]: + ??? root:zhuqingyang
+Dec 18 12:55:09 zhuqingyang-Rev-1-0 su[11674]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 12:55:09 zhuqingyang-Rev-1-0 su[11674]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 12:55:09 zhuqingyang-Rev-1-0 su[11688]: Successful su for zhuqingyang by root
+Dec 18 12:55:09 zhuqingyang-Rev-1-0 su[11688]: + ??? root:zhuqingyang
+Dec 18 12:55:09 zhuqingyang-Rev-1-0 su[11688]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 12:55:09 zhuqingyang-Rev-1-0 su[11688]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 12:55:09 zhuqingyang-Rev-1-0 su[11702]: Successful su for zhuqingyang by root
+Dec 18 12:55:09 zhuqingyang-Rev-1-0 su[11702]: + ??? root:zhuqingyang
+Dec 18 12:55:09 zhuqingyang-Rev-1-0 su[11702]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 12:55:09 zhuqingyang-Rev-1-0 su[11702]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 12:55:09 zhuqingyang-Rev-1-0 su[11715]: Successful su for zhuqingyang by root
+Dec 18 12:55:09 zhuqingyang-Rev-1-0 su[11715]: + ??? root:zhuqingyang
+Dec 18 12:55:09 zhuqingyang-Rev-1-0 su[11715]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 12:55:09 zhuqingyang-Rev-1-0 su[11715]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 13:07:50 zhuqingyang-Rev-1-0 su[11967]: Successful su for zhuqingyang by root
+Dec 18 13:07:50 zhuqingyang-Rev-1-0 su[11967]: + ??? root:zhuqingyang
+Dec 18 13:07:50 zhuqingyang-Rev-1-0 su[11967]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 13:07:50 zhuqingyang-Rev-1-0 su[11967]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 13:07:50 zhuqingyang-Rev-1-0 su[11979]: Successful su for zhuqingyang by root
+Dec 18 13:07:50 zhuqingyang-Rev-1-0 su[11979]: + ??? root:zhuqingyang
+Dec 18 13:07:50 zhuqingyang-Rev-1-0 su[11979]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 13:07:50 zhuqingyang-Rev-1-0 su[11979]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 13:07:50 zhuqingyang-Rev-1-0 su[11992]: Successful su for zhuqingyang by root
+Dec 18 13:07:50 zhuqingyang-Rev-1-0 su[11992]: + ??? root:zhuqingyang
+Dec 18 13:07:50 zhuqingyang-Rev-1-0 su[11992]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 13:07:50 zhuqingyang-Rev-1-0 su[11992]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 13:07:50 zhuqingyang-Rev-1-0 su[12010]: Successful su for zhuqingyang by root
+Dec 18 13:07:50 zhuqingyang-Rev-1-0 su[12010]: + ??? root:zhuqingyang
+Dec 18 13:07:50 zhuqingyang-Rev-1-0 su[12010]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 13:07:50 zhuqingyang-Rev-1-0 su[12010]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 13:07:50 zhuqingyang-Rev-1-0 su[12024]: Successful su for zhuqingyang by root
+Dec 18 13:07:50 zhuqingyang-Rev-1-0 su[12024]: + ??? root:zhuqingyang
+Dec 18 13:07:50 zhuqingyang-Rev-1-0 su[12024]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 13:07:50 zhuqingyang-Rev-1-0 su[12024]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 13:07:50 zhuqingyang-Rev-1-0 su[12037]: Successful su for zhuqingyang by root
+Dec 18 13:07:50 zhuqingyang-Rev-1-0 su[12037]: + ??? root:zhuqingyang
+Dec 18 13:07:50 zhuqingyang-Rev-1-0 su[12037]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 13:07:50 zhuqingyang-Rev-1-0 su[12037]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 13:07:55 zhuqingyang-Rev-1-0 gnome-screensaver-dialog: gkr-pam: unlocked login keyring
+Dec 18 13:17:01 zhuqingyang-Rev-1-0 CRON[12739]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 13:17:01 zhuqingyang-Rev-1-0 CRON[12739]: pam_unix(cron:session): session closed for user root
+Dec 18 13:53:09 zhuqingyang-Rev-1-0 su[14666]: Successful su for zhuqingyang by root
+Dec 18 13:53:09 zhuqingyang-Rev-1-0 su[14666]: + ??? root:zhuqingyang
+Dec 18 13:53:09 zhuqingyang-Rev-1-0 su[14666]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 13:53:09 zhuqingyang-Rev-1-0 su[14666]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 13:53:10 zhuqingyang-Rev-1-0 su[14676]: Successful su for zhuqingyang by root
+Dec 18 13:53:10 zhuqingyang-Rev-1-0 su[14676]: + ??? root:zhuqingyang
+Dec 18 13:53:10 zhuqingyang-Rev-1-0 su[14676]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 13:53:10 zhuqingyang-Rev-1-0 su[14676]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 13:53:10 zhuqingyang-Rev-1-0 su[14691]: Successful su for zhuqingyang by root
+Dec 18 13:53:10 zhuqingyang-Rev-1-0 su[14691]: + ??? root:zhuqingyang
+Dec 18 13:53:10 zhuqingyang-Rev-1-0 su[14691]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 13:53:10 zhuqingyang-Rev-1-0 su[14691]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 13:53:10 zhuqingyang-Rev-1-0 su[14719]: Successful su for zhuqingyang by root
+Dec 18 13:53:10 zhuqingyang-Rev-1-0 su[14719]: + ??? root:zhuqingyang
+Dec 18 13:53:10 zhuqingyang-Rev-1-0 su[14719]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 13:53:10 zhuqingyang-Rev-1-0 su[14719]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 13:53:10 zhuqingyang-Rev-1-0 su[14729]: Successful su for zhuqingyang by root
+Dec 18 13:53:10 zhuqingyang-Rev-1-0 su[14729]: + ??? root:zhuqingyang
+Dec 18 13:53:10 zhuqingyang-Rev-1-0 su[14729]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 13:53:10 zhuqingyang-Rev-1-0 su[14729]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 13:53:10 zhuqingyang-Rev-1-0 su[14744]: Successful su for zhuqingyang by root
+Dec 18 13:53:10 zhuqingyang-Rev-1-0 su[14744]: + ??? root:zhuqingyang
+Dec 18 13:53:10 zhuqingyang-Rev-1-0 su[14744]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 13:53:10 zhuqingyang-Rev-1-0 su[14744]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 13:53:10 zhuqingyang-Rev-1-0 su[14757]: Successful su for zhuqingyang by root
+Dec 18 13:53:10 zhuqingyang-Rev-1-0 su[14757]: + ??? root:zhuqingyang
+Dec 18 13:53:10 zhuqingyang-Rev-1-0 su[14757]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 13:53:10 zhuqingyang-Rev-1-0 su[14757]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 13:53:10 zhuqingyang-Rev-1-0 su[14772]: Successful su for zhuqingyang by root
+Dec 18 13:53:10 zhuqingyang-Rev-1-0 su[14772]: + ??? root:zhuqingyang
+Dec 18 13:53:10 zhuqingyang-Rev-1-0 su[14772]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 13:53:10 zhuqingyang-Rev-1-0 su[14772]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 13:53:10 zhuqingyang-Rev-1-0 su[14785]: Successful su for zhuqingyang by root
+Dec 18 13:53:10 zhuqingyang-Rev-1-0 su[14785]: + ??? root:zhuqingyang
+Dec 18 13:53:10 zhuqingyang-Rev-1-0 su[14785]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 13:53:10 zhuqingyang-Rev-1-0 su[14785]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 14:14:24 zhuqingyang-Rev-1-0 su[15033]: Successful su for zhuqingyang by root
+Dec 18 14:14:24 zhuqingyang-Rev-1-0 su[15033]: + ??? root:zhuqingyang
+Dec 18 14:14:24 zhuqingyang-Rev-1-0 su[15033]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 14:14:24 zhuqingyang-Rev-1-0 su[15033]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 14:14:24 zhuqingyang-Rev-1-0 su[15046]: Successful su for zhuqingyang by root
+Dec 18 14:14:24 zhuqingyang-Rev-1-0 su[15046]: + ??? root:zhuqingyang
+Dec 18 14:14:24 zhuqingyang-Rev-1-0 su[15046]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 14:14:24 zhuqingyang-Rev-1-0 su[15046]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 14:14:24 zhuqingyang-Rev-1-0 su[15058]: Successful su for zhuqingyang by root
+Dec 18 14:14:24 zhuqingyang-Rev-1-0 su[15058]: + ??? root:zhuqingyang
+Dec 18 14:14:24 zhuqingyang-Rev-1-0 su[15058]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 14:14:24 zhuqingyang-Rev-1-0 su[15058]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 14:14:24 zhuqingyang-Rev-1-0 su[15076]: Successful su for zhuqingyang by root
+Dec 18 14:14:24 zhuqingyang-Rev-1-0 su[15076]: + ??? root:zhuqingyang
+Dec 18 14:14:24 zhuqingyang-Rev-1-0 su[15076]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 14:14:24 zhuqingyang-Rev-1-0 su[15076]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 14:14:24 zhuqingyang-Rev-1-0 su[15090]: Successful su for zhuqingyang by root
+Dec 18 14:14:24 zhuqingyang-Rev-1-0 su[15090]: + ??? root:zhuqingyang
+Dec 18 14:14:24 zhuqingyang-Rev-1-0 su[15090]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 14:14:24 zhuqingyang-Rev-1-0 su[15090]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 14:14:24 zhuqingyang-Rev-1-0 su[15103]: Successful su for zhuqingyang by root
+Dec 18 14:14:24 zhuqingyang-Rev-1-0 su[15103]: + ??? root:zhuqingyang
+Dec 18 14:14:24 zhuqingyang-Rev-1-0 su[15103]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 14:14:24 zhuqingyang-Rev-1-0 su[15103]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 14:14:28 zhuqingyang-Rev-1-0 gnome-screensaver-dialog: gkr-pam: unlocked login keyring
+Dec 18 14:17:01 zhuqingyang-Rev-1-0 CRON[15572]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 18 14:17:01 zhuqingyang-Rev-1-0 CRON[15572]: pam_unix(cron:session): session closed for user root
+Dec 18 14:33:53 zhuqingyang-Rev-1-0 su[16786]: Successful su for zhuqingyang by root
+Dec 18 14:33:53 zhuqingyang-Rev-1-0 su[16786]: + ??? root:zhuqingyang
+Dec 18 14:33:53 zhuqingyang-Rev-1-0 su[16786]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 14:33:53 zhuqingyang-Rev-1-0 su[16786]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 14:33:53 zhuqingyang-Rev-1-0 su[16796]: Successful su for zhuqingyang by root
+Dec 18 14:33:53 zhuqingyang-Rev-1-0 su[16796]: + ??? root:zhuqingyang
+Dec 18 14:33:53 zhuqingyang-Rev-1-0 su[16796]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 14:33:53 zhuqingyang-Rev-1-0 su[16796]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 14:33:53 zhuqingyang-Rev-1-0 su[16811]: Successful su for zhuqingyang by root
+Dec 18 14:33:53 zhuqingyang-Rev-1-0 su[16811]: + ??? root:zhuqingyang
+Dec 18 14:33:53 zhuqingyang-Rev-1-0 su[16811]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 14:33:53 zhuqingyang-Rev-1-0 su[16811]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 14:33:53 zhuqingyang-Rev-1-0 su[16848]: Successful su for zhuqingyang by root
+Dec 18 14:33:53 zhuqingyang-Rev-1-0 su[16848]: + ??? root:zhuqingyang
+Dec 18 14:33:53 zhuqingyang-Rev-1-0 su[16848]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 14:33:53 zhuqingyang-Rev-1-0 su[16848]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 14:33:53 zhuqingyang-Rev-1-0 su[16871]: Successful su for zhuqingyang by root
+Dec 18 14:33:53 zhuqingyang-Rev-1-0 su[16871]: + ??? root:zhuqingyang
+Dec 18 14:33:53 zhuqingyang-Rev-1-0 su[16871]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 14:33:53 zhuqingyang-Rev-1-0 su[16871]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 14:33:53 zhuqingyang-Rev-1-0 su[16887]: Successful su for zhuqingyang by root
+Dec 18 14:33:53 zhuqingyang-Rev-1-0 su[16887]: + ??? root:zhuqingyang
+Dec 18 14:33:53 zhuqingyang-Rev-1-0 su[16887]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 14:33:53 zhuqingyang-Rev-1-0 su[16887]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 14:33:53 zhuqingyang-Rev-1-0 su[16903]: Successful su for zhuqingyang by root
+Dec 18 14:33:53 zhuqingyang-Rev-1-0 su[16903]: + ??? root:zhuqingyang
+Dec 18 14:33:53 zhuqingyang-Rev-1-0 su[16903]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 14:33:53 zhuqingyang-Rev-1-0 su[16903]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 14:33:53 zhuqingyang-Rev-1-0 su[16919]: Successful su for zhuqingyang by root
+Dec 18 14:33:53 zhuqingyang-Rev-1-0 su[16919]: + ??? root:zhuqingyang
+Dec 18 14:33:53 zhuqingyang-Rev-1-0 su[16919]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 14:33:53 zhuqingyang-Rev-1-0 su[16919]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 14:33:53 zhuqingyang-Rev-1-0 su[16932]: Successful su for zhuqingyang by root
+Dec 18 14:33:53 zhuqingyang-Rev-1-0 su[16932]: + ??? root:zhuqingyang
+Dec 18 14:33:53 zhuqingyang-Rev-1-0 su[16932]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 14:33:53 zhuqingyang-Rev-1-0 su[16932]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 16:24:03 zhuqingyang-Rev-1-0 su[17170]: Successful su for zhuqingyang by root
+Dec 18 16:24:03 zhuqingyang-Rev-1-0 su[17170]: + ??? root:zhuqingyang
+Dec 18 16:24:03 zhuqingyang-Rev-1-0 su[17170]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 16:24:03 zhuqingyang-Rev-1-0 su[17170]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 16:24:03 zhuqingyang-Rev-1-0 su[17182]: Successful su for zhuqingyang by root
+Dec 18 16:24:03 zhuqingyang-Rev-1-0 su[17182]: + ??? root:zhuqingyang
+Dec 18 16:24:03 zhuqingyang-Rev-1-0 su[17182]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 16:24:03 zhuqingyang-Rev-1-0 su[17182]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 16:24:03 zhuqingyang-Rev-1-0 su[17196]: Successful su for zhuqingyang by root
+Dec 18 16:24:03 zhuqingyang-Rev-1-0 su[17196]: + ??? root:zhuqingyang
+Dec 18 16:24:03 zhuqingyang-Rev-1-0 su[17196]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 16:24:03 zhuqingyang-Rev-1-0 su[17196]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 16:24:03 zhuqingyang-Rev-1-0 su[17213]: Successful su for zhuqingyang by root
+Dec 18 16:24:03 zhuqingyang-Rev-1-0 su[17213]: + ??? root:zhuqingyang
+Dec 18 16:24:03 zhuqingyang-Rev-1-0 su[17213]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 16:24:03 zhuqingyang-Rev-1-0 su[17213]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 16:24:03 zhuqingyang-Rev-1-0 su[17227]: Successful su for zhuqingyang by root
+Dec 18 16:24:03 zhuqingyang-Rev-1-0 su[17227]: + ??? root:zhuqingyang
+Dec 18 16:24:03 zhuqingyang-Rev-1-0 su[17227]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 16:24:03 zhuqingyang-Rev-1-0 su[17227]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 16:24:03 zhuqingyang-Rev-1-0 su[17240]: Successful su for zhuqingyang by root
+Dec 18 16:24:03 zhuqingyang-Rev-1-0 su[17240]: + ??? root:zhuqingyang
+Dec 18 16:24:03 zhuqingyang-Rev-1-0 su[17240]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 16:24:03 zhuqingyang-Rev-1-0 su[17240]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 16:24:07 zhuqingyang-Rev-1-0 gnome-screensaver-dialog: gkr-pam: unlocked login keyring
+Dec 18 16:49:48 zhuqingyang-Rev-1-0 su[18480]: Successful su for zhuqingyang by root
+Dec 18 16:49:48 zhuqingyang-Rev-1-0 su[18480]: + ??? root:zhuqingyang
+Dec 18 16:49:48 zhuqingyang-Rev-1-0 su[18480]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 16:49:48 zhuqingyang-Rev-1-0 su[18480]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 16:49:48 zhuqingyang-Rev-1-0 su[18490]: Successful su for zhuqingyang by root
+Dec 18 16:49:48 zhuqingyang-Rev-1-0 su[18490]: + ??? root:zhuqingyang
+Dec 18 16:49:48 zhuqingyang-Rev-1-0 su[18490]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 16:49:48 zhuqingyang-Rev-1-0 su[18490]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 16:49:48 zhuqingyang-Rev-1-0 su[18505]: Successful su for zhuqingyang by root
+Dec 18 16:49:48 zhuqingyang-Rev-1-0 su[18505]: + ??? root:zhuqingyang
+Dec 18 16:49:48 zhuqingyang-Rev-1-0 su[18505]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 16:49:48 zhuqingyang-Rev-1-0 su[18505]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 16:49:48 zhuqingyang-Rev-1-0 su[18533]: Successful su for zhuqingyang by root
+Dec 18 16:49:48 zhuqingyang-Rev-1-0 su[18533]: + ??? root:zhuqingyang
+Dec 18 16:49:48 zhuqingyang-Rev-1-0 su[18533]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 16:49:48 zhuqingyang-Rev-1-0 su[18533]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 16:49:48 zhuqingyang-Rev-1-0 su[18543]: Successful su for zhuqingyang by root
+Dec 18 16:49:48 zhuqingyang-Rev-1-0 su[18543]: + ??? root:zhuqingyang
+Dec 18 16:49:48 zhuqingyang-Rev-1-0 su[18543]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 16:49:48 zhuqingyang-Rev-1-0 su[18543]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 16:49:48 zhuqingyang-Rev-1-0 su[18558]: Successful su for zhuqingyang by root
+Dec 18 16:49:48 zhuqingyang-Rev-1-0 su[18558]: + ??? root:zhuqingyang
+Dec 18 16:49:48 zhuqingyang-Rev-1-0 su[18558]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 16:49:48 zhuqingyang-Rev-1-0 su[18558]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 16:49:48 zhuqingyang-Rev-1-0 su[18571]: Successful su for zhuqingyang by root
+Dec 18 16:49:48 zhuqingyang-Rev-1-0 su[18571]: + ??? root:zhuqingyang
+Dec 18 16:49:48 zhuqingyang-Rev-1-0 su[18571]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 16:49:48 zhuqingyang-Rev-1-0 su[18571]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 16:49:48 zhuqingyang-Rev-1-0 su[18586]: Successful su for zhuqingyang by root
+Dec 18 16:49:48 zhuqingyang-Rev-1-0 su[18586]: + ??? root:zhuqingyang
+Dec 18 16:49:48 zhuqingyang-Rev-1-0 su[18586]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 16:49:48 zhuqingyang-Rev-1-0 su[18586]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 16:49:48 zhuqingyang-Rev-1-0 su[18599]: Successful su for zhuqingyang by root
+Dec 18 16:49:48 zhuqingyang-Rev-1-0 su[18599]: + ??? root:zhuqingyang
+Dec 18 16:49:48 zhuqingyang-Rev-1-0 su[18599]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 16:49:48 zhuqingyang-Rev-1-0 su[18599]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 20:29:31 zhuqingyang-Rev-1-0 su[18839]: Successful su for zhuqingyang by root
+Dec 18 20:29:31 zhuqingyang-Rev-1-0 su[18839]: + ??? root:zhuqingyang
+Dec 18 20:29:31 zhuqingyang-Rev-1-0 su[18839]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 20:29:31 zhuqingyang-Rev-1-0 su[18839]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 20:29:31 zhuqingyang-Rev-1-0 su[18851]: Successful su for zhuqingyang by root
+Dec 18 20:29:31 zhuqingyang-Rev-1-0 su[18851]: + ??? root:zhuqingyang
+Dec 18 20:29:31 zhuqingyang-Rev-1-0 su[18851]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 20:29:31 zhuqingyang-Rev-1-0 su[18851]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 20:29:31 zhuqingyang-Rev-1-0 su[18864]: Successful su for zhuqingyang by root
+Dec 18 20:29:31 zhuqingyang-Rev-1-0 su[18864]: + ??? root:zhuqingyang
+Dec 18 20:29:31 zhuqingyang-Rev-1-0 su[18864]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 20:29:31 zhuqingyang-Rev-1-0 su[18864]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 20:29:31 zhuqingyang-Rev-1-0 su[18881]: Successful su for zhuqingyang by root
+Dec 18 20:29:31 zhuqingyang-Rev-1-0 su[18881]: + ??? root:zhuqingyang
+Dec 18 20:29:31 zhuqingyang-Rev-1-0 su[18881]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 20:29:31 zhuqingyang-Rev-1-0 su[18881]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 20:29:31 zhuqingyang-Rev-1-0 su[18896]: Successful su for zhuqingyang by root
+Dec 18 20:29:31 zhuqingyang-Rev-1-0 su[18896]: + ??? root:zhuqingyang
+Dec 18 20:29:31 zhuqingyang-Rev-1-0 su[18896]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 20:29:31 zhuqingyang-Rev-1-0 su[18896]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 20:29:31 zhuqingyang-Rev-1-0 su[18909]: Successful su for zhuqingyang by root
+Dec 18 20:29:31 zhuqingyang-Rev-1-0 su[18909]: + ??? root:zhuqingyang
+Dec 18 20:29:31 zhuqingyang-Rev-1-0 su[18909]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 18 20:29:31 zhuqingyang-Rev-1-0 su[18909]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 18 20:29:36 zhuqingyang-Rev-1-0 gnome-screensaver-dialog: gkr-pam: unlocked login keyring
+Dec 18 21:15:49 zhuqingyang-Rev-1-0 polkitd(authority=local): Unregistered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session2 (system bus name :1.49, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+Dec 19 09:09:45 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session opened for user lightdm by (uid=0)
+Dec 19 09:09:45 zhuqingyang-Rev-1-0 lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Dec 19 09:09:47 zhuqingyang-Rev-1-0 lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "zhuqingyang"
+Dec 19 09:09:47 zhuqingyang-Rev-1-0 dbus[831]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.25" (uid=113 pid=1513 comm="/usr/lib/indicator-datetime/indicator-datetime-ser") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.14" (uid=0 pid=1230 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Dec 19 09:09:56 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session closed for user lightdm
+Dec 19 09:09:56 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session opened for user zhuqingyang by (uid=0)
+Dec 19 09:09:56 zhuqingyang-Rev-1-0 lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Dec 19 09:10:00 zhuqingyang-Rev-1-0 polkitd(authority=local): Registered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session2 (system bus name :1.46 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+Dec 19 09:11:07 zhuqingyang-Rev-1-0 gnome-keyring-daemon[1719]: couldn't allocate secure memory to keep passwords and or keys from being written to the disk
+Dec 19 09:11:34 zhuqingyang-Rev-1-0 dbus[831]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.66" (uid=1000 pid=2349 comm="/usr/lib/indicator-datetime/indicator-datetime-ser") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.14" (uid=0 pid=1230 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Dec 19 09:17:01 zhuqingyang-Rev-1-0 CRON[3127]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 09:17:01 zhuqingyang-Rev-1-0 CRON[3127]: pam_unix(cron:session): session closed for user root
+Dec 19 10:17:01 zhuqingyang-Rev-1-0 CRON[5543]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 10:17:01 zhuqingyang-Rev-1-0 CRON[5543]: pam_unix(cron:session): session closed for user root
+Dec 19 10:33:06 zhuqingyang-Rev-1-0 gnome-screensaver-dialog: gkr-pam: unlocked login keyring
+Dec 19 11:17:01 zhuqingyang-Rev-1-0 CRON[7588]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 11:17:01 zhuqingyang-Rev-1-0 CRON[7588]: pam_unix(cron:session): session closed for user root
+Dec 19 11:18:13 zhuqingyang-Rev-1-0 gnome-screensaver-dialog: gkr-pam: unlocked login keyring
+Dec 19 11:22:45 zhuqingyang-Rev-1-0 su[8061]: Successful su for zhuqingyang by root
+Dec 19 11:22:45 zhuqingyang-Rev-1-0 su[8061]: + ??? root:zhuqingyang
+Dec 19 11:22:45 zhuqingyang-Rev-1-0 su[8061]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 19 11:22:45 zhuqingyang-Rev-1-0 su[8061]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 19 11:22:45 zhuqingyang-Rev-1-0 su[8071]: Successful su for zhuqingyang by root
+Dec 19 11:22:45 zhuqingyang-Rev-1-0 su[8071]: + ??? root:zhuqingyang
+Dec 19 11:22:45 zhuqingyang-Rev-1-0 su[8071]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 19 11:22:45 zhuqingyang-Rev-1-0 su[8071]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 19 11:22:45 zhuqingyang-Rev-1-0 su[8086]: Successful su for zhuqingyang by root
+Dec 19 11:22:45 zhuqingyang-Rev-1-0 su[8086]: + ??? root:zhuqingyang
+Dec 19 11:22:45 zhuqingyang-Rev-1-0 su[8086]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 19 11:22:45 zhuqingyang-Rev-1-0 su[8086]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 19 11:22:45 zhuqingyang-Rev-1-0 su[8114]: Successful su for zhuqingyang by root
+Dec 19 11:22:45 zhuqingyang-Rev-1-0 su[8114]: + ??? root:zhuqingyang
+Dec 19 11:22:45 zhuqingyang-Rev-1-0 su[8114]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 19 11:22:45 zhuqingyang-Rev-1-0 su[8114]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 19 11:22:45 zhuqingyang-Rev-1-0 su[8124]: Successful su for zhuqingyang by root
+Dec 19 11:22:45 zhuqingyang-Rev-1-0 su[8124]: + ??? root:zhuqingyang
+Dec 19 11:22:45 zhuqingyang-Rev-1-0 su[8124]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 19 11:22:45 zhuqingyang-Rev-1-0 su[8124]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 19 11:22:45 zhuqingyang-Rev-1-0 su[8139]: Successful su for zhuqingyang by root
+Dec 19 11:22:45 zhuqingyang-Rev-1-0 su[8139]: + ??? root:zhuqingyang
+Dec 19 11:22:45 zhuqingyang-Rev-1-0 su[8139]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 19 11:22:45 zhuqingyang-Rev-1-0 su[8139]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 19 11:22:45 zhuqingyang-Rev-1-0 su[8152]: Successful su for zhuqingyang by root
+Dec 19 11:22:45 zhuqingyang-Rev-1-0 su[8152]: + ??? root:zhuqingyang
+Dec 19 11:22:45 zhuqingyang-Rev-1-0 su[8152]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 19 11:22:45 zhuqingyang-Rev-1-0 su[8152]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 19 11:22:46 zhuqingyang-Rev-1-0 su[8167]: Successful su for zhuqingyang by root
+Dec 19 11:22:46 zhuqingyang-Rev-1-0 su[8167]: + ??? root:zhuqingyang
+Dec 19 11:22:46 zhuqingyang-Rev-1-0 su[8167]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 19 11:22:46 zhuqingyang-Rev-1-0 su[8167]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 19 11:22:46 zhuqingyang-Rev-1-0 su[8180]: Successful su for zhuqingyang by root
+Dec 19 11:22:46 zhuqingyang-Rev-1-0 su[8180]: + ??? root:zhuqingyang
+Dec 19 11:22:46 zhuqingyang-Rev-1-0 su[8180]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 19 11:22:46 zhuqingyang-Rev-1-0 su[8180]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 19 12:18:15 zhuqingyang-Rev-1-0 su[8415]: Successful su for zhuqingyang by root
+Dec 19 12:18:15 zhuqingyang-Rev-1-0 su[8415]: + ??? root:zhuqingyang
+Dec 19 12:18:15 zhuqingyang-Rev-1-0 su[8415]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 19 12:18:15 zhuqingyang-Rev-1-0 su[8415]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 19 12:18:15 zhuqingyang-Rev-1-0 su[8428]: Successful su for zhuqingyang by root
+Dec 19 12:18:15 zhuqingyang-Rev-1-0 su[8428]: + ??? root:zhuqingyang
+Dec 19 12:18:15 zhuqingyang-Rev-1-0 su[8428]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 19 12:18:16 zhuqingyang-Rev-1-0 su[8428]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 19 12:18:16 zhuqingyang-Rev-1-0 su[8446]: Successful su for zhuqingyang by root
+Dec 19 12:18:16 zhuqingyang-Rev-1-0 su[8446]: + ??? root:zhuqingyang
+Dec 19 12:18:16 zhuqingyang-Rev-1-0 su[8446]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 19 12:18:16 zhuqingyang-Rev-1-0 su[8446]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 19 12:18:16 zhuqingyang-Rev-1-0 su[8464]: Successful su for zhuqingyang by root
+Dec 19 12:18:16 zhuqingyang-Rev-1-0 su[8464]: + ??? root:zhuqingyang
+Dec 19 12:18:16 zhuqingyang-Rev-1-0 su[8464]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 19 12:18:16 zhuqingyang-Rev-1-0 su[8464]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 19 12:18:16 zhuqingyang-Rev-1-0 su[8478]: Successful su for zhuqingyang by root
+Dec 19 12:18:16 zhuqingyang-Rev-1-0 su[8478]: + ??? root:zhuqingyang
+Dec 19 12:18:16 zhuqingyang-Rev-1-0 su[8478]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 19 12:18:16 zhuqingyang-Rev-1-0 su[8478]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 19 12:18:16 zhuqingyang-Rev-1-0 su[8491]: Successful su for zhuqingyang by root
+Dec 19 12:18:16 zhuqingyang-Rev-1-0 su[8491]: + ??? root:zhuqingyang
+Dec 19 12:18:16 zhuqingyang-Rev-1-0 su[8491]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 19 12:18:16 zhuqingyang-Rev-1-0 su[8491]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 19 12:18:19 zhuqingyang-Rev-1-0 gnome-screensaver-dialog: gkr-pam: unlocked login keyring
+Dec 19 13:17:02 zhuqingyang-Rev-1-0 CRON[10817]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 13:17:02 zhuqingyang-Rev-1-0 CRON[10817]: pam_unix(cron:session): session closed for user root
+Dec 19 14:12:29 zhuqingyang-Rev-1-0 polkitd(authority=local): Unregistered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session2 (system bus name :1.46, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+Dec 19 18:45:34 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session opened for user lightdm by (uid=0)
+Dec 19 18:45:34 zhuqingyang-Rev-1-0 lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Dec 19 18:45:35 zhuqingyang-Rev-1-0 lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "zhuqingyang"
+Dec 19 18:45:35 zhuqingyang-Rev-1-0 dbus[841]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.26" (uid=113 pid=1513 comm="/usr/lib/indicator-datetime/indicator-datetime-ser") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.14" (uid=0 pid=1226 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Dec 19 18:45:45 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session closed for user lightdm
+Dec 19 18:45:45 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session opened for user zhuqingyang by (uid=0)
+Dec 19 18:45:45 zhuqingyang-Rev-1-0 lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Dec 19 18:45:48 zhuqingyang-Rev-1-0 polkitd(authority=local): Registered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session2 (system bus name :1.46 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+Dec 19 18:46:51 zhuqingyang-Rev-1-0 dbus[841]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.62" (uid=1000 pid=2178 comm="/usr/lib/indicator-datetime/indicator-datetime-ser") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.14" (uid=0 pid=1226 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Dec 19 18:46:56 zhuqingyang-Rev-1-0 gnome-keyring-daemon[1695]: couldn't allocate secure memory to keep passwords and or keys from being written to the disk
+Dec 19 18:55:51 zhuqingyang-Rev-1-0 su[3296]: Successful su for zhuqingyang by root
+Dec 19 18:55:51 zhuqingyang-Rev-1-0 su[3296]: + ??? root:zhuqingyang
+Dec 19 18:55:51 zhuqingyang-Rev-1-0 su[3296]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 19 18:55:51 zhuqingyang-Rev-1-0 su[3296]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 19 18:55:51 zhuqingyang-Rev-1-0 su[3306]: Successful su for zhuqingyang by root
+Dec 19 18:55:51 zhuqingyang-Rev-1-0 su[3306]: + ??? root:zhuqingyang
+Dec 19 18:55:51 zhuqingyang-Rev-1-0 su[3306]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 19 18:55:51 zhuqingyang-Rev-1-0 su[3306]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 19 18:55:51 zhuqingyang-Rev-1-0 su[3321]: Successful su for zhuqingyang by root
+Dec 19 18:55:51 zhuqingyang-Rev-1-0 su[3321]: + ??? root:zhuqingyang
+Dec 19 18:55:51 zhuqingyang-Rev-1-0 su[3321]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 19 18:55:51 zhuqingyang-Rev-1-0 su[3321]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 19 18:55:51 zhuqingyang-Rev-1-0 su[3349]: Successful su for zhuqingyang by root
+Dec 19 18:55:51 zhuqingyang-Rev-1-0 su[3349]: + ??? root:zhuqingyang
+Dec 19 18:55:51 zhuqingyang-Rev-1-0 su[3349]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 19 18:55:51 zhuqingyang-Rev-1-0 su[3349]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 19 18:55:51 zhuqingyang-Rev-1-0 su[3359]: Successful su for zhuqingyang by root
+Dec 19 18:55:51 zhuqingyang-Rev-1-0 su[3359]: + ??? root:zhuqingyang
+Dec 19 18:55:51 zhuqingyang-Rev-1-0 su[3359]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 19 18:55:51 zhuqingyang-Rev-1-0 su[3359]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 19 18:55:51 zhuqingyang-Rev-1-0 su[3374]: Successful su for zhuqingyang by root
+Dec 19 18:55:51 zhuqingyang-Rev-1-0 su[3374]: + ??? root:zhuqingyang
+Dec 19 18:55:51 zhuqingyang-Rev-1-0 su[3374]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 19 18:55:51 zhuqingyang-Rev-1-0 su[3374]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 19 18:55:51 zhuqingyang-Rev-1-0 su[3387]: Successful su for zhuqingyang by root
+Dec 19 18:55:51 zhuqingyang-Rev-1-0 su[3387]: + ??? root:zhuqingyang
+Dec 19 18:55:51 zhuqingyang-Rev-1-0 su[3387]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 19 18:55:51 zhuqingyang-Rev-1-0 su[3387]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 19 18:55:51 zhuqingyang-Rev-1-0 su[3402]: Successful su for zhuqingyang by root
+Dec 19 18:55:51 zhuqingyang-Rev-1-0 su[3402]: + ??? root:zhuqingyang
+Dec 19 18:55:51 zhuqingyang-Rev-1-0 su[3402]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 19 18:55:52 zhuqingyang-Rev-1-0 su[3402]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 19 18:55:52 zhuqingyang-Rev-1-0 su[3415]: Successful su for zhuqingyang by root
+Dec 19 18:55:52 zhuqingyang-Rev-1-0 su[3415]: + ??? root:zhuqingyang
+Dec 19 18:55:52 zhuqingyang-Rev-1-0 su[3415]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 19 18:55:52 zhuqingyang-Rev-1-0 su[3415]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 19 19:56:28 zhuqingyang-Rev-1-0 su[3662]: Successful su for zhuqingyang by root
+Dec 19 19:56:28 zhuqingyang-Rev-1-0 su[3662]: + ??? root:zhuqingyang
+Dec 19 19:56:28 zhuqingyang-Rev-1-0 su[3662]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 19 19:56:28 zhuqingyang-Rev-1-0 su[3662]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 19 19:56:28 zhuqingyang-Rev-1-0 su[3675]: Successful su for zhuqingyang by root
+Dec 19 19:56:28 zhuqingyang-Rev-1-0 su[3675]: + ??? root:zhuqingyang
+Dec 19 19:56:28 zhuqingyang-Rev-1-0 su[3675]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 19 19:56:28 zhuqingyang-Rev-1-0 su[3675]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 19 19:56:28 zhuqingyang-Rev-1-0 su[3687]: Successful su for zhuqingyang by root
+Dec 19 19:56:28 zhuqingyang-Rev-1-0 su[3687]: + ??? root:zhuqingyang
+Dec 19 19:56:28 zhuqingyang-Rev-1-0 su[3687]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 19 19:56:28 zhuqingyang-Rev-1-0 su[3687]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 19 19:56:28 zhuqingyang-Rev-1-0 su[3705]: Successful su for zhuqingyang by root
+Dec 19 19:56:28 zhuqingyang-Rev-1-0 su[3705]: + ??? root:zhuqingyang
+Dec 19 19:56:28 zhuqingyang-Rev-1-0 su[3705]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 19 19:56:28 zhuqingyang-Rev-1-0 su[3705]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 19 19:56:28 zhuqingyang-Rev-1-0 su[3719]: Successful su for zhuqingyang by root
+Dec 19 19:56:28 zhuqingyang-Rev-1-0 su[3719]: + ??? root:zhuqingyang
+Dec 19 19:56:28 zhuqingyang-Rev-1-0 su[3719]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 19 19:56:28 zhuqingyang-Rev-1-0 su[3719]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 19 19:56:28 zhuqingyang-Rev-1-0 su[3732]: Successful su for zhuqingyang by root
+Dec 19 19:56:28 zhuqingyang-Rev-1-0 su[3732]: + ??? root:zhuqingyang
+Dec 19 19:56:28 zhuqingyang-Rev-1-0 su[3732]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 19 19:56:28 zhuqingyang-Rev-1-0 su[3732]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 19 19:56:33 zhuqingyang-Rev-1-0 gnome-screensaver-dialog: gkr-pam: unlocked login keyring
+Dec 19 20:17:01 zhuqingyang-Rev-1-0 CRON[4972]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 20:17:01 zhuqingyang-Rev-1-0 CRON[4972]: pam_unix(cron:session): session closed for user root
+Dec 19 20:26:22 zhuqingyang-Rev-1-0 su[5410]: Successful su for zhuqingyang by root
+Dec 19 20:26:22 zhuqingyang-Rev-1-0 su[5410]: + ??? root:zhuqingyang
+Dec 19 20:26:22 zhuqingyang-Rev-1-0 su[5410]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 19 20:26:22 zhuqingyang-Rev-1-0 su[5410]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 19 20:26:22 zhuqingyang-Rev-1-0 su[5420]: Successful su for zhuqingyang by root
+Dec 19 20:26:22 zhuqingyang-Rev-1-0 su[5420]: + ??? root:zhuqingyang
+Dec 19 20:26:22 zhuqingyang-Rev-1-0 su[5420]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 19 20:26:22 zhuqingyang-Rev-1-0 su[5420]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 19 20:26:22 zhuqingyang-Rev-1-0 su[5435]: Successful su for zhuqingyang by root
+Dec 19 20:26:22 zhuqingyang-Rev-1-0 su[5435]: + ??? root:zhuqingyang
+Dec 19 20:26:22 zhuqingyang-Rev-1-0 su[5435]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 19 20:26:22 zhuqingyang-Rev-1-0 su[5435]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 19 20:26:22 zhuqingyang-Rev-1-0 su[5463]: Successful su for zhuqingyang by root
+Dec 19 20:26:22 zhuqingyang-Rev-1-0 su[5463]: + ??? root:zhuqingyang
+Dec 19 20:26:22 zhuqingyang-Rev-1-0 su[5463]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 19 20:26:22 zhuqingyang-Rev-1-0 su[5463]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 19 20:26:22 zhuqingyang-Rev-1-0 su[5473]: Successful su for zhuqingyang by root
+Dec 19 20:26:22 zhuqingyang-Rev-1-0 su[5473]: + ??? root:zhuqingyang
+Dec 19 20:26:22 zhuqingyang-Rev-1-0 su[5473]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 19 20:26:22 zhuqingyang-Rev-1-0 su[5473]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 19 20:26:22 zhuqingyang-Rev-1-0 su[5488]: Successful su for zhuqingyang by root
+Dec 19 20:26:22 zhuqingyang-Rev-1-0 su[5488]: + ??? root:zhuqingyang
+Dec 19 20:26:22 zhuqingyang-Rev-1-0 su[5488]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 19 20:26:22 zhuqingyang-Rev-1-0 su[5488]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 19 20:26:22 zhuqingyang-Rev-1-0 su[5501]: Successful su for zhuqingyang by root
+Dec 19 20:26:22 zhuqingyang-Rev-1-0 su[5501]: + ??? root:zhuqingyang
+Dec 19 20:26:22 zhuqingyang-Rev-1-0 su[5501]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 19 20:26:22 zhuqingyang-Rev-1-0 su[5501]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 19 20:26:22 zhuqingyang-Rev-1-0 su[5516]: Successful su for zhuqingyang by root
+Dec 19 20:26:22 zhuqingyang-Rev-1-0 su[5516]: + ??? root:zhuqingyang
+Dec 19 20:26:22 zhuqingyang-Rev-1-0 su[5516]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 19 20:26:22 zhuqingyang-Rev-1-0 su[5516]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 19 20:26:22 zhuqingyang-Rev-1-0 su[5529]: Successful su for zhuqingyang by root
+Dec 19 20:26:22 zhuqingyang-Rev-1-0 su[5529]: + ??? root:zhuqingyang
+Dec 19 20:26:22 zhuqingyang-Rev-1-0 su[5529]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 19 20:26:22 zhuqingyang-Rev-1-0 su[5529]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 19 20:42:29 zhuqingyang-Rev-1-0 su[5765]: Successful su for zhuqingyang by root
+Dec 19 20:42:29 zhuqingyang-Rev-1-0 su[5765]: + ??? root:zhuqingyang
+Dec 19 20:42:29 zhuqingyang-Rev-1-0 su[5765]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 19 20:42:29 zhuqingyang-Rev-1-0 su[5765]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 19 20:42:29 zhuqingyang-Rev-1-0 su[5778]: Successful su for zhuqingyang by root
+Dec 19 20:42:29 zhuqingyang-Rev-1-0 su[5778]: + ??? root:zhuqingyang
+Dec 19 20:42:29 zhuqingyang-Rev-1-0 su[5778]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 19 20:42:29 zhuqingyang-Rev-1-0 su[5778]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 19 20:42:29 zhuqingyang-Rev-1-0 su[5790]: Successful su for zhuqingyang by root
+Dec 19 20:42:29 zhuqingyang-Rev-1-0 su[5790]: + ??? root:zhuqingyang
+Dec 19 20:42:29 zhuqingyang-Rev-1-0 su[5790]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 19 20:42:29 zhuqingyang-Rev-1-0 su[5790]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 19 20:42:29 zhuqingyang-Rev-1-0 su[5808]: Successful su for zhuqingyang by root
+Dec 19 20:42:29 zhuqingyang-Rev-1-0 su[5808]: + ??? root:zhuqingyang
+Dec 19 20:42:29 zhuqingyang-Rev-1-0 su[5808]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 19 20:42:29 zhuqingyang-Rev-1-0 su[5808]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 19 20:42:29 zhuqingyang-Rev-1-0 su[5823]: Successful su for zhuqingyang by root
+Dec 19 20:42:29 zhuqingyang-Rev-1-0 su[5823]: + ??? root:zhuqingyang
+Dec 19 20:42:29 zhuqingyang-Rev-1-0 su[5823]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 19 20:42:29 zhuqingyang-Rev-1-0 su[5823]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 19 20:42:29 zhuqingyang-Rev-1-0 su[5835]: Successful su for zhuqingyang by root
+Dec 19 20:42:29 zhuqingyang-Rev-1-0 su[5835]: + ??? root:zhuqingyang
+Dec 19 20:42:29 zhuqingyang-Rev-1-0 su[5835]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 19 20:42:29 zhuqingyang-Rev-1-0 su[5835]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 19 20:42:34 zhuqingyang-Rev-1-0 gnome-screensaver-dialog: gkr-pam: unlocked login keyring
+Dec 19 21:17:02 zhuqingyang-Rev-1-0 CRON[7649]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 21:17:02 zhuqingyang-Rev-1-0 CRON[7649]: pam_unix(cron:session): session closed for user root
+Dec 19 22:11:36 zhuqingyang-Rev-1-0 gnome-screensaver-dialog: gkr-pam: unlocked login keyring
+Dec 19 22:17:01 zhuqingyang-Rev-1-0 CRON[9204]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 19 22:17:02 zhuqingyang-Rev-1-0 CRON[9204]: pam_unix(cron:session): session closed for user root
+Dec 19 22:58:11 zhuqingyang-Rev-1-0 polkitd(authority=local): Unregistered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session2 (system bus name :1.46, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+Dec 20 10:37:52 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session opened for user lightdm by (uid=0)
+Dec 20 10:37:52 zhuqingyang-Rev-1-0 lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Dec 20 10:37:54 zhuqingyang-Rev-1-0 lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "zhuqingyang"
+Dec 20 10:37:54 zhuqingyang-Rev-1-0 dbus[828]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.23" (uid=113 pid=1523 comm="/usr/lib/indicator-datetime/indicator-datetime-ser") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.14" (uid=0 pid=1243 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Dec 20 10:38:19 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session closed for user lightdm
+Dec 20 10:38:19 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session opened for user zhuqingyang by (uid=0)
+Dec 20 10:38:19 zhuqingyang-Rev-1-0 lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Dec 20 10:38:22 zhuqingyang-Rev-1-0 polkitd(authority=local): Registered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session2 (system bus name :1.39 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+Dec 20 10:39:12 zhuqingyang-Rev-1-0 dbus[828]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.59" (uid=1000 pid=1982 comm="/usr/lib/indicator-datetime/indicator-datetime-ser") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.14" (uid=0 pid=1243 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Dec 20 11:02:03 zhuqingyang-Rev-1-0 gnome-screensaver-dialog: gkr-pam: unlocked login keyring
+Dec 20 11:02:32 zhuqingyang-Rev-1-0 gnome-keyring-daemon[1606]: couldn't allocate secure memory to keep passwords and or keys from being written to the disk
+Dec 20 11:13:29 zhuqingyang-Rev-1-0 login[1005]: pam_unix(login:session): session opened for user zhuqingyang by LOGIN(uid=0)
+Dec 20 11:13:39 zhuqingyang-Rev-1-0 sudo: zhuqingyang : TTY=tty3 ; PWD=/home/zhuqingyang ; USER=root ; COMMAND=/sbin/reboot
+Dec 20 11:13:39 zhuqingyang-Rev-1-0 sudo: pam_unix(sudo:session): session opened for user root by zhuqingyang(uid=1000)
+Dec 20 11:13:39 zhuqingyang-Rev-1-0 sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 11:14:22 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session opened for user lightdm by (uid=0)
+Dec 20 11:14:22 zhuqingyang-Rev-1-0 lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Dec 20 11:14:23 zhuqingyang-Rev-1-0 lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "zhuqingyang"
+Dec 20 11:14:23 zhuqingyang-Rev-1-0 dbus[845]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.23" (uid=113 pid=1417 comm="/usr/lib/indicator-datetime/indicator-datetime-ser") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.14" (uid=0 pid=1260 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Dec 20 11:14:28 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session closed for user lightdm
+Dec 20 11:14:28 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session opened for user zhuqingyang by (uid=0)
+Dec 20 11:14:28 zhuqingyang-Rev-1-0 lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Dec 20 11:14:36 zhuqingyang-Rev-1-0 polkitd(authority=local): Registered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session2 (system bus name :1.56 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+Dec 20 11:15:48 zhuqingyang-Rev-1-0 dbus[845]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.83" (uid=1000 pid=2386 comm="/usr/lib/indicator-datetime/indicator-datetime-ser") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.14" (uid=0 pid=1260 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Dec 20 11:15:48 zhuqingyang-Rev-1-0 dbus[845]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.91" (uid=1000 pid=2669 comm="/usr/lib/indicator-datetime/indicator-datetime-ser") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.14" (uid=0 pid=1260 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Dec 20 11:15:51 zhuqingyang-Rev-1-0 gnome-keyring-daemon[1641]: couldn't allocate secure memory to keep passwords and or keys from being written to the disk
+Dec 20 11:17:01 zhuqingyang-Rev-1-0 CRON[3371]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 11:17:01 zhuqingyang-Rev-1-0 CRON[3371]: pam_unix(cron:session): session closed for user root
+Dec 20 11:47:04 zhuqingyang-Rev-1-0 gnome-screensaver-dialog: gkr-pam: unlocked login keyring
+Dec 20 12:00:48 zhuqingyang-Rev-1-0 gnome-screensaver-dialog: gkr-pam: unlocked login keyring
+Dec 20 12:17:01 zhuqingyang-Rev-1-0 CRON[5565]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 12:17:01 zhuqingyang-Rev-1-0 CRON[5565]: pam_unix(cron:session): session closed for user root
+Dec 20 12:31:39 zhuqingyang-Rev-1-0 gnome-screensaver-dialog: gkr-pam: unlocked login keyring
+Dec 20 13:17:01 zhuqingyang-Rev-1-0 CRON[7111]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 13:17:01 zhuqingyang-Rev-1-0 CRON[7111]: pam_unix(cron:session): session closed for user root
+Dec 20 13:19:20 zhuqingyang-Rev-1-0 gnome-screensaver-dialog: gkr-pam: unlocked login keyring
+Dec 20 13:48:24 zhuqingyang-Rev-1-0 gnome-screensaver-dialog: gkr-pam: unlocked login keyring
+Dec 20 14:17:01 zhuqingyang-Rev-1-0 CRON[8704]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 14:17:01 zhuqingyang-Rev-1-0 CRON[8704]: pam_unix(cron:session): session closed for user root
+Dec 20 15:17:02 zhuqingyang-Rev-1-0 CRON[10277]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 15:17:02 zhuqingyang-Rev-1-0 CRON[10277]: pam_unix(cron:session): session closed for user root
+Dec 20 16:17:01 zhuqingyang-Rev-1-0 CRON[11839]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 16:17:01 zhuqingyang-Rev-1-0 CRON[11839]: pam_unix(cron:session): session closed for user root
+Dec 20 17:17:02 zhuqingyang-Rev-1-0 CRON[13383]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 17:17:02 zhuqingyang-Rev-1-0 CRON[13383]: pam_unix(cron:session): session closed for user root
+Dec 20 17:28:03 zhuqingyang-Rev-1-0 gnome-screensaver-dialog: gkr-pam: unlocked login keyring
+Dec 20 17:52:22 zhuqingyang-Rev-1-0 polkitd(authority=local): Unregistered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session2 (system bus name :1.56, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+Dec 20 20:13:06 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session opened for user lightdm by (uid=0)
+Dec 20 20:13:06 zhuqingyang-Rev-1-0 lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Dec 20 20:13:07 zhuqingyang-Rev-1-0 lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "zhuqingyang"
+Dec 20 20:13:07 zhuqingyang-Rev-1-0 dbus[842]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.25" (uid=113 pid=1548 comm="/usr/lib/indicator-datetime/indicator-datetime-ser") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.14" (uid=0 pid=1253 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Dec 20 20:13:11 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session closed for user lightdm
+Dec 20 20:13:11 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session opened for user zhuqingyang by (uid=0)
+Dec 20 20:13:11 zhuqingyang-Rev-1-0 lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Dec 20 20:13:14 zhuqingyang-Rev-1-0 polkitd(authority=local): Registered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session2 (system bus name :1.46 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+Dec 20 20:14:21 zhuqingyang-Rev-1-0 dbus[842]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.63" (uid=1000 pid=2258 comm="/usr/lib/indicator-datetime/indicator-datetime-ser") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.14" (uid=0 pid=1253 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Dec 20 20:14:29 zhuqingyang-Rev-1-0 gnome-keyring-daemon[1727]: couldn't allocate secure memory to keep passwords and or keys from being written to the disk
+Dec 20 20:16:52 zhuqingyang-Rev-1-0 polkitd(authority=local): Unregistered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session2 (system bus name :1.46, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+Dec 20 20:17:41 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session opened for user lightdm by (uid=0)
+Dec 20 20:17:41 zhuqingyang-Rev-1-0 lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Dec 20 20:17:42 zhuqingyang-Rev-1-0 lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "zhuqingyang"
+Dec 20 20:17:42 zhuqingyang-Rev-1-0 dbus[874]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.25" (uid=113 pid=1551 comm="/usr/lib/indicator-datetime/indicator-datetime-ser") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.14" (uid=0 pid=1272 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Dec 20 20:19:41 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session closed for user lightdm
+Dec 20 20:19:41 zhuqingyang-Rev-1-0 lightdm: pam_unix(lightdm:session): session opened for user zhuqingyang by (uid=0)
+Dec 20 20:19:41 zhuqingyang-Rev-1-0 lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Dec 20 20:19:44 zhuqingyang-Rev-1-0 polkitd(authority=local): Registered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session2 (system bus name :1.47 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+Dec 20 20:20:47 zhuqingyang-Rev-1-0 dbus[874]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.62" (uid=1000 pid=2160 comm="/usr/lib/indicator-datetime/indicator-datetime-ser") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.14" (uid=0 pid=1272 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Dec 20 20:20:50 zhuqingyang-Rev-1-0 dbus[874]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.67" (uid=1000 pid=2332 comm="/usr/lib/indicator-datetime/indicator-datetime-ser") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.14" (uid=0 pid=1272 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Dec 20 20:20:53 zhuqingyang-Rev-1-0 gnome-keyring-daemon[1808]: couldn't allocate secure memory to keep passwords and or keys from being written to the disk
+Dec 20 20:22:45 zhuqingyang-Rev-1-0 sudo: pam_unix(sudo:auth): conversation failed
+Dec 20 20:22:45 zhuqingyang-Rev-1-0 sudo: pam_unix(sudo:auth): auth could not identify password for [zhuqingyang]
+Dec 20 20:22:45 zhuqingyang-Rev-1-0 sudo: pam_unix(sudo:auth): conversation failed
+Dec 20 20:22:45 zhuqingyang-Rev-1-0 sudo: pam_unix(sudo:auth): auth could not identify password for [zhuqingyang]
+Dec 20 20:22:45 zhuqingyang-Rev-1-0 sudo: pam_unix(sudo:auth): conversation failed
+Dec 20 20:22:45 zhuqingyang-Rev-1-0 sudo: pam_unix(sudo:auth): auth could not identify password for [zhuqingyang]
+Dec 20 20:22:45 zhuqingyang-Rev-1-0 sudo: zhuqingyang : 3 次错误密码尝试 ; TTY=unknown ; PWD=/home/zhuqingyang ; USER=root ; COMMAND=/usr/share/apport/apport-gtk
+Dec 20 20:22:45 zhuqingyang-Rev-1-0 sudo: unable to execute /usr/sbin/sendmail: No such file or directory
+Dec 20 21:06:09 zhuqingyang-Rev-1-0 su[4464]: Successful su for zhuqingyang by root
+Dec 20 21:06:09 zhuqingyang-Rev-1-0 su[4464]: + ??? root:zhuqingyang
+Dec 20 21:06:09 zhuqingyang-Rev-1-0 su[4464]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 20 21:06:09 zhuqingyang-Rev-1-0 su[4464]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 20 21:06:09 zhuqingyang-Rev-1-0 su[4474]: Successful su for zhuqingyang by root
+Dec 20 21:06:09 zhuqingyang-Rev-1-0 su[4474]: + ??? root:zhuqingyang
+Dec 20 21:06:09 zhuqingyang-Rev-1-0 su[4474]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 20 21:06:09 zhuqingyang-Rev-1-0 su[4474]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 20 21:06:09 zhuqingyang-Rev-1-0 su[4490]: Successful su for zhuqingyang by root
+Dec 20 21:06:09 zhuqingyang-Rev-1-0 su[4490]: + ??? root:zhuqingyang
+Dec 20 21:06:09 zhuqingyang-Rev-1-0 su[4490]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 20 21:06:09 zhuqingyang-Rev-1-0 su[4490]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 20 21:06:09 zhuqingyang-Rev-1-0 su[4517]: Successful su for zhuqingyang by root
+Dec 20 21:06:09 zhuqingyang-Rev-1-0 su[4517]: + ??? root:zhuqingyang
+Dec 20 21:06:09 zhuqingyang-Rev-1-0 su[4517]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 20 21:06:09 zhuqingyang-Rev-1-0 su[4517]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 20 21:06:09 zhuqingyang-Rev-1-0 su[4527]: Successful su for zhuqingyang by root
+Dec 20 21:06:09 zhuqingyang-Rev-1-0 su[4527]: + ??? root:zhuqingyang
+Dec 20 21:06:09 zhuqingyang-Rev-1-0 su[4527]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 20 21:06:09 zhuqingyang-Rev-1-0 su[4527]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 20 21:06:09 zhuqingyang-Rev-1-0 su[4542]: Successful su for zhuqingyang by root
+Dec 20 21:06:09 zhuqingyang-Rev-1-0 su[4542]: + ??? root:zhuqingyang
+Dec 20 21:06:09 zhuqingyang-Rev-1-0 su[4542]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 20 21:06:09 zhuqingyang-Rev-1-0 su[4542]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 20 21:06:09 zhuqingyang-Rev-1-0 su[4555]: Successful su for zhuqingyang by root
+Dec 20 21:06:09 zhuqingyang-Rev-1-0 su[4555]: + ??? root:zhuqingyang
+Dec 20 21:06:09 zhuqingyang-Rev-1-0 su[4555]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 20 21:06:09 zhuqingyang-Rev-1-0 su[4555]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 20 21:06:09 zhuqingyang-Rev-1-0 su[4570]: Successful su for zhuqingyang by root
+Dec 20 21:06:09 zhuqingyang-Rev-1-0 su[4570]: + ??? root:zhuqingyang
+Dec 20 21:06:09 zhuqingyang-Rev-1-0 su[4570]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 20 21:06:09 zhuqingyang-Rev-1-0 su[4570]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 20 21:06:10 zhuqingyang-Rev-1-0 su[4583]: Successful su for zhuqingyang by root
+Dec 20 21:06:10 zhuqingyang-Rev-1-0 su[4583]: + ??? root:zhuqingyang
+Dec 20 21:06:10 zhuqingyang-Rev-1-0 su[4583]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 20 21:06:10 zhuqingyang-Rev-1-0 su[4583]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 20 21:42:25 zhuqingyang-Rev-1-0 su[4818]: Successful su for zhuqingyang by root
+Dec 20 21:42:25 zhuqingyang-Rev-1-0 su[4818]: + ??? root:zhuqingyang
+Dec 20 21:42:25 zhuqingyang-Rev-1-0 su[4818]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 20 21:42:25 zhuqingyang-Rev-1-0 su[4818]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 20 21:42:25 zhuqingyang-Rev-1-0 su[4831]: Successful su for zhuqingyang by root
+Dec 20 21:42:25 zhuqingyang-Rev-1-0 su[4831]: + ??? root:zhuqingyang
+Dec 20 21:42:25 zhuqingyang-Rev-1-0 su[4831]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 20 21:42:25 zhuqingyang-Rev-1-0 su[4831]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 20 21:42:25 zhuqingyang-Rev-1-0 su[4843]: Successful su for zhuqingyang by root
+Dec 20 21:42:25 zhuqingyang-Rev-1-0 su[4843]: + ??? root:zhuqingyang
+Dec 20 21:42:25 zhuqingyang-Rev-1-0 su[4843]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 20 21:42:25 zhuqingyang-Rev-1-0 su[4843]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 20 21:42:25 zhuqingyang-Rev-1-0 su[4860]: Successful su for zhuqingyang by root
+Dec 20 21:42:25 zhuqingyang-Rev-1-0 su[4860]: + ??? root:zhuqingyang
+Dec 20 21:42:25 zhuqingyang-Rev-1-0 su[4860]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 20 21:42:25 zhuqingyang-Rev-1-0 su[4860]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 20 21:42:25 zhuqingyang-Rev-1-0 su[4875]: Successful su for zhuqingyang by root
+Dec 20 21:42:25 zhuqingyang-Rev-1-0 su[4875]: + ??? root:zhuqingyang
+Dec 20 21:42:25 zhuqingyang-Rev-1-0 su[4875]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 20 21:42:25 zhuqingyang-Rev-1-0 su[4875]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 20 21:42:25 zhuqingyang-Rev-1-0 su[4888]: Successful su for zhuqingyang by root
+Dec 20 21:42:25 zhuqingyang-Rev-1-0 su[4888]: + ??? root:zhuqingyang
+Dec 20 21:42:25 zhuqingyang-Rev-1-0 su[4888]: pam_unix(su:session): session opened for user zhuqingyang by (uid=0)
+Dec 20 21:42:25 zhuqingyang-Rev-1-0 su[4888]: pam_unix(su:session): session closed for user zhuqingyang
+Dec 20 21:42:29 zhuqingyang-Rev-1-0 gnome-screensaver-dialog: gkr-pam: unlocked login keyring
+Dec 20 22:17:01 zhuqingyang-Rev-1-0 CRON[6556]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 20 22:17:01 zhuqingyang-Rev-1-0 CRON[6556]: pam_unix(cron:session): session closed for user root

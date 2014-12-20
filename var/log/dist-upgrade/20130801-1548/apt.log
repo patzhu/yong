@@ -1,0 +1,558 @@
+Log time: 2012-05-02 22:09:31.803588
+Log time: 2012-05-02 22:12:09.715813
+Log time: 2012-05-02 22:14:19.792013
+  new important dependency: gir1.2-unity-4.0
+  Installing gir1.2-unity-4.0 as 推荐 of ubuntuone-client
+    Installing gir1.2-dbusmenu-glib-0.4 as 依赖 of gir1.2-unity-4.0
+      Installing libdbusmenu-glib4 as 依赖 of gir1.2-dbusmenu-glib-0.4
+    Installing gir1.2-dee-0.5 as 依赖 of gir1.2-unity-4.0
+    Installing libunity6 as 依赖 of gir1.2-unity-4.0
+  new important dependency: ubuntuone-installer
+  Installing ubuntuone-installer as 推荐 of ubuntuone-client
+    Installing gir1.2-gtk-3.0 as 依赖 of ubuntuone-installer
+      Installing libgtk-3-common as 依赖 of gir1.2-gtk-3.0
+        Installing dconf-gsettings-backend as 依赖 of libgtk-3-common
+        Installing libgtk-3-0 as 推荐 of libgtk-3-common
+          Installing libgtk-3-bin as 推荐 of libgtk-3-0
+  Installing libmono-cairo4.0-cil as 依赖 of libmono-addins-gui0.2-cil
+    Installing libmono-corlib4.0-cil as 依赖 of libmono-cairo4.0-cil
+      Installing libmono-i18n-west4.0-cil as 推荐 of libmono-corlib4.0-cil
+        Installing libmono-i18n4.0-cil as 依赖 of libmono-i18n-west4.0-cil
+  Installing libmono-posix4.0-cil as 依赖 of libmono-addins-gui0.2-cil
+    Installing libmono-system4.0-cil as 依赖 of libmono-posix4.0-cil
+      Installing libmono-security4.0-cil as 依赖 of libmono-system4.0-cil
+      Installing libmono-system-configuration4.0-cil as 依赖 of libmono-system4.0-cil
+        Installing libmono-system-security4.0-cil as 依赖 of libmono-system-configuration4.0-cil
+          Installing libmono-system-xml4.0-cil as 依赖 of libmono-system-security4.0-cil
+  Installing libmono-system-core4.0-cil as 依赖 of libmono-addins-gui0.2-cil
+  Installing libgmp10 as 依赖 of python-crypto
+  Installing libgck-1-0 as 依赖 of gnome-keyring
+    Installing libp11-kit0 as 依赖 of libgck-1-0
+  Installing libgcr-3-1 as 依赖 of gnome-keyring
+  Installing libcap2-bin as 依赖 of gnome-keyring
+  Installing libperl5.12 as 依赖 of libpurple0
+  Installing libbamf3-0 as 依赖 of unity
+  Installing libgnome-desktop-3-2 as 依赖 of unity
+    Installing gnome-desktop3-data as 依赖 of libgnome-desktop-3-2
+  Installing libindicator3-6 as 依赖 of unity
+  Installing libnux-1.0-0 as 依赖 of unity
+    Installing libnux-1.0-common as 依赖 of libnux-1.0-0
+  Installing libunity-core-4.0-4 as 依赖 of unity
+    Installing unity-services as 依赖 of libunity-core-4.0-4
+  Installing libunity-misc4 as 依赖 of unity
+  Installing compiz-plugins-main-default as 依赖 of unity
+    Installing libboost-serialization1.46.1 as 依赖 of compiz-plugins-main-default
+  new important dependency: unity-lens-applications
+  Installing unity-lens-applications as 推荐 of unity
+  new important dependency: unity-lens-files
+  Installing unity-lens-files as 推荐 of unity
+  new important dependency: unity-lens-music
+  Installing unity-lens-music as 推荐 of unity
+    Installing unity-scope-musicstores as 推荐 of unity-lens-music
+  new important dependency: indicator-power
+  Installing indicator-power as 推荐 of unity
+  Installing gcc-4.6-base as 依赖 of libstdc++6
+  Installing libdbus-glib1.0-cil as 依赖 of tomboy
+    Installing libdbus1.0-cil as 依赖 of libdbus-glib1.0-cil
+  Installing libedataserver1.2-15 as 依赖 of evolution-webcal
+  Installing libtinfo5 as 依赖 of libncurses5
+  Installing gir1.2-indicate-0.6 as 依赖 of gwibber-service
+  Installing libnm-util2 as 依赖 of libnm-glib-vpn1
+  Installing liblaunchpad-integration-3.0-1 as 依赖 of gcalctool
+  Installing libdb5.1 as 依赖 of iproute
+  Installing libprotobuf7 as 依赖 of libcompizconfig0
+  Installing gir1.2-vte-2.90 as 依赖 of update-manager
+    Installing libvte-2.90-9 as 依赖 of gir1.2-vte-2.90
+  new important dependency: gir1.2-dbusmenu-gtk-0.4
+  Installing gir1.2-dbusmenu-gtk-0.4 as 推荐 of update-manager
+    Installing libdbusmenu-gtk4 as 依赖 of gir1.2-dbusmenu-gtk-0.4
+  new important dependency: gir1.2-webkit-3.0
+  Installing gir1.2-webkit-3.0 as 推荐 of update-manager
+    Installing libwebkitgtk-3.0-0 as 依赖 of gir1.2-webkit-3.0
+      Installing libgail-3-0 as 依赖 of libwebkitgtk-3.0-0
+      Installing libwebkitgtk-3.0-common as 依赖 of libwebkitgtk-3.0-0
+  Installing libgnome-media-profiles-3.0-0 as 依赖 of gnome-media
+  Installing gstreamer0.10-gconf as 依赖 of gnome-media
+  Installing libjpeg8 as 依赖 of libv4l-0
+  Installing libgvnc-1.0-0 as 依赖 of libgtk-vnc-1.0-0
+  Installing libcanberra-gtk3-0 as 依赖 of aisleriot
+    Installing libcanberra-gtk3-module as 推荐 of libcanberra-gtk3-0
+  Installing libssl1.0.0 as 依赖 of libsnmp15
+  Installing libbrasero-media3-1 as 依赖 of brasero-cdrkit
+    Installing libappindicator3-1 as 依赖 of libbrasero-media3-1
+      Installing libdbusmenu-gtk3-4 as 依赖 of libappindicator3-1
+  Installing libcolord1 as 依赖 of gnome-settings-daemon
+    Installing colord as 推荐 of libcolord1
+      Installing liblcms2-2 as 依赖 of colord
+      Installing acl as 依赖 of colord
+      Installing icc-profiles-free as 推荐 of colord
+  Installing libgnomekbd7 as 依赖 of gnome-settings-daemon
+  Installing libcamel-1.2-29 as 依赖 of evolution-indicator
+  Installing libraptor2-0 as 依赖 of librdf0
+    Installing libyajl1 as 依赖 of libraptor2-0
+  Installing librasqal3 as 依赖 of librdf0
+    Installing libmhash2 as 依赖 of librasqal3
+  Installing libyaml-tiny-perl as 依赖 of doc-base
+  Installing libgucharmap-2-90-7 as 依赖 of gucharmap
+  Installing libnl3 as 依赖 of network-manager
+  Installing libnm-glib4 as 依赖 of network-manager
+  Installing zenity-common as 依赖 of zenity
+  Installing libebackend-1.2-1 as 依赖 of evolution-exchange
+  Installing libebook1.2-12 as 依赖 of evolution-exchange
+  Installing libecal1.2-10 as 依赖 of evolution-exchange
+  Installing libedata-book-1.2-11 as 依赖 of evolution-exchange
+  Installing libedata-cal-1.2-13 as 依赖 of evolution-exchange
+  Installing libedataserverui-3.0-1 as 依赖 of evolution-exchange
+  Installing libgtkhtml-editor-4.0-0 as 依赖 of evolution-exchange
+    Installing libgtkhtml-4.0-0 as 依赖 of libgtkhtml-editor-4.0-0
+      Installing libgtkhtml-4.0-common as 依赖 of libgtkhtml-4.0-0
+  Installing gir1.2-gnomebluetooth-1.0 as 依赖 of gnome-bluetooth
+  Installing libgdata13 as 依赖 of evolution
+    Installing liboauth0 as 依赖 of libgdata13
+  Installing libgweather-3-0 as 依赖 of evolution
+  Installing libquadmath0 as 依赖 of libgfortran3
+  Installing libwnck-3-0 as 依赖 of bamfdaemon
+    Installing libwnck-3-common as 依赖 of libwnck-3-0
+  Installing libtotem0 as 依赖 of totem-plugins
+    Installing libpeas-1.0-0 as 依赖 of libtotem0
+      Installing libpeas-common as 依赖 of libpeas-1.0-0
+  Installing gir1.2-totem-1.0 as 依赖 of totem-plugins
+    Installing gir1.2-totem-plparser-1.0 as 依赖 of gir1.2-totem-1.0
+  Installing gir1.2-peas-1.0 as 依赖 of totem-plugins
+  Installing libibus-1.0-0 as 依赖 of ibus-gtk
+  Installing libgtksourceview-3.0-0 as 依赖 of gedit
+    Installing libgtksourceview-3.0-common as 依赖 of libgtksourceview-3.0-0
+  new important dependency: gir1.2-gtksource-3.0
+  Installing gir1.2-gtksource-3.0 as 推荐 of gedit
+  Installing libprotoc7 as 依赖 of protobuf-compiler
+  Installing libapt-pkg4.11 as 依赖 of apt-transport-https
+  Installing linux-image-3.0.0-19-generic-pae as 依赖 of linux-image-generic-pae
+  Setting NOT as auto-installed (direct 依赖 of pkg in APT::Never-MarkAuto-Sections)
+  Installing libgnome-control-center1 as 依赖 of gnome-control-center
+  Installing libgnome-menu-3-0 as 依赖 of gnome-control-center
+  Installing libgoa-1.0-0 as 依赖 of gnome-control-center
+    Installing librest-0.7-0 as 依赖 of libgoa-1.0-0
+  Installing libnm-gtk0 as 依赖 of gnome-control-center
+    Installing libnm-gtk-common as 依赖 of libnm-gtk0
+  Installing gnome-control-center-data as 依赖 of gnome-control-center
+  Installing accountsservice as 依赖 of gnome-control-center
+    Installing libaccountsservice0 as 依赖 of accountsservice
+  new important dependency: apg
+  Installing apg as 推荐 of gnome-control-center
+  new important dependency: gnome-icon-theme-symbolic
+  Installing gnome-icon-theme-symbolic as 推荐 of gnome-control-center
+  new important dependency: gnome-online-accounts
+  Installing gnome-online-accounts as 推荐 of gnome-control-center
+  Installing libmono-csharp4.0-cil as 依赖 of gbrainy
+  Installing at-spi2-core as 依赖 of ubuntu-desktop
+  Setting NOT as auto-installed (direct 依赖 of pkg in APT::Never-MarkAuto-Sections)
+    Installing libatspi2.0-0 as 依赖 of at-spi2-core
+  Installing gnome-font-viewer as 依赖 of ubuntu-desktop
+  Setting NOT as auto-installed (direct 依赖 of pkg in APT::Never-MarkAuto-Sections)
+  Installing libatk-adaptor as 依赖 of ubuntu-desktop
+  Setting NOT as auto-installed (direct 依赖 of pkg in APT::Never-MarkAuto-Sections)
+  Installing libnotify-bin as 依赖 of ubuntu-desktop
+  Setting NOT as auto-installed (direct 依赖 of pkg in APT::Never-MarkAuto-Sections)
+  Installing lightdm as 依赖 of ubuntu-desktop
+  Setting NOT as auto-installed (direct 依赖 of pkg in APT::Never-MarkAuto-Sections)
+    Installing unity-greeter as 推荐 of lightdm
+      Installing liblightdm-gobject-1-0 as 依赖 of unity-greeter
+  Installing unity-2d as 依赖 of ubuntu-desktop
+  Setting NOT as auto-installed (direct 依赖 of pkg in APT::Never-MarkAuto-Sections)
+    Installing unity-2d-launcher as 依赖 of unity-2d
+      Installing libdconf-qt0 as 依赖 of unity-2d-launcher
+        Installing libdconf-dbus-1-0 as 依赖 of libdconf-qt0
+        Installing libqt4-dbus as 依赖 of libdconf-qt0
+          Installing libqt4-xml as 依赖 of libqt4-dbus
+            Installing libqtcore4 as 依赖 of libqt4-xml
+          Installing qdbus as 依赖 of libqt4-dbus
+        Installing libqt4-declarative as 依赖 of libdconf-qt0
+          Installing libqt4-network as 依赖 of libqt4-declarative
+          Installing libqt4-script as 依赖 of libqt4-declarative
+          Installing libqt4-sql as 依赖 of libqt4-declarative
+            Installing libqt4-sql-mysql as 推荐 of libqt4-sql
+              Installing libmysqlclient16 as 依赖 of libqt4-sql-mysql
+                Installing mysql-common as 依赖 of libmysqlclient16
+          Installing libqt4-xmlpatterns as 依赖 of libqt4-declarative
+          Installing libqtgui4 as 依赖 of libqt4-declarative
+            Installing libaudio2 as 依赖 of libqtgui4
+            Installing libmng1 as 依赖 of libqtgui4
+      Installing libunity-2d-private0 as 依赖 of unity-2d-launcher
+        Installing libdbusmenu-qt2 as 依赖 of libunity-2d-private0
+        Installing libqt4-opengl as 依赖 of libunity-2d-private0
+        Installing libqtbamf1 as 依赖 of libunity-2d-private0
+        Installing libqtdee2 as 依赖 of libunity-2d-private0
+      Installing libqt4-svg as 依赖 of unity-2d-launcher
+    Installing unity-2d-panel as 依赖 of unity-2d
+      Installing libqtgconf1 as 依赖 of unity-2d-panel
+    Installing unity-2d-places as 依赖 of unity-2d
+    Installing unity-2d-spread as 依赖 of unity-2d
+  Installing xdiagnose as 依赖 of ubuntu-desktop
+  Setting NOT as auto-installed (direct 依赖 of pkg in APT::Never-MarkAuto-Sections)
+  new important dependency: c2esp
+  Installing c2esp as 推荐 of ubuntu-desktop
+  Setting NOT as auto-installed (direct 推荐 of pkg in APT::Never-MarkAuto-Sections)
+  new important dependency: deja-dup
+  Installing deja-dup as 推荐 of ubuntu-desktop
+  Setting NOT as auto-installed (direct 推荐 of pkg in APT::Never-MarkAuto-Sections)
+    Installing duplicity as 依赖 of deja-dup
+      Installing librsync1 as 依赖 of duplicity
+    Installing ubuntuone-couch as 推荐 of deja-dup
+  new important dependency: ibus-gtk3
+  Installing ibus-gtk3 as 推荐 of ubuntu-desktop
+  Setting NOT as auto-installed (direct 推荐 of pkg in APT::Never-MarkAuto-Sections)
+  new important dependency: libgail-3-common
+  Installing libgail-3-common as 推荐 of ubuntu-desktop
+  Setting NOT as auto-installed (direct 推荐 of pkg in APT::Never-MarkAuto-Sections)
+  new important dependency: ptouch-driver
+  Installing ptouch-driver as 推荐 of ubuntu-desktop
+  Setting NOT as auto-installed (direct 推荐 of pkg in APT::Never-MarkAuto-Sections)
+  new important dependency: qt-at-spi
+  Installing qt-at-spi as 推荐 of ubuntu-desktop
+  Setting NOT as auto-installed (direct 推荐 of pkg in APT::Never-MarkAuto-Sections)
+  new important dependency: rastertosag-gdi
+  Installing rastertosag-gdi as 推荐 of ubuntu-desktop
+  Setting NOT as auto-installed (direct 推荐 of pkg in APT::Never-MarkAuto-Sections)
+  new important dependency: sni-qt
+  Installing sni-qt as 推荐 of ubuntu-desktop
+  Setting NOT as auto-installed (direct 推荐 of pkg in APT::Never-MarkAuto-Sections)
+  new important dependency: thunderbird
+  Installing thunderbird as 推荐 of ubuntu-desktop
+  Setting NOT as auto-installed (direct 推荐 of pkg in APT::Never-MarkAuto-Sections)
+    Installing thunderbird-globalmenu as 推荐 of thunderbird
+  new important dependency: thunderbird-gnome-support
+  Installing thunderbird-gnome-support as 推荐 of ubuntu-desktop
+  Setting NOT as auto-installed (direct 推荐 of pkg in APT::Never-MarkAuto-Sections)
+  Installing libfolks-telepathy25 as 依赖 of empathy
+    Installing libfolks25 as 依赖 of libfolks-telepathy25
+  Installing libido3-0.1-0 as 依赖 of empathy
+  new important dependency: telepathy-indicator
+  Installing telepathy-indicator as 推荐 of empathy
+    Installing libindicate-gtk3 as 依赖 of telepathy-indicator
+  Installing libapt-inst1.3 as 依赖 of python-apt
+  Installing gtk3-engines-unico as 依赖 of light-themes
+  new important dependency: python-dateutil
+  Installing python-dateutil as 推荐 of checkbox
+  Installing libppl-c4 as 依赖 of libcloog-ppl0
+    Installing libppl9 as 依赖 of libppl-c4
+    Installing libpwl5 as 依赖 of libppl-c4
+  Installing libavahi-ui-gtk3-0 as 依赖 of vinagre
+  Installing libgtk-vnc-2.0-0 as 依赖 of vinagre
+  Installing liboverlay-scrollbar-0.2-0 as 依赖 of overlay-scrollbar
+  Installing liboverlay-scrollbar3-0.2-0 as 依赖 of overlay-scrollbar
+  Installing g++-4.6 as 依赖 of g++
+    Installing gcc-4.6 as 依赖 of g++-4.6
+      Installing cpp-4.6 as 依赖 of gcc-4.6
+    Installing libstdc++6-4.6-dev as 依赖 of g++-4.6
+  Installing libhttp-daemon-perl as 依赖 of librpc-xml-perl
+    Installing libhttp-message-perl as 依赖 of libhttp-daemon-perl
+      Installing libhttp-date-perl as 依赖 of libhttp-message-perl
+      Installing libencode-locale-perl as 依赖 of libhttp-message-perl
+      Installing liblwp-mediatypes-perl as 依赖 of libhttp-message-perl
+  Installing librtmp0 as 依赖 of libcurl3-gnutls
+  Installing libmono-sharpzip4.84-cil as 依赖 of banshee
+  Installing libmtp9 as 依赖 of banshee
+    Installing libmtp-common as 依赖 of libmtp9
+    Installing libmtp-runtime as 推荐 of libmtp9
+  new important dependency: libgphoto2-l10n
+  Installing libgphoto2-l10n as 推荐 of libgphoto2-2
+  Installing grub2-common as 依赖 of grub-pc
+  Installing grub-pc-bin as 依赖 of grub-pc
+  Installing libunique-3.0-0 as 依赖 of gnome-user-share
+  Installing gir1.2-gmenu-3.0 as 依赖 of software-center
+  Installing oneconf as 依赖 of software-center
+  new important dependency: gir1.2-launchpad-integration-3.0
+  Installing gir1.2-launchpad-integration-3.0 as 推荐 of software-center
+  Installing compiz-plugins-default as 依赖 of compiz-plugins
+  Installing libindicator-messages-status-provider1 as 依赖 of indicator-messages
+  new important dependency: indicator-status-provider-mc5
+  Installing indicator-status-provider-mc5 as 推荐 of indicator-messages
+  Installing python-pyatspi2 as 依赖 of gnome-orca
+    Installing gir1.2-atspi-2.0 as 依赖 of python-pyatspi2
+  Installing gir1.2-wnck-3.0 as 依赖 of gnome-orca
+  Installing libavcodec53 as 依赖 of gstreamer0.10-ffmpeg
+    Installing libavutil51 as 依赖 of libavcodec53
+  Installing libavformat53 as 依赖 of gstreamer0.10-ffmpeg
+  Installing libpostproc52 as 依赖 of gstreamer0.10-ffmpeg
+  Installing libswscale2 as 依赖 of gstreamer0.10-ffmpeg
+  Installing libxcb-util0 as 依赖 of libstartup-notification0
+  Installing libgrip0 as 依赖 of eog
+  Installing tcl8.5 as 依赖 of vim-gnome
+  Installing libmono-system-drawing4.0-cil as 依赖 of libgtk2.0-cil
+    Installing libgdiplus as 依赖 of libmono-system-drawing4.0-cil
+      Installing libgif4 as 依赖 of libgdiplus
+  Installing mono-4.0-gac as 依赖 of mono-gac
+  Installing libminiupnpc5 as 依赖 of vino
+  Installing libgtkmm-3.0-1 as 依赖 of gnome-system-monitor
+  Installing libffi6 as 依赖 of libgirepository-1.0-1
+  Installing libevince3-3 as 依赖 of evince
+  Installing libmono-management4.0-cil as 依赖 of mono-csharp-shell
+  Installing libindicator6 as 依赖 of libappindicator1
+  new important dependency: libswitch-perl
+  Installing libswitch-perl as 推荐 of perl-modules
+  new important dependency: libpod-plainer-perl
+  Installing libpod-plainer-perl as 推荐 of perl-modules
+  new important dependency: libclass-isa-perl
+  Installing libclass-isa-perl as 推荐 of perl-modules
+  Installing software-properties-common as 依赖 of software-properties-gtk
+  Installing libyelp0 as 依赖 of yelp
+  new important dependency: appmenu-gtk3
+  Installing appmenu-gtk3 as 推荐 of indicator-appmenu
+  new important dependency: appmenu-qt
+  Installing appmenu-qt as 推荐 of indicator-appmenu
+  Installing sound-theme-freedesktop as 依赖 of libcanberra0
+  Installing libllvm2.9 as 依赖 of libgl1-mesa-dri
+  Installing libglapi-mesa as 依赖 of libgl1-mesa-glx
+  new important dependency: gir1.2-appindicator3-0.1
+  Installing gir1.2-appindicator3-0.1 as 推荐 of onboard
+  Installing libpanel-applet-4-0 as 依赖 of gnome-applets
+  Installing gir1.2-panelapplet-4.0 as 依赖 of gnome-applets
+  Installing libmount1 as 预依赖 of mount
+  Installing libasyncns0 as 依赖 of libpulse0
+  Installing libjson0 as 依赖 of libpulse0
+  new important dependency: gvfs-bin
+  Installing gvfs-bin as 推荐 of gvfs
+  new important dependency: gnome-session-fallback
+  Installing gnome-session-fallback as 推荐 of gnome-panel
+  Installing libfile-listing-perl as 依赖 of libwww-perl
+  Installing libhttp-cookies-perl as 依赖 of libwww-perl
+  Installing libhttp-negotiate-perl as 依赖 of libwww-perl
+  Installing liblwp-protocol-https-perl as 依赖 of libwww-perl
+    Installing libnet-http-perl as 依赖 of liblwp-protocol-https-perl
+      Installing libio-socket-ssl-perl as 推荐 of libnet-http-perl
+        Installing libnet-ssleay-perl as 依赖 of libio-socket-ssl-perl
+  Installing libwww-robotrules-perl as 依赖 of libwww-perl
+  new important dependency: libhtml-form-perl
+  Installing libhtml-form-perl as 推荐 of libwww-perl
+  Installing libjte1 as 依赖 of libisofs6
+  Installing libgwibber-gtk2 as 依赖 of gwibber
+    Installing libgtkspell3-0 as 依赖 of libgwibber-gtk2
+    Installing libgwibber2 as 依赖 of libgwibber-gtk2
+  Installing linux-headers-3.0.0-19-generic-pae as 依赖 of linux-headers-generic-pae
+    Installing linux-headers-3.0.0-19 as 依赖 of linux-headers-3.0.0-19-generic-pae
+  Installing patchutils as 依赖 of lintian
+  Installing libpanel-applet-3-0 as 依赖 of gir1.2-panelapplet-3.0
+  Installing libevent-2.0-5 as 依赖 of transmission-gtk
+  Installing libnatpmp1 as 依赖 of transmission-gtk
+  Installing python-gobject-2 as 依赖 of python-gobject
+Starting
+Starting 2
+Investigating (0) gvfs [ i386 ] < 1.8.0-0ubuntu2 -> 1.10.0-0ubuntu1 > ( libs )
+Broken gvfs:i386 冲突 on libgvfscommon0 [ i386 ] < 1.8.0-0ubuntu2 > ( libs )
+  Considering libgvfscommon0:i386 -1 as a solution to gvfs:i386 53
+  Added libgvfscommon0:i386 to the remove list
+  Fixing gvfs:i386 via remove of libgvfscommon0:i386
+Investigating (0) console-setup [ i386 ] < 1.57ubuntu20 -> 1.57ubuntu27 > ( utils )
+Broken console-setup:i386 冲突 on console-terminus [ i386 ] < 4.30-2 > ( fonts )
+  Considering console-terminus:i386 -1 as a solution to console-setup:i386 19
+  Added console-terminus:i386 to the remove list
+  Fixing console-setup:i386 via remove of console-terminus:i386
+Investigating (0) gnome-panel [ i386 ] < 1:2.32.1-0ubuntu6.3 -> 1:3.2.0-0ubuntu1 > ( universe/gnome )
+Broken gnome-panel:i386 破坏 on libpanel-applet-3-0 [ i386 ] < 1:2.32.1-0ubuntu6.3 > ( libs )
+  Considering libpanel-applet-3-0:i386 12 as a solution to gnome-panel:i386 18
+  Added libpanel-applet-3-0:i386 to the remove list
+Broken gnome-panel:i386 破坏 on libpanel-applet2-0 [ i386 ] < 1:2.32.1-0ubuntu6.3 > ( libs )
+  Considering libpanel-applet2-0:i386 3 as a solution to gnome-panel:i386 18
+  Added libpanel-applet2-0:i386 to the remove list
+  Fixing gnome-panel:i386 via remove of libpanel-applet-3-0:i386
+  Fixing gnome-panel:i386 via remove of libpanel-applet2-0:i386
+Investigating (0) gnome-control-center-data [ i386 ] < none -> 1:3.2.2-0ubuntu1 > ( gnome )
+Broken gnome-control-center-data:i386 冲突 on capplets-data [ i386 ] < 1:2.32.1-0ubuntu15 > ( gnome )
+  Considering capplets-data:i386 -1 as a solution to gnome-control-center-data:i386 17
+  Added capplets-data:i386 to the remove list
+  Fixing gnome-control-center-data:i386 via remove of capplets-data:i386
+Investigating (0) ntfs-3g [ i386 ] < 1:2010.8.8-0ubuntu1 -> 1:2011.4.12AR.4-2ubuntu3 > ( otherosfs )
+Broken ntfs-3g:i386 冲突 on ntfsprogs [ i386 ] < 2.0.0-1ubuntu4 > ( universe/otherosfs )
+  Considering ntfsprogs:i386 5 as a solution to ntfs-3g:i386 14
+  Added ntfsprogs:i386 to the remove list
+  Fixing ntfs-3g:i386 via remove of ntfsprogs:i386
+Investigating (0) indicator-messages [ i386 ] < 0.4.0-0ubuntu1 -> 0.5.0-0ubuntu1 > ( gnome )
+Broken indicator-messages:i386 冲突 on indicator-me [ i386 ] < 0.2.19-0ubuntu1 > ( gnome )
+  Considering indicator-me:i386 2 as a solution to indicator-messages:i386 13
+  Added indicator-me:i386 to the remove list
+  Fixing indicator-messages:i386 via remove of indicator-me:i386
+Investigating (0) libmtp-common [ i386 ] < none -> 1.1.0-3ubuntu1 > ( libs )
+Broken libmtp-common:i386 破坏 on libmtp8 [ i386 ] < 1.0.6-2 > ( libs ) (<= 1.0.6-6)
+  Considering libmtp8:i386 -1 as a solution to libmtp-common:i386 2
+  Added libmtp8:i386 to the remove list
+  Fixing libmtp-common:i386 via remove of libmtp8:i386
+Investigating (0) python-gnome2 [ i386 ] < 2.28.1-1ubuntu3 -> 2.28.1-3 > ( python )
+Broken python-gnome2:i386 冲突 on python-gnomecanvas [ i386 ] < 2.28.1-1ubuntu3 > ( python )
+  Considering python-gnomecanvas:i386 -1 as a solution to python-gnome2:i386 1
+  Added python-gnomecanvas:i386 to the remove list
+  Fixing python-gnome2:i386 via remove of python-gnomecanvas:i386
+Investigating (0) libevince3-3 [ i386 ] < none -> 3.2.1-0ubuntu2.2 > ( libs )
+Broken libevince3-3:i386 破坏 on libevdocument3 [ i386 ] < 2.32.0-0ubuntu12 > ( libs )
+  Considering libevdocument3:i386 1 as a solution to libevince3-3:i386 1
+  Holding Back libevince3-3:i386 rather than change libevdocument3:i386
+Investigating (0) evince [ i386 ] < 2.32.0-0ubuntu12 -> 3.2.1-0ubuntu2.2 > ( gnome )
+Broken evince:i386 依赖 on libevince3-3 [ i386 ] < none -> 3.2.1-0ubuntu2.2 > ( libs ) (= 3.2.1-0ubuntu2.2)
+  Considering libevince3-3:i386 1 as a solution to evince:i386 1
+  Removing evince:i386 rather than change libevince3-3:i386
+Investigating (0) indicator-applet-session [ i386 ] < 0.4.12-0ubuntu1 > ( gnome )
+Broken indicator-applet-session:i386 依赖 on libpanel-applet-3-0 [ i386 ] < 1:2.32.1-0ubuntu6.3 > ( libs )
+  Considering libpanel-applet-3-0:i386 12 as a solution to indicator-applet-session:i386 1
+  Removing indicator-applet-session:i386 rather than change libpanel-applet-3-0:i386
+Investigating (0) python-pyatspi2 [ i386 ] < none -> 2.2.1-0ubuntu1 > ( python )
+Broken python-pyatspi2:i386 冲突 on python-pyatspi [ i386 ] < 1.32.0-0ubuntu2 -> 1.32.0-0ubuntu3 > ( universe/libs )
+  Considering python-pyatspi:i386 0 as a solution to python-pyatspi2:i386 1
+  Added python-pyatspi:i386 to the remove list
+  Conflicts//Breaks against version 1.32.0-0ubuntu2 for python-pyatspi but that is not InstVer, ignoring
+  Fixing python-pyatspi2:i386 via remove of python-pyatspi:i386
+Investigating (0) ubuntu-desktop [ i386 ] < 1.220 -> 1.245 > ( metapackages )
+Broken ubuntu-desktop:i386 依赖 on evince [ i386 ] < 2.32.0-0ubuntu12 -> 3.2.1-0ubuntu2.2 > ( gnome )
+  Considering evince:i386 1 as a solution to ubuntu-desktop:i386 0
+  Removing ubuntu-desktop:i386 rather than change evince:i386
+Investigating (0) libgail-gnome-module [ i386 ] < 1.20.3-1 > ( libs )
+Broken libgail-gnome-module:i386 依赖 on libpanel-applet2-0 [ i386 ] < 1:2.32.1-0ubuntu6.3 > ( libs ) (>= 2.26.0)
+  Considering libpanel-applet2-0:i386 3 as a solution to libgail-gnome-module:i386 -1
+  Removing libgail-gnome-module:i386 rather than change libpanel-applet2-0:i386
+Investigating (0) libbrasero-media1 [ i386 ] < 2.32.1-0ubuntu2 > ( libs )
+Broken libbrasero-media1:i386 依赖 on brasero-common [ i386 ] < 2.32.1-0ubuntu2 -> 3.2.0-0ubuntu1.1 > ( gnome ) (< 2.33)
+  Considering brasero-common:i386 14 as a solution to libbrasero-media1:i386 -1
+  Removing libbrasero-media1:i386 rather than change brasero-common:i386
+Investigating (0) indicator-applet-complete [ i386 ] < 0.4.12-0ubuntu1 > ( gnome )
+Broken indicator-applet-complete:i386 依赖 on libpanel-applet-3-0 [ i386 ] < 1:2.32.1-0ubuntu6.3 > ( libs )
+  Considering libpanel-applet-3-0:i386 12 as a solution to indicator-applet-complete:i386 -1
+  Removing indicator-applet-complete:i386 rather than change libpanel-applet-3-0:i386
+Investigating (0) tsclient [ i386 ] < 0.150-4ubuntu2 > ( gnome )
+Broken tsclient:i386 依赖 on libpanel-applet2-0 [ i386 ] < 1:2.32.1-0ubuntu6.3 > ( libs ) (>= 2.26.0)
+  Considering libpanel-applet2-0:i386 3 as a solution to tsclient:i386 -1
+  Removing tsclient:i386 rather than change libpanel-applet2-0:i386
+Investigating (0) indicator-applet-appmenu [ i386 ] < 0.4.12-0ubuntu1 > ( gnome )
+Broken indicator-applet-appmenu:i386 依赖 on libpanel-applet-3-0 [ i386 ] < 1:2.32.1-0ubuntu6.3 > ( libs )
+  Considering libpanel-applet-3-0:i386 12 as a solution to indicator-applet-appmenu:i386 -1
+  Removing indicator-applet-appmenu:i386 rather than change libpanel-applet-3-0:i386
+Investigating (0) libperl5.10 [ i386 ] < 5.10.1-17ubuntu4 > ( libs )
+Broken libperl5.10:i386 依赖 on perl-base [ i386 ] < 5.10.1-17ubuntu4 -> 5.12.4-4 > ( perl ) (= 5.10.1-17ubuntu4)
+  Considering perl-base:i386 5301 as a solution to libperl5.10:i386 -1
+  Removing libperl5.10:i386 rather than change perl-base:i386
+Investigating (0) libpulse-browse0 [ i386 ] < 1:0.9.22+stable-queue-24-g67d18-0ubuntu3 > ( sound )
+Broken libpulse-browse0:i386 依赖 on libpulse0 [ i386 ] < 1:0.9.22+stable-queue-24-g67d18-0ubuntu3 -> 1:1.0-0ubuntu3.1 > ( libs ) (= 1:0.9.22+stable-queue-24-g67d18-0ubuntu3)
+  Considering libpulse0:i386 65 as a solution to libpulse-browse0:i386 -1
+  Removing libpulse-browse0:i386 rather than change libpulse0:i386
+Investigating (0) gir1.2-panelapplet-3.0 [ i386 ] < 1:2.32.1-0ubuntu6.3 > ( gnome )
+Broken gir1.2-panelapplet-3.0:i386 依赖 on libpanel-applet-3-0 [ i386 ] < 1:2.32.1-0ubuntu6.3 > ( libs )
+  Considering libpanel-applet-3-0:i386 12 as a solution to gir1.2-panelapplet-3.0:i386 -1
+  Removing gir1.2-panelapplet-3.0:i386 rather than change libpanel-applet-3-0:i386
+Investigating (1) indicator-applet [ i386 ] < 0.4.12-0ubuntu1 > ( gnome )
+Broken indicator-applet:i386 依赖 on libpanel-applet-3-0 [ i386 ] < 1:2.32.1-0ubuntu6.3 > ( libs )
+  Considering libpanel-applet-3-0:i386 12 as a solution to indicator-applet:i386 19
+  Added libpanel-applet-3-0:i386 to the remove list
+  Fixing indicator-applet:i386 via keep of libpanel-applet-3-0:i386
+Investigating (1) gnome-panel [ i386 ] < 1:2.32.1-0ubuntu6.3 -> 1:3.2.0-0ubuntu1 > ( universe/gnome )
+Broken gnome-panel:i386 破坏 on libpanel-applet-3-0 [ i386 ] < 1:2.32.1-0ubuntu6.3 > ( libs )
+  Considering libpanel-applet-3-0:i386 12 as a solution to gnome-panel:i386 18
+  Added libpanel-applet-3-0:i386 to the remove list
+  Fixing gnome-panel:i386 via remove of libpanel-applet-3-0:i386
+Investigating (2) indicator-applet [ i386 ] < 0.4.12-0ubuntu1 > ( gnome )
+Broken indicator-applet:i386 依赖 on libpanel-applet-3-0 [ i386 ] < 1:2.32.1-0ubuntu6.3 > ( libs )
+  Considering libpanel-applet-3-0:i386 12 as a solution to indicator-applet:i386 19
+  Added libpanel-applet-3-0:i386 to the remove list
+  Fixing indicator-applet:i386 via keep of libpanel-applet-3-0:i386
+Investigating (2) gnome-panel [ i386 ] < 1:2.32.1-0ubuntu6.3 -> 1:3.2.0-0ubuntu1 > ( universe/gnome )
+Broken gnome-panel:i386 破坏 on libpanel-applet-3-0 [ i386 ] < 1:2.32.1-0ubuntu6.3 > ( libs )
+  Considering libpanel-applet-3-0:i386 19 as a solution to gnome-panel:i386 18
+  Removing gnome-panel:i386 rather than change libpanel-applet-3-0:i386
+Investigating (2) gnome-applets [ i386 ] < 2.32.1.1-0ubuntu5 -> 3.2.0-0ubuntu1 > ( universe/gnome )
+Broken gnome-applets:i386 依赖 on gnome-panel [ i386 ] < 1:2.32.1-0ubuntu6.3 -> 1:3.2.0-0ubuntu1 > ( universe/gnome ) (>= 2.91.91)
+  Considering gnome-panel:i386 19 as a solution to gnome-applets:i386 9
+  Removing gnome-applets:i386 rather than change gnome-panel:i386
+Investigating (2) gnome-session-fallback [ i386 ] < none -> 3.2.1-0ubuntu1.1 > ( universe/gnome )
+Broken gnome-session-fallback:i386 依赖 on gnome-panel [ i386 ] < 1:2.32.1-0ubuntu6.3 -> 1:3.2.0-0ubuntu1 > ( universe/gnome ) (>= 3.0)
+  Considering gnome-panel:i386 19 as a solution to gnome-session-fallback:i386 8
+  Holding Back gnome-session-fallback:i386 rather than change gnome-panel:i386
+Investigating (3) indicator-applet [ i386 ] < 0.4.12-0ubuntu1 > ( gnome )
+Broken indicator-applet:i386 依赖 on gnome-panel [ i386 ] < 1:2.32.1-0ubuntu6.3 -> 1:3.2.0-0ubuntu1 > ( universe/gnome )
+  Considering gnome-panel:i386 19 as a solution to indicator-applet:i386 19
+  Removing indicator-applet:i386 rather than change gnome-panel:i386
+Done
+  Installing evince as 依赖 of ubuntu-desktop
+  Setting NOT as auto-installed (direct 依赖 of pkg in APT::Never-MarkAuto-Sections)
+    Installing libevince3-3 as 依赖 of evince
+Log time: 2012-05-03 00:25:13.517123
+Starting
+Starting 2
+Investigating (0) libgcr0 [ i386 ] < 2.92.92.is.2.32.1-0ubuntu2 > ( libs )
+Broken libgcr0:i386 依赖 on libgp11-0 [ i386 ] < 2.92.92.is.2.32.1-0ubuntu2 > ( libs ) (>= 2.26)
+  Considering libgp11-0:i386 10001 as a solution to libgcr0:i386 -1
+  Removing libgcr0:i386 rather than change libgp11-0:i386
+Done
+Starting
+Starting 2
+Investigating (0) libcamel1.2-19 [ i386 ] < 2.32.2-0ubuntu2 > ( libs )
+Broken libcamel1.2-19:i386 依赖 on libedataserver1.2-14 [ i386 ] < 2.32.2-0ubuntu2 > ( libs ) (>= 2.32.2)
+  Considering libedataserver1.2-14:i386 10008 as a solution to libcamel1.2-19:i386 7
+  Removing libcamel1.2-19:i386 rather than change libedataserver1.2-14:i386
+Investigating (0) libebook1.2-10 [ i386 ] < 2.32.2-0ubuntu2 > ( libs )
+Broken libebook1.2-10:i386 依赖 on libcamel1.2-19 [ i386 ] < 2.32.2-0ubuntu2 > ( libs ) (>= 2.32)
+  Considering libcamel1.2-19:i386 7 as a solution to libebook1.2-10:i386 3
+  Removing libebook1.2-10:i386 rather than change libcamel1.2-19:i386
+Investigating (0) libebackend1.2-0 [ i386 ] < 2.32.2-0ubuntu2 > ( libs )
+Broken libebackend1.2-0:i386 依赖 on libedataserver1.2-14 [ i386 ] < 2.32.2-0ubuntu2 > ( libs ) (>= 2.32.2)
+  Considering libedataserver1.2-14:i386 10008 as a solution to libebackend1.2-0:i386 3
+  Removing libebackend1.2-0:i386 rather than change libedataserver1.2-14:i386
+Investigating (0) libecal1.2-8 [ i386 ] < 2.32.2-0ubuntu2 > ( libs )
+Broken libecal1.2-8:i386 依赖 on libedataserver1.2-14 [ i386 ] < 2.32.2-0ubuntu2 > ( libs ) (>= 2.32.2)
+  Considering libedataserver1.2-14:i386 10008 as a solution to libecal1.2-8:i386 1
+  Removing libecal1.2-8:i386 rather than change libedataserver1.2-14:i386
+Investigating (0) libedataserverui1.2-11 [ i386 ] < 2.32.2-0ubuntu2 > ( libs )
+Broken libedataserverui1.2-11:i386 依赖 on libcamel1.2-19 [ i386 ] < 2.32.2-0ubuntu2 > ( libs ) (>= 2.32)
+  Considering libcamel1.2-19:i386 7 as a solution to libedataserverui1.2-11:i386 -1
+  Removing libedataserverui1.2-11:i386 rather than change libcamel1.2-19:i386
+Investigating (0) libegroupwise1.2-13 [ i386 ] < 2.32.2-0ubuntu2 > ( libs )
+Broken libegroupwise1.2-13:i386 依赖 on libedataserver1.2-14 [ i386 ] < 2.32.2-0ubuntu2 > ( libs ) (>= 2.32.2)
+  Considering libedataserver1.2-14:i386 10008 as a solution to libegroupwise1.2-13:i386 -1
+  Removing libegroupwise1.2-13:i386 rather than change libedataserver1.2-14:i386
+Investigating (0) libedata-cal1.2-10 [ i386 ] < 2.32.2-0ubuntu2 > ( libs )
+Broken libedata-cal1.2-10:i386 依赖 on libebackend1.2-0 [ i386 ] < 2.32.2-0ubuntu2 > ( libs ) (>= 2.32.2)
+  Considering libebackend1.2-0:i386 3 as a solution to libedata-cal1.2-10:i386 -1
+  Removing libedata-cal1.2-10:i386 rather than change libebackend1.2-0:i386
+Investigating (0) libedata-book1.2-8 [ i386 ] < 2.32.2-0ubuntu2 > ( libs )
+Broken libedata-book1.2-8:i386 依赖 on libebackend1.2-0 [ i386 ] < 2.32.2-0ubuntu2 > ( libs ) (>= 2.32.2)
+  Considering libebackend1.2-0:i386 3 as a solution to libedata-book1.2-8:i386 -1
+  Removing libedata-book1.2-8:i386 rather than change libebackend1.2-0:i386
+Done
+Starting
+Starting 2
+Investigating (0) gir1.2-panelapplet-4.0 [ i386 ] < 1:3.2.0-0ubuntu1 > ( universe/libs )
+Broken gir1.2-panelapplet-4.0:i386 依赖 on libpanel-applet-4-0 [ i386 ] < 1:3.2.0-0ubuntu1 > ( universe/libs ) (>= 2.91.93)
+  Considering libpanel-applet-4-0:i386 10001 as a solution to gir1.2-panelapplet-4.0:i386 0
+  Removing gir1.2-panelapplet-4.0:i386 rather than change libpanel-applet-4-0:i386
+Done
+Starting
+Starting 2
+Investigating (0) libprotoc6 [ i386 ] < 2.3.0-4ubuntu2 > ( devel )
+Broken libprotoc6:i386 依赖 on libprotobuf6 [ i386 ] < 2.3.0-4ubuntu2 > ( devel )
+  Considering libprotobuf6:i386 10001 as a solution to libprotoc6:i386 -2
+  Removing libprotoc6:i386 rather than change libprotobuf6:i386
+Done
+Starting
+Starting 2
+Investigating (0) libunity4 [ i386 ] < 3.8.4-0ubuntu1 > ( libs )
+Broken libunity4:i386 依赖 on libdbusmenu-glib3 [ i386 ] < 0.4.3-0ubuntu3 > ( libs )
+  Considering libdbusmenu-glib3:i386 10003 as a solution to libunity4:i386 -1
+  Removing libunity4:i386 rather than change libdbusmenu-glib3:i386
+Investigating (0) libindicate-gtk2 [ i386 ] < 0.5.0-0ubuntu2 > ( libs )
+Broken libindicate-gtk2:i386 依赖 on libdbusmenu-glib3 [ i386 ] < 0.4.3-0ubuntu3 > ( libs ) (>= 0.4.2)
+  Considering libdbusmenu-glib3:i386 10003 as a solution to libindicate-gtk2:i386 -1
+  Removing libindicate-gtk2:i386 rather than change libdbusmenu-glib3:i386
+Investigating (0) libdbusmenu-gtk3 [ i386 ] < 0.4.3-0ubuntu3 > ( libs )
+Broken libdbusmenu-gtk3:i386 依赖 on libdbusmenu-glib3 [ i386 ] < 0.4.3-0ubuntu3 > ( libs ) (>= 0.4.2)
+  Considering libdbusmenu-glib3:i386 10003 as a solution to libdbusmenu-gtk3:i386 -1
+  Removing libdbusmenu-gtk3:i386 rather than change libdbusmenu-glib3:i386
+Done
+Starting
+Starting 2
+Investigating (0) linux-headers-2.6.38-13-generic-pae [ i386 ] < 2.6.38-13.56 > ( devel )
+Broken linux-headers-2.6.38-13-generic-pae:i386 依赖 on linux-headers-2.6.38-13 [ i386 ] < 2.6.38-13.56 > ( devel )
+  Considering linux-headers-2.6.38-13:i386 10001 as a solution to linux-headers-2.6.38-13-generic-pae:i386 -1
+  Removing linux-headers-2.6.38-13-generic-pae:i386 rather than change linux-headers-2.6.38-13:i386
+Done
+Starting
+Starting 2
+Investigating (0) libnux-0.9-0 [ i386 ] < 0.9.46-0ubuntu4 > ( libs )
+Broken libnux-0.9-0:i386 依赖 on libnux-0.9-common [ i386 ] < 0.9.46-0ubuntu4 > ( libs ) (= 0.9.46-0ubuntu4)
+  Considering libnux-0.9-common:i386 10001 as a solution to libnux-0.9-0:i386 -1
+  Removing libnux-0.9-0:i386 rather than change libnux-0.9-common:i386
+Done

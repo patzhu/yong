@@ -1,0 +1,204 @@
+2012-03-20 23:25:57,663 DEBUG: updating <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec>
+2012-03-20 23:25:58,591 DEBUG: reading modalias file /lib/modules/2.6.38-13-generic-pae/modules.alias
+2012-03-20 23:25:59,072 DEBUG: reading modalias file /usr/share/jockey/modaliases/b43
+2012-03-20 23:25:59,186 DEBUG: reading modalias file /usr/share/jockey/modaliases/disable-upstream-nvidia
+2012-03-20 23:25:59,218 WARNING: Could not open DriverDB cache /var/cache/jockey/driverdb-OpenPrintingDriverDB.cache: [Errno 2] No such file or directory: '/var/cache/jockey/driverdb-OpenPrintingDriverDB.cache'
+2012-03-20 23:25:59,250 DEBUG: loading custom handler /usr/share/jockey/handlers/vmware-client.py
+2012-03-20 23:26:00,114 WARNING: modinfo for module vmxnet failed: ERROR: modinfo: could not find module vmxnet
+
+2012-03-20 23:26:00,114 DEBUG: Instantiated Handler subclass __builtin__.VmwareClientHandler from name VmwareClientHandler
+2012-03-20 23:26:00,129 DEBUG: VMWare Client Tools availability undetermined, adding to pool
+2012-03-20 23:26:00,129 DEBUG: loading custom handler /usr/share/jockey/handlers/broadcom_wl.py
+2012-03-20 23:26:00,155 WARNING: modinfo for module wl failed: ERROR: modinfo: could not find module wl
+
+2012-03-20 23:26:00,180 DEBUG: Instantiated Handler subclass __builtin__.BroadcomWLHandler from name BroadcomWLHandler
+2012-03-20 23:26:00,181 DEBUG: Broadcom STA wireless driver availability undetermined, adding to pool
+2012-03-20 23:26:00,181 DEBUG: loading custom handler /usr/share/jockey/handlers/madwifi.py
+2012-03-20 23:26:00,236 WARNING: modinfo for module ath_pci failed: ERROR: modinfo: could not find module ath_pci
+
+2012-03-20 23:26:00,236 DEBUG: Instantiated Handler subclass __builtin__.MadwifiHandler from name MadwifiHandler
+2012-03-20 23:26:00,236 DEBUG: Alternate Atheros "madwifi" driver availability undetermined, adding to pool
+2012-03-20 23:26:00,236 DEBUG: loading custom handler /usr/share/jockey/handlers/fglrx.py
+2012-03-20 23:26:00,318 WARNING: modinfo for module fglrx failed: ERROR: modinfo: could not find module fglrx
+
+2012-03-20 23:26:00,318 DEBUG: Instantiated Handler subclass __builtin__.FglrxDriver from name FglrxDriver
+2012-03-20 23:26:00,319 DEBUG: fglrx.available: falling back to default
+2012-03-20 23:26:00,956 DEBUG: ATI/AMD proprietary FGLRX graphics driver availability undetermined, adding to pool
+2012-03-20 23:26:00,956 DEBUG: loading custom handler /usr/share/jockey/handlers/nouveau3d.py
+2012-03-20 23:26:01,136 DEBUG: Instantiated Handler subclass __builtin__.Nouveau3DHandler from name Nouveau3DHandler
+2012-03-20 23:26:01,137 DEBUG: Experimental 3D support for NVIDIA cards not available
+2012-03-20 23:26:01,137 DEBUG: loading custom handler /usr/share/jockey/handlers/sl_modem.py
+2012-03-20 23:26:01,170 DEBUG: Instantiated Handler subclass __builtin__.SlModem from name SlModem
+2012-03-20 23:26:01,195 DEBUG: Software modem not available
+2012-03-20 23:26:01,195 DEBUG: loading custom handler /usr/share/jockey/handlers/dvb_usb_firmware.py
+2012-03-20 23:26:01,267 DEBUG: Instantiated Handler subclass __builtin__.DvbUsbFirmwareHandler from name DvbUsbFirmwareHandler
+2012-03-20 23:26:01,268 DEBUG: Firmware for DVB cards not available
+2012-03-20 23:26:01,268 DEBUG: loading custom handler /usr/share/jockey/handlers/nvidia.py
+2012-03-20 23:26:01,290 WARNING: modinfo for module nvidia_96 failed: ERROR: modinfo: could not find module nvidia_96
+
+2012-03-20 23:26:01,291 DEBUG: Instantiated Handler subclass __builtin__.NvidiaDriver96 from name NvidiaDriver96
+2012-03-20 23:26:01,291 DEBUG: nvidia.available: falling back to default
+2012-03-20 23:26:01,309 DEBUG: XorgDriverHandler(nvidia_96, nvidia-96, None): Disabling as package video ABI xorg-video-abi-8 does not match X.org video ABI xorg-video-abi-10
+2012-03-20 23:26:01,310 DEBUG: NVIDIA accelerated graphics driver not available
+2012-03-20 23:26:01,314 WARNING: modinfo for module nvidia_current failed: ERROR: modinfo: could not find module nvidia_current
+
+2012-03-20 23:26:01,314 DEBUG: Instantiated Handler subclass __builtin__.NvidiaDriverCurrent from name NvidiaDriverCurrent
+2012-03-20 23:26:01,314 DEBUG: nvidia.available: falling back to default
+2012-03-20 23:26:01,356 DEBUG: NVIDIA accelerated graphics driver availability undetermined, adding to pool
+2012-03-20 23:26:01,356 DEBUG: Could not instantiate Handler subclass __builtin__.NvidiaDriverBase from name NvidiaDriverBase
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/jockey/detection.py", line 947, in get_handlers
+    inst = obj(backend)
+TypeError: __init__() takes exactly 3 arguments (2 given)
+2012-03-20 23:26:01,382 WARNING: modinfo for module nvidia_173 failed: ERROR: modinfo: could not find module nvidia_173
+
+2012-03-20 23:26:01,382 DEBUG: Instantiated Handler subclass __builtin__.NvidiaDriver173 from name NvidiaDriver173
+2012-03-20 23:26:01,382 DEBUG: nvidia.available: falling back to default
+2012-03-20 23:26:01,410 DEBUG: NVIDIA accelerated graphics driver availability undetermined, adding to pool
+2012-03-20 23:26:01,410 DEBUG: all custom handlers loaded
+2012-03-20 23:26:01,410 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'pci:v00008086d00001503sv000017AAsd00003975bc02sc00i00')
+2012-03-20 23:26:01,716 DEBUG: no corresponding handler available for {'driver_type': 'kernel_module', 'kernel_module': 'e1000e', 'jockey_handler': 'KernelModuleHandler'}
+2012-03-20 23:26:01,716 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'input:b0019v0000p0003e0000-e0,1,k8E,ramlsfw')
+2012-03-20 23:26:01,719 DEBUG: no corresponding handler available for {'driver_type': 'kernel_module', 'kernel_module': 'evbug', 'jockey_handler': 'KernelModuleHandler'}
+2012-03-20 23:26:01,719 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'acpi:LNXSYSTM:')
+2012-03-20 23:26:01,719 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'acpi:PNP0103:')
+2012-03-20 23:26:01,719 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'pci:v00008086d00001C2Dsv000017AAsd00003975bc0Csc03i20')
+2012-03-20 23:26:01,721 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'platform:reg-dummy')
+2012-03-20 23:26:01,721 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'input:b0003v0461p4D80e0111-e0,1,2,4,k110,111,112,r0,1,6,8,am4,lsfw')
+2012-03-20 23:26:01,721 DEBUG: no corresponding handler available for {'driver_type': 'kernel_module', 'kernel_module': 'evbug', 'jockey_handler': 'KernelModuleHandler'}
+2012-03-20 23:26:01,721 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'platform:pcspkr')
+2012-03-20 23:26:01,721 DEBUG: no corresponding handler available for {'driver_type': 'kernel_module', 'kernel_module': 'pcspkr', 'jockey_handler': 'KernelModuleHandler'}
+2012-03-20 23:26:01,721 DEBUG: no corresponding handler available for {'driver_type': 'kernel_module', 'kernel_module': 'snd_pcsp', 'jockey_handler': 'KernelModuleHandler'}
+2012-03-20 23:26:01,722 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'usb:v1D6Bp0002d0206dc09dsc00dp00ic09isc00ip00')
+2012-03-20 23:26:01,735 DEBUG: no corresponding handler available for {'driver_type': 'kernel_module', 'kernel_module': 'option', 'jockey_handler': 'KernelModuleHandler'}
+2012-03-20 23:26:01,735 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'input:b0011v0001p0001eAB41-e0,1,4,11,14,k71,72,73,74,75,76,77,79,7A,7B,7C,7D,7E,7F,80,8C,8E,8F,9B,9C,9D,9E,9F,A3,A4,A5,A6,AC,AD,B7,B8,B9,D9,E2,ram4,l0,1,2,sfw')
+2012-03-20 23:26:01,735 DEBUG: no corresponding handler available for {'driver_type': 'kernel_module', 'kernel_module': 'evbug', 'jockey_handler': 'KernelModuleHandler'}
+2012-03-20 23:26:01,736 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'acpi:PNP0000:')
+2012-03-20 23:26:01,736 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'platform:ideapad')
+2012-03-20 23:26:01,736 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'pci:v00008086d00001C49sv000017AAsd00003975bc06sc01i00')
+2012-03-20 23:26:01,738 DEBUG: no corresponding handler available for {'driver_type': 'kernel_module', 'kernel_module': 'iTCO_wdt', 'jockey_handler': 'KernelModuleHandler'}
+2012-03-20 23:26:01,738 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'platform:regulatory')
+2012-03-20 23:26:01,738 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'wmi:05901221-D566-11D1-B2F0-00A0C9062910')
+2012-03-20 23:26:01,738 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'pci:v00008086d00000126sv000017AAsd00003975bc03sc00i00')
+2012-03-20 23:26:01,741 DEBUG: no corresponding handler available for {'driver_type': 'kernel_module', 'kernel_module': 'i915', 'jockey_handler': 'KernelModuleHandler'}
+2012-03-20 23:26:01,741 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'wmi:ABBC0F20-8EA1-11D1-00A0-C90629100000')
+2012-03-20 23:26:01,741 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'usb:v0489pE00Dd0472dcE0dsc01dp01icE0isc01ip01')
+2012-03-20 23:26:01,742 DEBUG: no corresponding handler available for {'driver_type': 'kernel_module', 'kernel_module': 'btusb', 'jockey_handler': 'KernelModuleHandler'}
+2012-03-20 23:26:01,742 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'acpi:PNP0F13:SYN1000:SYN0002:PNP0F13:')
+2012-03-20 23:26:01,742 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'acpi:INT0800:')
+2012-03-20 23:26:01,742 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'pci:v00008086d00001C3Asv000017AAsd00003975bc07sc80i00')
+2012-03-20 23:26:01,744 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'acpi:PNP0C04:')
+2012-03-20 23:26:01,744 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'acpi:VPC2004:')
+2012-03-20 23:26:01,744 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'acpi:LNXVIDEO:')
+2012-03-20 23:26:01,744 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'acpi:INT3F0D:PNP0C02:')
+2012-03-20 23:26:01,744 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'usb:v147Ep1002d0048dc00dsc00dp00icFFisc00ip00')
+2012-03-20 23:26:01,744 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'pci:v00008086d00001C20sv000017AAsd00003975bc04sc03i00')
+2012-03-20 23:26:01,746 DEBUG: no corresponding handler available for {'driver_type': 'kernel_module', 'kernel_module': 'snd_hda_intel', 'jockey_handler': 'KernelModuleHandler'}
+2012-03-20 23:26:01,746 DEBUG: no corresponding handler available for {'driver_type': 'kernel_module', 'kernel_module': 'snd_hda_intel', 'jockey_handler': 'KernelModuleHandler'}
+2012-03-20 23:26:01,746 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'input:b0019v0000p0005e0000-e0,5,kramlsfw0,')
+2012-03-20 23:26:01,746 DEBUG: no corresponding handler available for {'driver_type': 'kernel_module', 'kernel_module': 'evbug', 'jockey_handler': 'KernelModuleHandler'}
+2012-03-20 23:26:01,746 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'input:b0000v0000p0000e0000-e0,5,kramlsfw4,')
+2012-03-20 23:26:01,746 DEBUG: no corresponding handler available for {'driver_type': 'kernel_module', 'kernel_module': 'evbug', 'jockey_handler': 'KernelModuleHandler'}
+2012-03-20 23:26:01,746 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'usb:v5986p0364d1406dcEFdsc02dp01ic0Eisc02ip00')
+2012-03-20 23:26:01,746 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'input:b0019v0000p0006e0000-e0,1,kE0,E1,E3,F1,F2,F3,F4,F5,ramlsfw')
+2012-03-20 23:26:01,746 DEBUG: no corresponding handler available for {'driver_type': 'kernel_module', 'kernel_module': 'evbug', 'jockey_handler': 'KernelModuleHandler'}
+2012-03-20 23:26:01,746 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'acpi:PNP0C32:')
+2012-03-20 23:26:01,747 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'dmi:bvnLENOVO:bvr46CN21WW:bd09/07/2011:svnLENOVO:pnZHAOYANGK27:pvrRev1.0:rvnLENOVO:rnKLx:rvrRev1.0:cvnLENOVO:ct10:cvrRev1.0:')
+2012-03-20 23:26:01,754 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'acpi:PNP0B00:')
+2012-03-20 23:26:01,755 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'usb:v0489pE00Dd0472dcE0dsc01dp01icFEisc01ip01')
+2012-03-20 23:26:01,755 DEBUG: no corresponding handler available for {'driver_type': 'kernel_module', 'kernel_module': 'btusb', 'jockey_handler': 'KernelModuleHandler'}
+2012-03-20 23:26:01,755 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'input:b0019v0000p0001e0000-e0,1,k74,ramlsfw')
+2012-03-20 23:26:01,755 DEBUG: no corresponding handler available for {'driver_type': 'kernel_module', 'kernel_module': 'evbug', 'jockey_handler': 'KernelModuleHandler'}
+2012-03-20 23:26:01,755 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'usb:v8087p0024d0000dc09dsc00dp01ic09isc00ip00')
+2012-03-20 23:26:01,755 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'usb:v0461p4D80d0200dc00dsc00dp00ic03isc01ip02')
+2012-03-20 23:26:01,756 DEBUG: no corresponding handler available for {'driver_type': 'kernel_module', 'kernel_module': 'usbhid', 'jockey_handler': 'KernelModuleHandler'}
+2012-03-20 23:26:01,756 DEBUG: no corresponding handler available for {'driver_type': 'kernel_module', 'kernel_module': 'usbmouse', 'jockey_handler': 'KernelModuleHandler'}
+2012-03-20 23:26:01,756 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'acpi:PNP0303:')
+2012-03-20 23:26:01,756 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'acpi:PNP0100:')
+2012-03-20 23:26:01,756 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'pci:v00008086d00001C09sv000017AAsd00003975bc01sc01i85')
+2012-03-20 23:26:01,758 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'usb:v5986p0364d1406dcEFdsc02dp01ic0Eisc01ip00')
+2012-03-20 23:26:01,758 DEBUG: no corresponding handler available for {'driver_type': 'kernel_module', 'kernel_module': 'uvcvideo', 'jockey_handler': 'KernelModuleHandler'}
+2012-03-20 23:26:01,758 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'wmi:ABBC0F40-8EA1-11D1-00A0-C90629100000')
+2012-03-20 23:26:01,758 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'pci:v00008086d00001C22sv000017AAsd00003975bc0Csc05i00')
+2012-03-20 23:26:01,760 DEBUG: no corresponding handler available for {'driver_type': 'kernel_module', 'kernel_module': 'i2c_i801', 'jockey_handler': 'KernelModuleHandler'}
+2012-03-20 23:26:01,760 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'pci:v00008086d00000084sv00008086sd00001315bc02sc80i00')
+2012-03-20 23:26:01,761 DEBUG: no corresponding handler available for {'driver_type': 'kernel_module', 'kernel_module': 'iwlagn', 'jockey_handler': 'KernelModuleHandler'}
+2012-03-20 23:26:01,761 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'platform:Fixed MDIO bus')
+2012-03-20 23:26:01,762 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'input:b0011v0002p0001e0000-e0,1,2,k110,111,112,r0,1,amlsfw')
+2012-03-20 23:26:01,762 DEBUG: no corresponding handler available for {'driver_type': 'kernel_module', 'kernel_module': 'evbug', 'jockey_handler': 'KernelModuleHandler'}
+2012-03-20 23:26:01,762 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'acpi:PNP0200:')
+2012-03-20 23:26:01,762 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'usb:v0BDAp0139d3960dcFFdscFFdpFFicFFisc06ip50')
+2012-03-20 23:26:01,767 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'pci:v00008086d00001C26sv000017AAsd00003975bc0Csc03i20')
+2012-03-20 23:26:01,768 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'platform:eisa')
+2012-03-20 23:26:01,769 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'serio:ty01pr00id00ex00')
+2012-03-20 23:26:01,774 DEBUG: no corresponding handler available for {'driver_type': 'kernel_module', 'kernel_module': 'serio_raw', 'jockey_handler': 'KernelModuleHandler'}
+2012-03-20 23:26:01,774 DEBUG: no corresponding handler available for {'driver_type': 'kernel_module', 'kernel_module': 'psmouse', 'jockey_handler': 'KernelModuleHandler'}
+2012-03-20 23:26:01,774 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'usb:v0489pE00Dd0472dcE0dsc01dp01icFFiscFFipFF')
+2012-03-20 23:26:01,774 DEBUG: no corresponding handler available for {'driver_type': 'kernel_module', 'kernel_module': 'btusb', 'jockey_handler': 'KernelModuleHandler'}
+2012-03-20 23:26:01,774 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'input:b0003v5986p0364e1406-e0,1,kD4,ramlsfw')
+2012-03-20 23:26:01,774 DEBUG: no corresponding handler available for {'driver_type': 'kernel_module', 'kernel_module': 'evbug', 'jockey_handler': 'KernelModuleHandler'}
+2012-03-20 23:26:01,774 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'pci:v00008086d00001C01sv000017AAsd00003975bc01sc01i8f')
+2012-03-20 23:26:01,776 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'input:b0019v0000p0000e0000-e0,1,4,kE3,EE,F0,ram4,lsfw')
+2012-03-20 23:26:01,776 DEBUG: no corresponding handler available for {'driver_type': 'kernel_module', 'kernel_module': 'evbug', 'jockey_handler': 'KernelModuleHandler'}
+2012-03-20 23:26:01,776 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'input:b0000v0000p0000e0000-e0,5,kramlsfw2,')
+2012-03-20 23:26:01,776 DEBUG: no corresponding handler available for {'driver_type': 'kernel_module', 'kernel_module': 'evbug', 'jockey_handler': 'KernelModuleHandler'}
+2012-03-20 23:26:01,776 DEBUG: querying driver db <jockey.detection.LocalKernelModulesDriverDB instance at 0xa12caec> about HardwareID('modalias', 'acpi:PNP0C02:')
+2012-03-20 23:26:01,776 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'pci:v00008086d00001503sv000017AAsd00003975bc02sc00i00')
+2012-03-20 23:26:01,776 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'input:b0019v0000p0003e0000-e0,1,k8E,ramlsfw')
+2012-03-20 23:26:01,776 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'acpi:LNXSYSTM:')
+2012-03-20 23:26:01,776 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'acpi:PNP0103:')
+2012-03-20 23:26:01,776 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'pci:v00008086d00001C2Dsv000017AAsd00003975bc0Csc03i20')
+2012-03-20 23:26:01,776 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'platform:reg-dummy')
+2012-03-20 23:26:01,776 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'input:b0003v0461p4D80e0111-e0,1,2,4,k110,111,112,r0,1,6,8,am4,lsfw')
+2012-03-20 23:26:01,777 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'platform:pcspkr')
+2012-03-20 23:26:01,777 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'usb:v1D6Bp0002d0206dc09dsc00dp00ic09isc00ip00')
+2012-03-20 23:26:01,777 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'input:b0011v0001p0001eAB41-e0,1,4,11,14,k71,72,73,74,75,76,77,79,7A,7B,7C,7D,7E,7F,80,8C,8E,8F,9B,9C,9D,9E,9F,A3,A4,A5,A6,AC,AD,B7,B8,B9,D9,E2,ram4,l0,1,2,sfw')
+2012-03-20 23:26:01,777 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'acpi:PNP0000:')
+2012-03-20 23:26:01,777 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'platform:ideapad')
+2012-03-20 23:26:01,777 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'pci:v00008086d00001C49sv000017AAsd00003975bc06sc01i00')
+2012-03-20 23:26:01,777 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'platform:regulatory')
+2012-03-20 23:26:01,777 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'wmi:05901221-D566-11D1-B2F0-00A0C9062910')
+2012-03-20 23:26:01,777 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'pci:v00008086d00000126sv000017AAsd00003975bc03sc00i00')
+2012-03-20 23:26:01,777 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'wmi:ABBC0F20-8EA1-11D1-00A0-C90629100000')
+2012-03-20 23:26:01,777 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'usb:v0489pE00Dd0472dcE0dsc01dp01icE0isc01ip01')
+2012-03-20 23:26:01,777 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'acpi:PNP0F13:SYN1000:SYN0002:PNP0F13:')
+2012-03-20 23:26:01,777 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'acpi:INT0800:')
+2012-03-20 23:26:01,777 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'pci:v00008086d00001C3Asv000017AAsd00003975bc07sc80i00')
+2012-03-20 23:26:01,778 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'acpi:PNP0C04:')
+2012-03-20 23:26:01,778 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'acpi:VPC2004:')
+2012-03-20 23:26:01,778 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'acpi:LNXVIDEO:')
+2012-03-20 23:26:01,778 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'acpi:INT3F0D:PNP0C02:')
+2012-03-20 23:26:01,778 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'usb:v147Ep1002d0048dc00dsc00dp00icFFisc00ip00')
+2012-03-20 23:26:01,778 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'pci:v00008086d00001C20sv000017AAsd00003975bc04sc03i00')
+2012-03-20 23:26:01,778 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'input:b0019v0000p0005e0000-e0,5,kramlsfw0,')
+2012-03-20 23:26:01,778 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'input:b0000v0000p0000e0000-e0,5,kramlsfw4,')
+2012-03-20 23:26:01,778 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'usb:v5986p0364d1406dcEFdsc02dp01ic0Eisc02ip00')
+2012-03-20 23:26:01,778 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'input:b0019v0000p0006e0000-e0,1,kE0,E1,E3,F1,F2,F3,F4,F5,ramlsfw')
+2012-03-20 23:26:01,778 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'acpi:PNP0C32:')
+2012-03-20 23:26:01,778 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'dmi:bvnLENOVO:bvr46CN21WW:bd09/07/2011:svnLENOVO:pnZHAOYANGK27:pvrRev1.0:rvnLENOVO:rnKLx:rvrRev1.0:cvnLENOVO:ct10:cvrRev1.0:')
+2012-03-20 23:26:01,778 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'acpi:PNP0B00:')
+2012-03-20 23:26:01,778 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'usb:v0489pE00Dd0472dcE0dsc01dp01icFEisc01ip01')
+2012-03-20 23:26:01,778 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'input:b0019v0000p0001e0000-e0,1,k74,ramlsfw')
+2012-03-20 23:26:01,779 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'usb:v8087p0024d0000dc09dsc00dp01ic09isc00ip00')
+2012-03-20 23:26:01,779 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'usb:v0461p4D80d0200dc00dsc00dp00ic03isc01ip02')
+2012-03-20 23:26:01,779 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'acpi:PNP0303:')
+2012-03-20 23:26:01,779 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'acpi:PNP0100:')
+2012-03-20 23:26:01,779 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'pci:v00008086d00001C09sv000017AAsd00003975bc01sc01i85')
+2012-03-20 23:26:01,779 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'usb:v5986p0364d1406dcEFdsc02dp01ic0Eisc01ip00')
+2012-03-20 23:26:01,779 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'wmi:ABBC0F40-8EA1-11D1-00A0-C90629100000')
+2012-03-20 23:26:01,779 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'pci:v00008086d00001C22sv000017AAsd00003975bc0Csc05i00')
+2012-03-20 23:26:01,779 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'pci:v00008086d00000084sv00008086sd00001315bc02sc80i00')
+2012-03-20 23:26:01,779 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'platform:Fixed MDIO bus')
+2012-03-20 23:26:01,779 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'input:b0011v0002p0001e0000-e0,1,2,k110,111,112,r0,1,amlsfw')
+2012-03-20 23:26:01,779 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'acpi:PNP0200:')
+2012-03-20 23:26:01,779 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'usb:v0BDAp0139d3960dcFFdscFFdpFFicFFisc06ip50')
+2012-03-20 23:26:01,779 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'pci:v00008086d00001C26sv000017AAsd00003975bc0Csc03i20')
+2012-03-20 23:26:01,779 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'platform:eisa')
+2012-03-20 23:26:01,780 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'serio:ty01pr00id00ex00')
+2012-03-20 23:26:01,780 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'usb:v0489pE00Dd0472dcE0dsc01dp01icFFiscFFipFF')
+2012-03-20 23:26:01,780 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'input:b0003v5986p0364e1406-e0,1,kD4,ramlsfw')
+2012-03-20 23:26:01,780 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'pci:v00008086d00001C01sv000017AAsd00003975bc01sc01i8f')
+2012-03-20 23:26:01,780 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'input:b0019v0000p0000e0000-e0,1,4,kE3,EE,F0,ram4,lsfw')
+2012-03-20 23:26:01,780 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'input:b0000v0000p0000e0000-e0,5,kramlsfw2,')
+2012-03-20 23:26:01,780 DEBUG: querying driver db <jockey.detection.OpenPrintingDriverDB instance at 0xa1361cc> about HardwareID('modalias', 'acpi:PNP0C02:')
+2012-03-20 23:26:01,806 DEBUG: writing back check cache /var/cache/jockey/check
